@@ -1,4 +1,4 @@
-import { experiences } from "./data";
+import { experiences } from "./ExperienceData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
 import { motion } from "motion/react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";

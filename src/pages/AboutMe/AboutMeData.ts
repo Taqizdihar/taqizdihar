@@ -2,7 +2,7 @@ export const profile = {
   details: [
     { label: "Motto", value: "Be patient and be grateful always." },
     { label: "Position", value: "Undergraduate Student" },
-    { label: "Age", value: "25" },
+    { label: "Age", value: "20" },
     { label: "Marital Status", value: "Single" },
     { label: "MBTI Type", value: "INFJ" },
     { label: "Languages", value: "Indonesian, English" },

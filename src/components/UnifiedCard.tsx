@@ -93,7 +93,7 @@ export default function UnifiedCard({
       </div>
       
       {description && (
-        <p className="text-maroon-900/80 dark:text-white text-base leading-relaxed mb-6 font-light transition-colors mt-2">
+        <p className="text-maroon-900/80 dark:text-white text-base leading-relaxed mb-6 font-light transition-colors mt-2 text-justify">
           {description}
         </p>
       )}

@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { homeData } from "./data";
+import { homeData } from "./HomeData";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function Home() {

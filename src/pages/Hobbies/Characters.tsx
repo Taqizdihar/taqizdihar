@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, Search } from "lucide-react";
-import { characters } from "./charactersData";
+import { characters } from "./CharactersData";
 import { useState } from "react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 

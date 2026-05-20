@@ -1,4 +1,4 @@
-import { certifications } from "./data";
+import { certifications } from "./CertificationsData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
 import { Award, ExternalLink } from "lucide-react";
 import { motion } from "motion/react";

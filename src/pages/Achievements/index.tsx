@@ -1,4 +1,4 @@
-import { achievements } from "./data";
+import { achievements } from "./AchievementsData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
 import { Trophy } from "lucide-react";
 import { motion } from "motion/react";

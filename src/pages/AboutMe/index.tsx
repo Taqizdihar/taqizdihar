@@ -1,4 +1,4 @@
-import { profile, aboutMe } from "./data";
+import { profile, aboutMe } from "./AboutMeData";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 import { 
   Download, 
@@ -68,7 +68,7 @@ export default function AboutMe() {
         {/* Right Inner Side: Bio Text and Buttons */}
         <div className="flex-1 p-8 md:p-10 lg:p-12 flex flex-col justify-center relative z-10 md:-ml-12 bg-white/5 dark:bg-transparent dark:md:bg-transparent">
           {aboutMe?.bio && (
-            <p className="text-lg md:text-[1.15rem] text-maroon-900/80 dark:text-white/90 leading-relaxed font-light transition-colors duration-300 md:pl-8">
+            <p className="text-lg md:text-[1.15rem] text-maroon-900/80 dark:text-white/90 leading-relaxed font-light transition-colors duration-300 md:pl-8 text-justify">
               {aboutMe.bio}
             </p>
           )}
@@ -177,7 +177,7 @@ export default function AboutMe() {
                     )}
                   </div>
                   {edu.description && (
-                    <p className="leading-relaxed text-maroon-900/80 dark:text-white/90 transition-colors duration-300 mt-2 text-[15px] sm:text-base">
+                    <p className="leading-relaxed text-maroon-900/80 dark:text-white/90 transition-colors duration-300 mt-2 text-[15px] sm:text-base text-justify">
                       {edu.description}
                     </p>
                   )}

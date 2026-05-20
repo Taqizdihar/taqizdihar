@@ -1,4 +1,4 @@
-import { productPromo } from "./data";
+import { productPromo } from "./ProductsData";
 import { ExternalLink, ShoppingBag } from "lucide-react";
 import { motion } from "motion/react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";

@@ -1,4 +1,4 @@
-import { projects } from "./data";
+import { projects } from "./ProjectsData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
 import { FolderGit2 } from "lucide-react";
 import { motion } from "motion/react";

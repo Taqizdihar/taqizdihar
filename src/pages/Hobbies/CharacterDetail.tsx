@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import { characters } from "./charactersData";
+import { characters } from "./CharactersData";
 import { useState } from "react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 
@@ -101,7 +101,7 @@ export default function CharacterDetail() {
                   {section.title}
                 </h2>
                 <div className="space-y-6 text-maroon-900/80 dark:text-white/90 text-[1.05rem] leading-relaxed">
-                  <p>{section.content}</p>
+                  <p className="text-justify">{section.content}</p>
                 </div>
               </div>
             ))}

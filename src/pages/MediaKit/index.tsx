@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { mediaKitData } from "./data";
+import { mediaKitData } from "./MediaKitData";
 import { ArrowRight } from "lucide-react";
 import { FaInstagram } from "react-icons/fa6";
 import { SiTiktok } from "react-icons/si";

@@ -1,4 +1,4 @@
-import { organizations } from "./data";
+import { organizations } from "./OrganizationsData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
 import { Users } from "lucide-react";
 import { motion } from "motion/react";
