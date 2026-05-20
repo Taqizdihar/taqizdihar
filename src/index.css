@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-maroon-900: #3a0000;
+  --color-maroon-800: #590000;
+  --color-maroon-700: #7a0000;
+  --color-maroon-600: #9c0000;
+  --color-maroon-500: #bd0000;
+  --animate-shimmer: shimmer 2s infinite linear;
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-150%);
+    }
+    100% {
+      transform: translateX(150%);
+    }
+  }
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  @apply bg-stone-50 text-maroon-900 min-h-screen font-sans antialiased m-0 p-0 transition-colors duration-500;
+}
+
+.dark body {
+  @apply bg-[#8E0000] text-white;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Uni-Inside Portfolio",
+  "description": "A creative personal portfolio site featuring a rich maroon theme, glassmorphism UI, and detailed sections for career, projects, and products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
