@@ -12,9 +12,9 @@ export default function Hobbies() {
           Hobbies
         </h1>
         <div className="w-20 h-1.5 bg-maroon-500 rounded-full"></div>
-        <p className="text-lg text-maroon-700/80 dark:text-white/70 font-medium max-w-2xl transition-colors duration-300 mt-4">
-          Some of the things I love doing in my free time.
-        </p>
+        <p className="text-lg text-maroon-700/80 dark:text-white/70 font-medium max-w-2xl transition-colors duration-300 mt-4 text-justify">Some of the things I love doing in my free time.</p>
+
+
       </section>
 
       <div className="grid grid-cols-1 gap-6">
@@ -34,7 +34,7 @@ export default function Hobbies() {
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-maroon-900 dark:text-white mb-4 transition-colors">
               My Characters
             </h2>
-            <p className="text-maroon-800/80 dark:text-white/80 text-lg mb-8 leading-relaxed max-w-md transition-colors">
+            <p className="text-maroon-800/80 dark:text-white/80 text-lg mb-8 leading-relaxed max-w-md transition-colors text-justify">
               Explore the characters from my simple drawing hobby.
             </p>
             <div>
