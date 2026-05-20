@@ -12,7 +12,7 @@ export const profile = {
 
 
 export const aboutMe = {
-  bioPhoto: "../../../public/assets/about-me/bio.jpg",
+  bioPhoto: "/assets/about-me/bio.jpeg",
   bio: "Hello! I am a passionate creator focused on building meaningful and visually striking digital experiences. With a background blending technology, design, and continuous learning, I strive to turn ideas into robust realities. My mission is to leverage my skills in software development and creative direction to produce solutions that not only function flawlessly but also resonate emotionally with users.",
   cvLink: "#",
   education: [
