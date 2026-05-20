@@ -1,7 +1,7 @@
 export const profileImages = [
-  "/assets/sidebar/profile-1.jpg",
-  "/assets/sidebar/profile-2.jpg",
-  "/assets/sidebar/profile-3.jpg"
+  "/assets/sidebar/Profile-1.jpg",
+  "/assets/sidebar/Profile-2.jpg",
+  "/assets/sidebar/Profile-3.jpeg"
 ];
 
 export const socials = [
