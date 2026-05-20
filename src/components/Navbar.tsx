@@ -7,7 +7,7 @@ import {
 import { Link } from "react-router-dom";
 import { useTheme } from "../contexts/ThemeContext";
 import IconResolver from "./IconResolver";
-import { globalData } from "../config/globalData";
+import { socials } from "../config/navigationData";
 
 interface NavbarProps {
   onMenuClick: () => void;
@@ -36,7 +36,7 @@ export default function Navbar({ onMenuClick }: NavbarProps) {
       <div className="flex flex-wrap flex-1 justify-end items-center gap-3 sm:gap-4 md:gap-6 min-w-0">
         {/* Social Links */}
         <div className="hidden lg:flex items-center gap-3 xl:gap-4 border-r border-maroon-900/20 dark:border-white/20 pr-4 xl:pr-6 transition-colors">
-          {globalData.socialMedia.map((social) => (
+          {socials.map((social) => (
             <a
               key={social.name}
               href={social.url}

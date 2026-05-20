@@ -1,7 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { motion } from "motion/react";
-import { globalData } from "../config/globalData";
+import { profileImages } from "../config/navigationData";
 import { 
   Home, 
   User, 
@@ -45,7 +45,7 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
     setFlipDegree((prev) => prev + 180);
     // Change image at exactly half the animation duration (300ms) when the flip is edge-on sideways to hide the transition
     setTimeout(() => {
-      setImageIndex((prev) => (prev + 1) % globalData.profileImages.length);
+      setImageIndex((prev) => (prev + 1) % profileImages.length);
       setIsMirrored((prev) => !prev);
     }, 300);
   };
@@ -84,7 +84,7 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
            >
             {/* Image */}
             <img 
-              src={globalData.profileImages[imageIndex]} 
+              src={profileImages[imageIndex]} 
               alt="Profile" 
               className={`w-full h-full object-cover rounded-full ${isMirrored ? '[transform:scaleX(-1)]' : ''}`}
             />

@@ -8,8 +8,8 @@ export const projects = [
     endDate: "Present",
     skills: ["React", "TypeScript", "Tailwind CSS", "Vite", "UI/UX Design"],
     media: [
-      { url: "https://picsum.photos/id/1/400/300" },
-      { url: "https://picsum.photos/id/2/400/300" }
+      { url: "/assets/projects/uni-inside-1.jpg" },
+      { url: "/assets/projects/uni-inside-2.jpg" }
     ]
   },
   {
@@ -21,7 +21,7 @@ export const projects = [
     endDate: "Nov 2023",
     skills: ["React Native", "Redux", "Firebase", "Stripe API"],
     media: [
-      { url: "https://picsum.photos/id/20/400/300" }
+      { url: "/assets/projects/ecommerce-1.jpg" }
     ]
   },
   {

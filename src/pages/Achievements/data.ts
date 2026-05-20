@@ -3,13 +3,13 @@ export const achievements = [
     id: 1,
     title: "1st Place - National Hackathon 2023",
     issuer: "Ministry of Technology, Indonesia",
-    issuerLogo: "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=100&h=100&fit=crop",
+    issuerLogo: "/assets/achievements/ministry-logo.jpg",
     startDate: "Nov 2023",
     endDate: "",
     description: "Developed an AI-powered smart city solution in 48 hours. Our team created a decentralized waste management tracking app that won the grand prize of $10,000 against 500 other competing teams.",
     media: [
-      { type: "image", url: "https://picsum.photos/id/1015/400/300" },
-      { type: "image", url: "https://picsum.photos/id/1012/400/300" }
+      { type: "image", url: "/assets/achievements/hackathon-1.jpg" },
+      { type: "image", url: "/assets/achievements/hackathon-2.jpg" }
     ]
   },
   {

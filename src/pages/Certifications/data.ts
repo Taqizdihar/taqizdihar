@@ -3,14 +3,14 @@ export const certifications = [
     id: 1,
     certName: "AWS Certified Solutions Architect",
     issuingOrg: "Amazon Web Services",
-    orgLogo: "https://images.unsplash.com/photo-1614680376573-3e4e1cad2c3e?w=100&h=100&fit=crop",
+    orgLogo: "/assets/certifications/aws-logo.jpg",
     issueDate: "Feb 2024",
     endDate: "Feb 2027",
     credentialId: "AWS-12345678",
     credentialUrl: "https://aws.amazon.com/certification",
     skills: ["Cloud Architecture", "AWS", "Security"],
     media: [
-      { type: "image", url: "https://picsum.photos/id/11/400/300" }
+      { type: "image", url: "/assets/certifications/aws-cert.jpg" }
     ]
   },
   {
@@ -35,7 +35,7 @@ export const certifications = [
     credentialUrl: "https://freecodecamp.org",
     skills: ["HTML5", "CSS3", "Responsive Design"],
     media: [
-      { type: "image", url: "https://picsum.photos/id/15/400/300" }
+      { type: "image", url: "/assets/certifications/fcc-cert.jpg" }
     ]
   }
 ];

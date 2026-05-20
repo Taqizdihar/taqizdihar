@@ -1,6 +1,7 @@
 import React from "react";
 import { 
-  SiShopee
+  SiShopee,
+  SiTiktok
 } from "react-icons/si";
 import {
   FaLinkedin,
@@ -27,7 +28,8 @@ export default function IconResolver({ name, className = "" }: IconResolverProps
     Facebook: <FaFacebook className={className} />,
     YouTube: <FaYoutube className={className} />,
     Shopee: <SiShopee className={className} />,
-    Steam: <FaSteam className={className} />
+    Steam: <FaSteam className={className} />,
+    TikTok: <SiTiktok className={className} />
   };
 
   return iconMap[name] || <Link className={className} />;
