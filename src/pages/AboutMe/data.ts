@@ -11,8 +11,12 @@ export const profile = {
 };
 
 export const socials = {
-  linkedIn: "https://linkedin.com",
-  github: "https://github.com",
+  linkedIn: "https://www.linkedin.com/in/taqizdihar",
+  github: "https://github.com/Taqizdihar",
+  instagram: "https://www.instagram.com/taqizdihar/?utm_source=ig_web_button_share_sheet",
+  youtube: "https://youtube.com/@taqizdihary?si=IRWcOQjrIpp197Yp",
+  tiktok: "https://www.tiktok.com/@m.taqizdihar?is_from_webapp=1&sender_device=pc",
+  facebook: "https://www.facebook.com/profile.php?id=61587185312942",
 };
 
 export const aboutMe = {
