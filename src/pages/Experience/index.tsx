@@ -1,8 +1,10 @@
 import { experiences } from "./data";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
 import { motion } from "motion/react";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function Experience() {
+  useDocumentTitle("Experience");
   return (
     <div className="w-full space-y-12">
       {/* Header Section */}

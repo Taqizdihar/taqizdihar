@@ -1,4 +1,5 @@
 import { profile, aboutMe } from "./data";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 import { 
   Download, 
   GraduationCap, 
@@ -29,6 +30,7 @@ const getIcon = (label: string) => {
 };
 
 export default function AboutMe() {
+  useDocumentTitle("About Me");
   const containerVariants = {
     hidden: {},
     show: { transition: { staggerChildren: 0.1 } }

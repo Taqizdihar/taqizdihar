@@ -4,8 +4,10 @@ import { mediaKitData } from "./data";
 import { ArrowRight } from "lucide-react";
 import { FaInstagram } from "react-icons/fa6";
 import { SiTiktok } from "react-icons/si";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function MediaKit() {
+  useDocumentTitle("Media Kit");
   const [activePlatform, setActivePlatform] = useState(0);
 
   const containerVariants = {

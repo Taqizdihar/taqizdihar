@@ -2,8 +2,10 @@ import { projects } from "./data";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
 import { FolderGit2 } from "lucide-react";
 import { motion } from "motion/react";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function Projects() {
+  useDocumentTitle("Projects");
   return (
     <div className="w-full space-y-12">
       {/* Header Section */}

@@ -2,11 +2,14 @@ import { Link, useParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { characters } from "./charactersData";
 import { useState } from "react";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function CharacterDetail() {
   const { id } = useParams();
   const character = characters.find((c) => c.id === id);
   const [activeImageIdx, setActiveImageIdx] = useState(0);
+
+  useDocumentTitle(character?.name || "Character Detail");
 
   if (!character) {
     return (

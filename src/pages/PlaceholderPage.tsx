@@ -1,4 +1,7 @@
+import useDocumentTitle from "../hooks/useDocumentTitle";
+
 export default function PlaceholderPage({ title }: { title: string }) {
+  useDocumentTitle(title);
   return (
     <div className="py-12 animate-in fade-in slide-in-from-bottom-4 duration-700">
       <h1 className="text-3xl font-bold mb-6 text-maroon-900 dark:text-white transition-colors duration-300">{title}</h1>

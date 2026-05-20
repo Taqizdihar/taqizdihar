@@ -1,8 +1,10 @@
 import { productPromo } from "./data";
 import { ExternalLink, ShoppingBag } from "lucide-react";
 import { motion } from "motion/react";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function Products() {
+  useDocumentTitle("Products");
   return (
     <div className="w-full space-y-12">
       <section className="space-y-4">

@@ -2,8 +2,10 @@ import { achievements } from "./data";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
 import { Trophy } from "lucide-react";
 import { motion } from "motion/react";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function Achievements() {
+  useDocumentTitle("Achievements");
   return (
     <div className="w-full space-y-12">
       <section className="space-y-4">

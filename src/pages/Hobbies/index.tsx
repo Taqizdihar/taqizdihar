@@ -1,7 +1,9 @@
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function Hobbies() {
+  useDocumentTitle("Hobbies");
   return (
     <div className="w-full space-y-12 animate-fade-in">
       {/* Header Section */}
