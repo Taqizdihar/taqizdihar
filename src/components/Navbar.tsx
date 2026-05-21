@@ -7,7 +7,7 @@ import {
 import { Link } from "react-router-dom";
 import { useTheme } from "../contexts/ThemeContext";
 import IconResolver from "./IconResolver";
-import { socials } from "../config/navigationData";
+import { socials, logo } from "../config/navigationData";
 
 interface NavbarProps {
   onMenuClick: () => void;
@@ -27,9 +27,9 @@ export default function Navbar({ onMenuClick }: NavbarProps) {
           <Menu className="w-6 h-6 drop-shadow-md" />
         </button>
 
-        {/* Logo Placeholder */}
-        <Link to="/" className="text-2xl font-black tracking-tighter text-maroon-900 dark:text-white hidden md:block">
-          MTI<span className="text-maroon-500">.</span>
+        {/* Logo */}
+        <Link to="/" className="hidden md:block">
+          <img src={logo} alt="Logo" className="h-8 md:h-9 w-auto object-contain dark:invert transition-all" />
         </Link>
       </div>
 

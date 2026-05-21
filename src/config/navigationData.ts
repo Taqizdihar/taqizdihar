@@ -12,3 +12,7 @@ export const socials = [
   { name: "TikTok", url: "https://www.tiktok.com/@m.taqizdihar?is_from_webapp=1&sender_device=pc" },
   { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61587185312942" }
 ];
+
+export const name = "Muhammad Taqi Izdihar";
+export const position = "Developer & Multimedian";
+export const logo = "/assets/sidebar/MTI Transparent.png";

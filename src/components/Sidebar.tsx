@@ -1,7 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { motion } from "motion/react";
-import { profileImages } from "../config/navigationData";
+import { profileImages, name, position } from "../config/navigationData";
 import { 
   Home, 
   User, 
@@ -90,9 +90,9 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
             />
           </motion.button>
         </motion.div>
-        <h2 className="text-[min(1.5rem,3vh)] font-bold text-maroon-900 dark:text-white tracking-tight transition-colors duration-300 leading-tight">John Doe</h2>
+        <h2 className="text-[min(1.5rem,3vh)] font-bold text-maroon-900 dark:text-white tracking-tight transition-colors duration-300 leading-tight">{name}</h2>
         <p className="text-[min(0.875rem,1.6vh)] text-maroon-600 dark:text-white/80 font-medium mt-[min(0.25rem,0.5vh)] uppercase tracking-wider transition-colors duration-300 leading-tight">
-          Creative Director / Developer
+          {position}
         </p>
       </div>
 

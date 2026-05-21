@@ -334,12 +334,12 @@ export const characters: Character[] = [
     id: "the-roasted-turkey-headed-spy",
     name: "The Roasted Turkey-Headed Spy",
     images: [
-      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-1.jpg",
-      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-2.jpg",
-      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-3.jpg",
-      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-4.jpg",
-      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-5.jpg",
-      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-6.jpg",
+      "/assets/hobbies/Roasted Turkey-Headed Spy/Roasted Turkey-Headed Spy-1.jpg",
+      "/assets/hobbies/Roasted Turkey-Headed Spy/Roasted Turkey-Headed Spy-2.jpg",
+      "/assets/hobbies/Roasted Turkey-Headed Spy/Roasted Turkey-Headed Spy-3.jpg",
+      "/assets/hobbies/Roasted Turkey-Headed Spy/Roasted Turkey-Headed Spy-4.jpg",
+      "/assets/hobbies/Roasted Turkey-Headed Spy/Roasted Turkey-Headed Spy-5.jpg",
+      "/assets/hobbies/Roasted Turkey-Headed Spy/Roasted Turkey-Headed Spy-6.jpg",
     ],
     details: [
       { label: "Gender", value: "Female" },
