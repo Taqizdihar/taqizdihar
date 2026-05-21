@@ -944,7 +944,9 @@ export const characters: Character[] = [
   {
     id: "relysian-ray",
     name: "Relyian Ray",
-    images: [],
+    images: [
+      "/assets/hobbies/Relyian Ray/Relyian Ray-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
