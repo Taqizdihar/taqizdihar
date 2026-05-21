@@ -11,11 +11,10 @@ export const characters: Character[] = [
     id: "bryan-zans",
     name: "Bryan Zans",
     images: [
-      "/assets/hobbies/Bryan Zans/Bryan-3.png",
-      "/assets/hobbies/Bryan Zans/Bryan-5.png",
-      "/assets/hobbies/Bryan Zans/Bryan-4.png",
-      "/assets/hobbies/Bryan Zans/Bryan-2.png",
-      "/assets/hobbies/Bryan Zans/Bryan-1.png"
+      "/assets/hobbies/Bryan Zans/Bryan Zans-1.jpg",
+      "/assets/hobbies/Bryan Zans/Bryan Zans-2.jpg",
+      "/assets/hobbies/Bryan Zans/Bryan Zans-3.jpg",
+      "/assets/hobbies/Bryan Zans/Bryan Zans-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -38,6 +37,10 @@ export const characters: Character[] = [
     id: "darknity-darkezus",
     name: "Darknity Darkezus",
     images: [
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-1.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-2.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-3.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -60,6 +63,9 @@ export const characters: Character[] = [
     id: "dazernier-dragonite",
     name: "Dazernier Dragonite",
     images: [
+      "/assets/hobbies/Dazernier Dragonite/Dazernier Dragonite-1.jpg",
+      "/assets/hobbies/Dazernier Dragonite/Dazernier Dragonite-2.jpg",
+      "/assets/hobbies/Dazernier Dragonite/Dazernier Dragonite-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -83,6 +89,11 @@ export const characters: Character[] = [
     id: "fieldin-paladin",
     name: "Fieldin Paladin",
     images: [
+      "/assets/hobbies/Fieldin Paladin/Fieldin Paladin-1.jpg",
+      "/assets/hobbies/Fieldin Paladin/Fieldin Paladin-2.jpg",
+      "/assets/hobbies/Fieldin Paladin/Fieldin Paladin-3.jpg",
+      "/assets/hobbies/Fieldin Paladin/Fieldin Paladin-4.jpg",
+      "/assets/hobbies/Fieldin Paladin/Fieldin Paladin-5.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -106,6 +117,9 @@ export const characters: Character[] = [
     id: "gespierd-saluntus",
     name: "Gespierd Saluntus",
     images: [
+      "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-1.jpg",
+      "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-2.jpg",
+      "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -129,6 +143,11 @@ export const characters: Character[] = [
     id: "sauterelle-savoy",
     name: "Sauterelle Savoy",
     images: [
+      "/assets/hobbies/Sauterelle Savoy/Sauterelle Savoy-1.jpg",
+      "/assets/hobbies/Sauterelle Savoy/Sauterelle Savoy-2.jpg",
+      "/assets/hobbies/Sauterelle Savoy/Sauterelle Savoy-3.jpg",
+      "/assets/hobbies/Sauterelle Savoy/Sauterelle Savoy-4.jpg",
+      "/assets/hobbies/Sauterelle Savoy/Sauterelle Savoy-5.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -152,6 +171,13 @@ export const characters: Character[] = [
     id: "kula-seepferdchen",
     name: "Kula Seepferdchen",
     images: [
+      "/assets/hobbies/Kula Seepferdchen/Kula Seepferdchen-1.jpg",
+      "/assets/hobbies/Kula Seepferdchen/Kula Seepferdchen-2.jpg",
+      "/assets/hobbies/Kula Seepferdchen/Kula Seepferdchen-3.jpg",
+      "/assets/hobbies/Kula Seepferdchen/Kula Seepferdchen-4.jpg",
+      "/assets/hobbies/Kula Seepferdchen/Kula Seepferdchen-5.jpg",
+      "/assets/hobbies/Kula Seepferdchen/Kula Seepferdchen-6.jpg",
+      "/assets/hobbies/Kula Seepferdchen/Kula Seepferdchen-7.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -175,6 +201,10 @@ export const characters: Character[] = [
     id: "leaftree-rockwood",
     name: "Leaftree Rockwood",
     images: [
+      "/assets/hobbies/Leaftree Rockwood/Leaftree Rockwood-1.jpg",
+      "/assets/hobbies/Leaftree Rockwood/Leaftree Rockwood-2.jpg",
+      "/assets/hobbies/Leaftree Rockwood/Leaftree Rockwood-3.jpg",
+      "/assets/hobbies/Leaftree Rockwood/Leaftree Rockwood-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -198,6 +228,10 @@ export const characters: Character[] = [
     id: "naim-firdaus",
     name: "Naim Firdaus",
     images: [
+      "/assets/hobbies/Naim Firdaus/Naim Firdaus-1.jpg",
+      "/assets/hobbies/Naim Firdaus/Naim Firdaus-2.jpg",
+      "/assets/hobbies/Naim Firdaus/Naim Firdaus-3.jpg",
+      "/assets/hobbies/Naim Firdaus/Naim Firdaus-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -221,6 +255,12 @@ export const characters: Character[] = [
     id: "nogard-von-hester",
     name: "Nogard Von Hester",
     images: [
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-1.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-2.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-3.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-4.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-5.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-6.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -244,6 +284,9 @@ export const characters: Character[] = [
     id: "retrock",
     name: "Retrock",
     images: [
+      "/assets/hobbies/Retrock/Retrock-1.jpg",
+      "/assets/hobbies/Retrock/Retrock-2.jpg",
+      "/assets/hobbies/Retrock/Retrock-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -267,6 +310,7 @@ export const characters: Character[] = [
     id: "satria-windjaja",
     name: "Satria Windjaja",
     images: [
+      "/assets/hobbies/Satria Windjaja/Satria Windjaja-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -287,9 +331,15 @@ export const characters: Character[] = [
     ]
   },
   {
-    id: "the-turkey-headed-spy",
-    name: "The Turkey-Headed Spy",
+    id: "the-roasted-turkey-headed-spy",
+    name: "The Roasted Turkey-Headed Spy",
     images: [
+      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-1.jpg",
+      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-2.jpg",
+      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-3.jpg",
+      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-4.jpg",
+      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-5.jpg",
+      "/assets/hobbies/The Roasted Turkey-Headed Spy/The Roasted Turkey-Headed Spy-6.jpg",
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -313,6 +363,9 @@ export const characters: Character[] = [
     id: "wilde-heuschrecke",
     name: "Wilde Heuschrecke",
     images: [
+      "/assets/hobbies/Wilde Heuschrecke/Wilde Heuschrecke-1.jpg",
+      "/assets/hobbies/Wilde Heuschrecke/Wilde Heuschrecke-2.jpg",
+      "/assets/hobbies/Wilde Heuschrecke/Wilde Heuschrecke-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -336,6 +389,8 @@ export const characters: Character[] = [
     id: "yatahannus",
     name: "Yatahannus",
     images: [
+      "/assets/hobbies/Yatahannus/Yatahannus-1.jpg",
+      "/assets/hobbies/Yatahannus/Yatahannus-2.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -359,6 +414,9 @@ export const characters: Character[] = [
     id: "young-koko",
     name: "Young Koko",
     images: [
+      "/assets/hobbies/Young Koko/Young Koko-1.jpg",
+      "/assets/hobbies/Young Koko/Young Koko-2.jpg",
+      "/assets/hobbies/Young Koko/Young Koko-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -382,6 +440,7 @@ export const characters: Character[] = [
     id: "zaid-daris",
     name: "Zaid Daris",
     images: [
+      "/assets/hobbies/Zaid Daris/Zaid Daris-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -405,6 +464,9 @@ export const characters: Character[] = [
     id: "zenith-overwise",
     name: "Zenith Overwise",
     images: [
+      "/assets/hobbies/Zenith Overwise/Zenith Overwise-1.jpg",
+      "/assets/hobbies/Zenith Overwise/Zenith Overwise-2.jpg",
+      "/assets/hobbies/Zenith Overwise/Zenith Overwise-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -428,6 +490,9 @@ export const characters: Character[] = [
     id: "zetnavvir",
     name: "Zetnavvir",
     images: [
+      "/assets/hobbies/Zetnavvir/Zetnavvir-1.jpg",
+      "/assets/hobbies/Zetnavvir/Zetnavvir-2.jpg",
+      "/assets/hobbies/Zetnavvir/Zetnavvir-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -451,6 +516,11 @@ export const characters: Character[] = [
     id: "legardon-melvillei",
     name: "Legardon Melvillei",
     images: [
+      "/assets/hobbies/Legardon Melvillei/Legardon Melvillei-1.jpg",
+      "/assets/hobbies/Legardon Melvillei/Legardon Melvillei-2.jpg",
+      "/assets/hobbies/Legardon Melvillei/Legardon Melvillei-3.jpg",
+      "/assets/hobbies/Legardon Melvillei/Legardon Melvillei-4.jpg",
+      "/assets/hobbies/Legardon Melvillei/Legardon Melvillei-5.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -474,6 +544,12 @@ export const characters: Character[] = [
     id: "mark-melvillei",
     name: "Mark Melvillei",
     images: [
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-1.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-2.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-3.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-4.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-5.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-6.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -496,8 +572,7 @@ export const characters: Character[] = [
   {
     id: "elixsian-fields",
     name: "Elixsian Fields",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -519,8 +594,7 @@ export const characters: Character[] = [
   {
     id: "wells-warden",
     name: "Wells Warden",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
@@ -542,8 +616,7 @@ export const characters: Character[] = [
   {
     id: "flizth-fellow",
     name: "Flizth Fellow",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -565,8 +638,7 @@ export const characters: Character[] = [
   {
     id: "zaku-genan",
     name: "Zaku Genan",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -589,6 +661,9 @@ export const characters: Character[] = [
     id: "dragon-headed-robot",
     name: "Dragon-Headed Robot",
     images: [
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-1.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-2.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -611,8 +686,7 @@ export const characters: Character[] = [
   {
     id: "reogulus-nova-hypthon",
     name: "Reogulus Nova Hypthon",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -634,8 +708,7 @@ export const characters: Character[] = [
   {
     id: "rechepeus-nova-hypthon",
     name: "Rechepeus Nova Hypthon",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -658,6 +731,11 @@ export const characters: Character[] = [
     id: "hydrus-hypthon",
     name: "Hydrus Hypthon",
     images: [
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-1.jpg",
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-2.jpg",
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-3.jpg",
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-4.jpg",
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-5.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -680,8 +758,7 @@ export const characters: Character[] = [
   {
     id: "nevy-nova",
     name: "Nevy Nova",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -704,6 +781,7 @@ export const characters: Character[] = [
     id: "hydral-hypthon",
     name: "Hydral Hypthon",
     images: [
+      "/assets/hobbies/Hydral Hypthon/Hydral Hypthon-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -727,6 +805,7 @@ export const characters: Character[] = [
     id: "requus-alius-gallus",
     name: "Requus Alius Gallus",
     images: [
+      "/assets/hobbies/Requus Alius Gallus/Requus Alius Gallus-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -749,8 +828,7 @@ export const characters: Character[] = [
   {
     id: "kavalleta-fraist",
     name: "Kavalleta Fraist",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -773,6 +851,7 @@ export const characters: Character[] = [
     id: "roy-rigel-rafiers",
     name: "Roy Rigel Rafiers",
     images: [
+      "/assets/hobbies/Roy Rigel Rafiers/Roy Rigel Rafiers-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -796,6 +875,7 @@ export const characters: Character[] = [
     id: "magellades-mentauri",
     name: "Magellades Mentauri",
     images: [
+      "/assets/hobbies/Magellades Mentauri/Magellades Mentauri-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -818,8 +898,7 @@ export const characters: Character[] = [
   {
     id: "reptiladorn-axorian",
     name: "Reptiladorn Axorian",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -842,6 +921,7 @@ export const characters: Character[] = [
     id: "honesta-hornett",
     name: "Honesta Hornett",
     images: [
+      "/assets/hobbies/Honesta Hornett/Honesta Hornett-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -864,8 +944,7 @@ export const characters: Character[] = [
   {
     id: "relysian-ray",
     name: "Relyian Ray",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -887,8 +966,7 @@ export const characters: Character[] = [
   {
     id: "mersil-messier",
     name: "Mersil Messier",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -910,8 +988,7 @@ export const characters: Character[] = [
   {
     id: "kremir-kronor",
     name: "Kremir Kronor",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -933,8 +1010,7 @@ export const characters: Character[] = [
   {
     id: "azwir-aion",
     name: "Azwir Aion",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -956,8 +1032,7 @@ export const characters: Character[] = [
   {
     id: "arthloporsus",
     name: "Arthloporsus",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -979,8 +1054,7 @@ export const characters: Character[] = [
   {
     id: "arkloporsus",
     name: "Arkloporsus",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1002,8 +1076,7 @@ export const characters: Character[] = [
   {
     id: "zorganan",
     name: "Zorganan",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1025,8 +1098,7 @@ export const characters: Character[] = [
   {
     id: "taranis-tartarus",
     name: "Taranis Tartarus",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1048,8 +1120,7 @@ export const characters: Character[] = [
   {
     id: "azzarius-antares",
     name: "Azzarius Antares",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1071,8 +1142,7 @@ export const characters: Character[] = [
   {
     id: "mirzavvir",
     name: "Mirzavvir",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1094,8 +1164,7 @@ export const characters: Character[] = [
   {
     id: "voxnavvir",
     name: "Voxnavvir",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1117,8 +1186,7 @@ export const characters: Character[] = [
   {
     id: "esnavvir",
     name: "Esnavvir",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1140,8 +1208,7 @@ export const characters: Character[] = [
   {
     id: "vurnavvir",
     name: "Vurnavvir",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1163,8 +1230,7 @@ export const characters: Character[] = [
   {
     id: "annavvir",
     name: "Annavvir",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1186,8 +1252,7 @@ export const characters: Character[] = [
   {
     id: "shadronnavvir",
     name: "Shadronnavvir",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1209,8 +1274,7 @@ export const characters: Character[] = [
   {
     id: "spacer-revellatio",
     name: "Spacer Revellatio",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1232,8 +1296,7 @@ export const characters: Character[] = [
   {
     id: "heithust-holier",
     name: "Heithust Holier",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1255,8 +1318,7 @@ export const characters: Character[] = [
   {
     id: "rhainor-delaren",
     name: "Rhainor Delaren",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1278,8 +1340,7 @@ export const characters: Character[] = [
   {
     id: "valory-vulrilliant",
     name: "Valory Vulrilliant",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1301,8 +1362,7 @@ export const characters: Character[] = [
   {
     id: "celvin-reamenheit",
     name: "Celvin Reamenheit",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1324,8 +1384,7 @@ export const characters: Character[] = [
   {
     id: "antrofos-anion",
     name: "Antrofos Anion",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1347,8 +1406,7 @@ export const characters: Character[] = [
   {
     id: "will-heavenwall",
     name: "Will Heavenwall",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1370,8 +1428,7 @@ export const characters: Character[] = [
   {
     id: "alnilam-lambda",
     name: "Alnilam Lambda",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1393,8 +1450,7 @@ export const characters: Character[] = [
   {
     id: "alnitah-hides",
     name: "Alnitah Hides",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1416,8 +1472,7 @@ export const characters: Character[] = [
   {
     id: "mintaka-maveen",
     name: "Mintaka Maveen",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1440,6 +1495,10 @@ export const characters: Character[] = [
     id: "seguni-gani",
     name: "Seguni Gani",
     images: [
+      "/assets/hobbies/Seguni Gani/Seguni Gani-1.jpg",
+      "/assets/hobbies/Seguni Gani/Seguni Gani-2.jpg",
+      "/assets/hobbies/Seguni Gani/Seguni Gani-3.jpg",
+      "/assets/hobbies/Seguni Gani/Seguni Gani-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -1463,6 +1522,7 @@ export const characters: Character[] = [
     id: "galeodon-melvillei",
     name: "Galeodon Melvillei",
     images: [
+      "/assets/hobbies/Galeodon Melvillei/Galeodon Melvillei-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -1485,8 +1545,7 @@ export const characters: Character[] = [
   {
     id: "umi-farhana",
     name: "Umi Farhana",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1508,8 +1567,7 @@ export const characters: Character[] = [
   {
     id: "barton-pufferman",
     name: "Barton Pufferman",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
@@ -1532,6 +1590,7 @@ export const characters: Character[] = [
     id: "halley-haryavard",
     name: "Halley Haryavard",
     images: [
+      "/assets/hobbies/Halley Haryavard/Halley Haryavard-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -1555,6 +1614,7 @@ export const characters: Character[] = [
     id: "michael-ozza-possada",
     name: "Michael Ozza Possada",
     images: [
+      "/assets/hobbies/Michael Ozza Possada/Michael Ozza Possada-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -1578,6 +1638,7 @@ export const characters: Character[] = [
     id: "dassim-hazim",
     name: "Dassim Hazim",
     images: [
+      "/assets/hobbies/Dassim Hazim/Dassim Hazim-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -1601,6 +1662,7 @@ export const characters: Character[] = [
     id: "zurmanggi",
     name: "Zurmanggi",
     images: [
+      "/assets/hobbies/Zurmanggi/Zurmanggi-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -1624,6 +1686,7 @@ export const characters: Character[] = [
     id: "detzer-reynauld",
     name: "Detzer Reynauld",
     images: [
+      "/assets/hobbies/Detzer Reynauld/Detzer Reynauld-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -1646,8 +1709,7 @@ export const characters: Character[] = [
   {
     id: "the-compassionator",
     name: "The Compassionator",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1669,8 +1731,7 @@ export const characters: Character[] = [
   {
     id: "the-vindictivator",
     name: "The Vindictivator",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
@@ -1692,8 +1753,7 @@ export const characters: Character[] = [
   {
     id: "mark-magnanimous-morningstar",
     name: "Mark Magnanimous Morningstar",
-    images: [
-    ],
+    images: [],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
