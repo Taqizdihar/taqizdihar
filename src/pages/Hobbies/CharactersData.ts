@@ -1552,12 +1552,12 @@ export const characters: Character[] = [
     ]
   },
   {
-    id: "Michael Ozza Possada",
-    name: "Dazernier Dragonite",
+    id: "michael-ozza-possada",
+    name: "Michael Ozza Possada",
     images: [
     ],
     details: [
-      { label: "Gender", value: "Female" },
+      { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
@@ -1599,7 +1599,7 @@ export const characters: Character[] = [
   },
   {
     id: "zurmanggi",
-    name: "Dazernier Dragonite",
+    name: "Zurmanggi",
     images: [
     ],
     details: [
