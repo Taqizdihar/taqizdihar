@@ -45,7 +45,7 @@ export default function CharacterDetail() {
           {/* Interactive Image Gallery */}
           {character?.images && character.images.length > 0 && (
             <div className="flex gap-3 sm:gap-4 h-64 sm:h-80 lg:h-96">
-              <div className="flex flex-col gap-3 shrink-0 overflow-y-auto no-scrollbar pb-2">
+              <div className="flex flex-col gap-3 shrink-0 overflow-y-auto overflow-x-hidden pb-2 custom-scrollbar">
                 {character.images.map((img, idx) => (
                   <button
                     key={idx}
@@ -71,7 +71,7 @@ export default function CharacterDetail() {
           )}
 
           {/* Character Details Box */}
-          {character?.details && Object.keys(character.details).length > 0 && (
+          {character?.details && character.details.length > 0 && (
             <div className="bg-white/80 dark:bg-[#A81717]/20 border border-maroon-900/10 dark:border-white/10 rounded-2xl p-6 shadow-md backdrop-blur-sm transition-colors duration-300">
               <h3 className="text-xl font-bold text-maroon-900 dark:text-white mb-4 pb-2 border-b border-maroon-900/10 dark:border-white/10">
                 Biographical Information
@@ -81,10 +81,10 @@ export default function CharacterDetail() {
                   <span className="font-semibold text-maroon-800 dark:text-white/80">Name</span>
                   <span className="text-maroon-600 dark:text-white/60 text-right">{character.name}</span>
                 </div>
-                {Object.entries(character.details).map(([key, value]) => (
-                  <div key={key} className="flex justify-between items-center py-2 border-b border-maroon-900/5 dark:border-white/5 last:border-0 last:pb-0">
-                    <span className="font-semibold text-maroon-800 dark:text-white/80">{key}</span>
-                    <span className="text-maroon-600 dark:text-white/60 text-right">{value}</span>
+                {character.details.map((detail, idx) => (
+                  <div key={idx} className="flex justify-between items-center py-2 border-b border-maroon-900/5 dark:border-white/5 last:border-0 last:pb-0">
+                    <span className="font-semibold text-maroon-800 dark:text-white/80">{detail.label}</span>
+                    <span className="text-maroon-600 dark:text-white/60 text-right">{detail.value}</span>
                   </div>
                 ))}
               </div>

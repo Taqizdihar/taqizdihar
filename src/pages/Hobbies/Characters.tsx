@@ -87,12 +87,12 @@ export default function Characters() {
               </div>
 
               {/* Right side content */}
-              <div className="flex-1 min-w-0 py-4 px-4 relative z-10 pl-0">
+              <div className="flex-1 min-w-0 py-4 px-4 relative z-10 pl-4">
                 <h3 className="text-xl sm:text-[1.35rem] font-bold text-maroon-900 dark:text-white truncate transition-colors duration-300 leading-tight">
                   {char.name}
                 </h3>
                 <p className="text-[0.9rem] text-maroon-600 dark:text-white/70 line-clamp-2 mt-1.5 transition-colors duration-300 leading-snug font-medium">
-                  {char?.details?.ShortDescription}
+                  {char?.details?.find((d) => d.label === "ShortDescription")?.value}
                 </p>
               </div>
             </Link>

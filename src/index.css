@@ -28,3 +28,27 @@ body {
 .dark body {
   @apply bg-[#8E0000] text-white;
 }
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(153, 27, 27, 0.1);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #991b1b;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a1515;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -2,7 +2,7 @@ export interface Character {
   id: string;
   name: string;
   images: string[];
-  details: Record<string, string>;
+  details: { label: string; value: string }[];
   sections: { title: string; content: string }[];
 }
 
@@ -17,12 +17,12 @@ export const characters: Character[] = [
       "/assets/hobbies/Bryan Zans/Bryan-2.png",
       "/assets/hobbies/Bryan Zans/Bryan-1.png"
     ],
-    details: {
-      Gender: "Male",
-      Species: "Human",
-      Role: "Assistant",
-      ShortDescription: "An assistant."
-    },
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Role", value: "Assistant" },
+      { label: "ShortDescription", value: "An assistant." }
+    ],
     sections: [
       {
         title: "About",
@@ -42,12 +42,12 @@ export const characters: Character[] = [
       "/assets/hobbies/kylar-2.jpg",
       "/assets/hobbies/kylar-3.jpg"
     ],
-    details: {
-      Gender: "Male",
-      Species: "Elf",
-      Role: "Ranger",
-      ShortDescription: "A stoic ranger tracking a legendary beast."
-    },
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Elf" },
+      { label: "Role", value: "Ranger" },
+      { label: "ShortDescription", value: "A stoic ranger tracking a legendary beast." }
+    ],
     sections: [
       {
         title: "About",
@@ -67,13 +67,13 @@ export const characters: Character[] = [
       "/assets/hobbies/lyra-2.jpg",
       "/assets/hobbies/lyra-3.jpg"
     ],
-    details: {
-      Gender: "Female",
-      Species: "Halfling",
-      Role: "Bard",
-      Alias: "The Whisperer",
-      ShortDescription: "A charismatic bard who knows too many secrets."
-    },
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
     sections: [
       {
         title: "About",
