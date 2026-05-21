@@ -23,7 +23,7 @@ export default function Hobbies() {
           {/* Left Side: Blended Image */}
           <div className="relative w-full md:w-[35%] lg:w-[30%] h-64 md:h-auto overflow-hidden [-webkit-mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] md:[-webkit-mask-image:linear-gradient(to_right,black_60%,transparent_100%)] md:[mask-image:linear-gradient(to_right,black_60%,transparent_100%)] shrink-0">
             <img 
-              src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1000&auto=format&fit=crop" 
+              src="/assets/hobbies/My Characters.jpg" 
               alt="Art sketch"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

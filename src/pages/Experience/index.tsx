@@ -1,5 +1,6 @@
 import { experiences } from "./ExperienceData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
+import { FaBuilding } from "react-icons/fa6";
 import { motion } from "motion/react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 
@@ -23,6 +24,8 @@ export default function Experience() {
               key={exp.id}
               title={exp.title}
               subtitle={exp.company}
+              logoUrl={exp.companyLogo}
+              logoFallbackIcon={<FaBuilding className="w-6 h-6" />}
               startDate={exp.startDate}
               endDate={exp.endDate}
               location={exp.location}

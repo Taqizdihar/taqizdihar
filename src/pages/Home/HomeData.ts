@@ -1,4 +1,4 @@
 export const homeData = {
-  title: "Welcome to Uni-Inside",
-  description: "We bridge creativity and technology. Explore the portfolio to see our journey, projects, and impact."
+  title: "Welcome to My Web Portfolio",
+  description: "Information Systems and Multimedia student with a passion for building technology that makes a difference. Explore the portfolio to see my journey, projects, and impact."
 };

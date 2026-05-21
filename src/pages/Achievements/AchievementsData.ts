@@ -1,25 +1,35 @@
 export const achievements = [
   {
     id: 1,
-    title: "1st Place - National Hackathon 2023",
-    issuer: "Ministry of Technology, Indonesia",
+    title: "Oracle Academy | SQL Award of Completion",
+    issuer: "Oracle Academy",
     issuerLogo: "/assets/achievements/ministry-logo.jpg",
-    startDate: "Nov 2023",
+    startDate: "November 2025",
     endDate: "",
-    description: "Developed an AI-powered smart city solution in 48 hours. Our team created a decentralized waste management tracking app that won the grand prize of $10,000 against 500 other competing teams.",
+    description: "Award of Completion from Oracle Academy for completing a full English SQL coursework at Telkom University through Database I (second semester) and Database II (third semester) courses. Issued on 17 November 2025 after accomplishing the Oracle Completed Certification via Telkom University's Learning Management System (LMS) on the same date, with a final grade of 80.77.",
     media: [
-      { type: "image", url: "/assets/achievements/hackathon-1.jpg" },
-      { type: "image", url: "/assets/achievements/hackathon-2.jpg" }
+      { type: "image", url: "/assets/achievements/Oracle Certificate.jpg" },
+      { type: "image", url: "/assets/achievements/LMS SQL Award.jpg" }
     ]
   },
   {
     id: 2,
-    title: "Employee of the Year",
-    issuer: "Creative Studio Agency",
-    issuerLogo: "",
-    startDate: "Dec 2022",
+    title: "OPES Scholarship",
+    issuer: "Telkom University",
+    issuerLogo: "/assets/achievements/Telkom University.png",
+    startDate: "July 2024",
     endDate: "",
-    description: "Awarded Employee of the Year for leading the transition to a modern React architecture, which improved application load times by 40% and significantly increased client satisfaction metrics.",
-    media: [] // Empty
+    description: "The One-Pipe Education System (OPES) scholarship is an annual internal scholarship from Telkom University for the top ten Telkom high school students.",
+    media: []
+  },
+  {
+    id: 3,
+    title: "1st Runner-Up | Blood Donation Short Movie in Aksi Pertanda 13 Part VII",
+    issuer: "Youth Red Cross Society",
+    issuerLogo: "/assets/achievements/Telkom University.png",
+    startDate: "December 2023",
+    endDate: "",
+    description: "1st runner-up in the blood donation short movie competition held by the Indonesian Youth Red Cross Society (PMR) in SMKN 13 Bandung, December 16. The short movie is titled \"Donor Successor\" and features only two people, including me, and one 3D holographic character created in Blender. The story mainly focused on the struggle of getting blood donations in the future.",
+    media: []
   }
 ];

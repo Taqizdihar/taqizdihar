@@ -1,6 +1,6 @@
 import { achievements } from "./AchievementsData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
-import { Trophy } from "lucide-react";
+import { FaTrophy } from "react-icons/fa6";
 import { motion } from "motion/react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 
@@ -23,7 +23,7 @@ export default function Achievements() {
               title={item.title}
               subtitle={item.issuer}
               logoUrl={item.issuerLogo}
-              logoFallbackIcon={<Trophy className="w-6 h-6" />}
+              logoFallbackIcon={<FaTrophy className="w-6 h-6" />}
               startDate={item.startDate}
               endDate={item.endDate}
               description={item.description}

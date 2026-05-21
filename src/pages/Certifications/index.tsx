@@ -1,6 +1,7 @@
 import { certifications } from "./CertificationsData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
-import { Award, ExternalLink } from "lucide-react";
+import { FaCertificate } from "react-icons/fa6";
+import { ExternalLink } from "lucide-react";
 import { motion } from "motion/react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 
@@ -23,7 +24,7 @@ export default function Certifications() {
               title={cert.certName}
               subtitle={cert.issuingOrg}
               logoUrl={cert.orgLogo}
-              logoFallbackIcon={<Award className="w-6 h-6" />}
+              logoFallbackIcon={<FaCertificate className="w-6 h-6" />}
               startDate={cert.issueDate}
               endDate={cert.endDate}
               description={

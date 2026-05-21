@@ -1,6 +1,6 @@
 import { organizations } from "./OrganizationsData";
 import UnifiedCard, { MediaItem } from "../../components/UnifiedCard";
-import { Users } from "lucide-react";
+import { FaBuilding } from "react-icons/fa6";
 import { motion } from "motion/react";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 
@@ -23,7 +23,7 @@ export default function Organizations() {
               title={org.orgName}
               subtitle={org.position}
               logoUrl={org.orgLogo}
-              logoFallbackIcon={<Users className="w-6 h-6" />}
+              logoFallbackIcon={<FaBuilding className="w-6 h-6" />}
               startDate={org.startDate}
               endDate={org.endDate}
               description={org.description}

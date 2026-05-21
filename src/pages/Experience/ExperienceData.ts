@@ -1,8 +1,9 @@
 export const experiences = [
   {
     id: 1,
-    title: "Senior Frontend Developer",
+    title: "Chief Technology Officer",
     company: "Creative Studio Agency",
+    companyLogo: "",
     startDate: "Jan 2022",
     endDate: "Present",
     location: "Jakarta, Indonesia (Hybrid)",
@@ -17,6 +18,7 @@ export const experiences = [
     id: 2,
     title: "UI/UX Designer & Web Developer",
     company: "Freelance",
+    companyLogo: "",
     startDate: "Mar 2020",
     endDate: "Dec 2021",
     location: "Remote",
@@ -31,6 +33,7 @@ export const experiences = [
     id: 3,
     title: "Web Developer Intern",
     company: "Tech Solutions Indonesia",
+    companyLogo: "",
     startDate: "Jun 2019",
     endDate: "Jan 2020",
     location: "Bandung, Indonesia",
