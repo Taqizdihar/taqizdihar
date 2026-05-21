@@ -29,7 +29,11 @@ export default function Navbar({ onMenuClick }: NavbarProps) {
 
         {/* Logo */}
         <Link to="/" className="hidden md:block">
-          <img src={logo} alt="Logo" className="h-8 md:h-9 w-auto object-contain dark:invert transition-all" />
+          <img 
+            src={logo} 
+            alt="Logo" 
+            className={`h-8 md:h-9 w-auto object-contain ${theme === "light" ? "drop-shadow-md" : ""}`} 
+          />
         </Link>
       </div>
 
