@@ -21,7 +21,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Human" },
       { label: "Role", value: "Assistant" },
-      { label: "ShortDescription", value: "An assistant." }
+      { label: "ShortDescription", value: "Assistant." }
     ],
     sections: [
       {
@@ -43,7 +43,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Elf" },
       { label: "Role", value: "Ranger" },
-      { label: "ShortDescription", value: "A stoic ranger tracking a legendary beast." }
+      { label: "ShortDescription", value: "Great Emperor of Darkness" }
     ],
     sections: [
       {
@@ -66,7 +66,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Dragonman Berserker-Wanderer" }
     ],
     sections: [
       {
@@ -89,7 +89,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Former Paladin Gardener" }
     ],
     sections: [
       {
@@ -112,7 +112,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Cousin of Reogulus" }
     ],
     sections: [
       {
@@ -135,7 +135,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Alien Father and Businessman" }
     ],
     sections: [
       {
@@ -158,7 +158,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Marineman Martial Artist" }
     ],
     sections: [
       {
@@ -181,7 +181,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Protector of The Forests" }
     ],
     sections: [
       {
@@ -204,7 +204,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Ustad" }
     ],
     sections: [
       {
@@ -227,7 +227,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Wandering Battle Cyborg Dragon" }
     ],
     sections: [
       {
@@ -250,7 +250,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Former Right-Hand Man of Darknity" }
     ],
     sections: [
       {
@@ -273,7 +273,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Angklung Master and Martial Artist" }
     ],
     sections: [
       {
@@ -296,7 +296,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Super Elite Spy" }
     ],
     sections: [
       {
@@ -319,7 +319,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Alien General" }
     ],
     sections: [
       {
@@ -342,7 +342,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "The Martyr of Furtherous Zurther" }
     ],
     sections: [
       {
@@ -365,7 +365,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Coconut Islandman" }
     ],
     sections: [
       {
@@ -388,7 +388,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Tsufuk Fighter" }
     ],
     sections: [
       {
@@ -411,7 +411,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Emperor of Knowledge" }
     ],
     sections: [
       {
@@ -434,7 +434,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Supreme Judge" }
     ],
     sections: [
       {
@@ -457,7 +457,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Marineman Bounty Hunter" }
     ],
     sections: [
       {
@@ -480,7 +480,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Legardon's Brother" }
     ],
     sections: [
       {
@@ -503,7 +503,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Midnight Hero" }
     ],
     sections: [
       {
@@ -526,7 +526,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Midnight Hero" }
     ],
     sections: [
       {
@@ -549,7 +549,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Midnight Hero" }
     ],
     sections: [
       {
@@ -572,7 +572,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Midnight Hero" }
     ],
     sections: [
       {
@@ -595,7 +595,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Sentient Assistant Robot" }
     ],
     sections: [
       {
@@ -618,7 +618,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Prince of the Repteilustians" }
     ],
     sections: [
       {
@@ -641,7 +641,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Prince of the Repteilustians" }
     ],
     sections: [
       {
@@ -664,7 +664,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Emperor of the Repteilustians" }
     ],
     sections: [
       {
@@ -687,7 +687,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Empress of the Repteilustians" }
     ],
     sections: [
       {
@@ -710,7 +710,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Chancellor of the Repteilustians" }
     ],
     sections: [
       {
@@ -733,7 +733,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Emperor of the Pessulustians" }
     ],
     sections: [
       {
@@ -756,7 +756,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Emperor of the Loculustians" }
     ],
     sections: [
       {
@@ -779,7 +779,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Emperor of the Vogelustians" }
     ],
     sections: [
       {
@@ -802,7 +802,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Emperor of the Humanusians" }
     ],
     sections: [
       {
@@ -825,7 +825,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Minister of Defense of the Repteilustians" }
     ],
     sections: [
       {
@@ -848,7 +848,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "General of the Muzzlesters" }
     ],
     sections: [
       {
@@ -871,7 +871,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Repteilustian General" }
     ],
     sections: [
       {
@@ -894,7 +894,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Field Marshal of the Repteilustians" }
     ],
     sections: [
       {
@@ -917,7 +917,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Repteilustian Colonel" }
     ],
     sections: [
       {
@@ -940,7 +940,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Mersil Messier's Assistant" }
     ],
     sections: [
       {
@@ -963,7 +963,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Emperor of the Galaksionts" }
     ],
     sections: [
       {
@@ -986,7 +986,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Crown Prince of the Galaksionts" }
     ],
     sections: [
       {
@@ -1009,7 +1009,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "General of the Galaksiont Army" }
     ],
     sections: [
       {
@@ -1032,7 +1032,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Dark Lord of Corruption" }
     ],
     sections: [
       {
@@ -1055,7 +1055,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Master of the Seven Stars" }
     ],
     sections: [
       {
@@ -1078,7 +1078,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
       {
@@ -1101,7 +1101,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
       {
@@ -1124,7 +1124,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
       {
@@ -1147,7 +1147,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
       {
@@ -1170,7 +1170,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
       {
@@ -1193,7 +1193,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Leader of the Seven Stars" }
     ],
     sections: [
       {
@@ -1216,7 +1216,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Cosmic Entity" }
     ],
     sections: [
       {
@@ -1239,7 +1239,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "The Great Cosmic Blacksmith" }
     ],
     sections: [
       {
@@ -1262,7 +1262,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Emperor of the Vasmirians" }
     ],
     sections: [
       {
@@ -1285,7 +1285,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Vasmirian General" }
     ],
     sections: [
       {
@@ -1308,7 +1308,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Vasmirian General" }
     ],
     sections: [
       {
@@ -1331,7 +1331,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Vasmirian General" }
     ],
     sections: [
       {
@@ -1354,7 +1354,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Bodyguard Robot" }
     ],
     sections: [
       {
@@ -1377,7 +1377,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Biological Son of Zenith Overwise" }
     ],
     sections: [
       {
@@ -1400,7 +1400,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Alnilam's friend" }
     ],
     sections: [
       {
@@ -1423,7 +1423,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Alnilam's friend" }
     ],
     sections: [
       {
@@ -1446,7 +1446,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Police Chief of Lemurialle" }
     ],
     sections: [
       {
@@ -1469,7 +1469,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Father of Legardon & Mark Melvillei" }
     ],
     sections: [
       {
@@ -1492,7 +1492,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Poor Cracker Seller" }
     ],
     sections: [
       {
@@ -1515,7 +1515,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Leader of the Pufferman Mafia" }
     ],
     sections: [
       {
@@ -1538,7 +1538,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Astrologist" }
     ],
     sections: [
       {
@@ -1561,7 +1561,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Orphan Kid" }
     ],
     sections: [
       {
@@ -1584,7 +1584,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Student" }
     ],
     sections: [
       {
@@ -1607,7 +1607,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Student" }
     ],
     sections: [
       {
@@ -1630,7 +1630,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Student" }
     ],
     sections: [
       {
@@ -1653,7 +1653,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "The Comforter of the Innocent" }
     ],
     sections: [
       {
@@ -1676,7 +1676,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "The Punisher of the Sinful" }
     ],
     sections: [
       {
@@ -1699,7 +1699,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+      { label: "ShortDescription", value: "Prince" }
     ],
     sections: [
       {
