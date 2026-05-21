@@ -8,28 +8,29 @@ export interface Character {
 
 export const characters: Character[] = [
   {
-    id: "elara-vance",
-    name: "Elara Vance",
+    id: "bryan-zans",
+    name: "Bryan Zans",
     images: [
-      "/assets/hobbies/elara-1.jpg",
-      "/assets/hobbies/elara-2.jpg",
-      "/assets/hobbies/elara-3.jpg"
+      "/assets/hobbies/Bryan Zans/Bryan-3.png",
+      "/assets/hobbies/Bryan Zans/Bryan-5.png",
+      "/assets/hobbies/Bryan Zans/Bryan-4.png",
+      "/assets/hobbies/Bryan Zans/Bryan-2.png",
+      "/assets/hobbies/Bryan Zans/Bryan-1.png"
     ],
     details: {
-      Gender: "Female",
+      Gender: "Male",
       Species: "Human",
-      Age: "24",
-      Role: "Rogue",
-      ShortDescription: "A skilled rogue with a mysterious past."
+      Role: "Assistant",
+      ShortDescription: "An assistant."
     },
     sections: [
       {
         title: "About",
-        content: "Elara Vance was born in the lower rings of the celestial city. Orphaned at a young age, she learned to navigate the treacherous underbelly to survive."
+        content: "Bryan Zans was an assistant."
       },
       {
         title: "Abilities",
-        content: "She is known for her quick wit, unparalleled agility, and her signature dual daggers. Despite her tough exterior, she has a strong moral compass and often helps those who cannot help themselves."
+        content: "Bryan is a very good assistant and is able to help with many things."
       }
     ]
   },
