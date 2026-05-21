@@ -35,12 +35,9 @@ export const characters: Character[] = [
     ]
   },
   {
-    id: "kylar-stern",
-    name: "Kylar Stern",
+    id: "darknity-darkezus",
+    name: "Darknity Darkezus",
     images: [
-      "/assets/hobbies/kylar-1.jpg",
-      "/assets/hobbies/kylar-2.jpg",
-      "/assets/hobbies/kylar-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -60,12 +57,998 @@ export const characters: Character[] = [
     ]
   },
   {
-    id: "lyra-silvertongue",
-    name: "Lyra Silvertongue",
+    id: "dazernier-dragonite",
+    name: "Dazernier Dragonite",
     images: [
-      "/assets/hobbies/lyra-1.jpg",
-      "/assets/hobbies/lyra-2.jpg",
-      "/assets/hobbies/lyra-3.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "fieldin-paladin",
+    name: "Fieldin Paladin",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "gespierd-saluntus",
+    name: "Gespierd Saluntus",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "sauterelle-savoy",
+    name: "Sauterelle Savoy",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "kula-seepferdchen",
+    name: "Kula Seepferdchen",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "leaftree-rockwood",
+    name: "Leaftree Rockwood",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "naim-firdaus",
+    name: "Naim Firdaus",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "nogard-von-hester",
+    name: "Nogard Von Hester",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "retrock",
+    name: "Retrock",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "satria-windjaja",
+    name: "Satria Windjaja",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "the-turkey-headed-spy",
+    name: "The Turkey-Headed Spy",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "wilde-heuschrecke",
+    name: "Wilde Heuschrecke",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "yatahannus",
+    name: "Yatahannus",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "young-koko",
+    name: "Young Koko",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "zaid-daris",
+    name: "Zaid Daris",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "zenith-overwise",
+    name: "Zenith Overwise",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "zetnavvir",
+    name: "Zetnavvir",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "legardon-melvillei",
+    name: "Legardon Melvillei",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "mark-melvillei",
+    name: "Mark Melvillei",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "elixsian-fields",
+    name: "Elixsian Fields",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "wells-warden",
+    name: "Wells Warden",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "flizth-fellow",
+    name: "Flizth Fellow",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "zaku-genan",
+    name: "Zaku Genan",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "dragon-headed-robot",
+    name: "Dragon-Headed Robot",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "reogulus-nova-hypthon",
+    name: "Reogulus Nova Hypthon",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "rechepeus-nova-hypthon",
+    name: "Rechepeus Nova Hypthon",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "hydrus-hypthon",
+    name: "Hydrus Hypthon",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "nevy-nova",
+    name: "Nevy Nova",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "hydral-hypthon",
+    name: "Hydral Hypthon",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "requus-alius-gallus",
+    name: "Requus Alius Gallus",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "kavalleta-fraist",
+    name: "Kavalleta Fraist",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "roy-rigel-rafiers",
+    name: "Roy Rigel Rafiers",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "magellades-mentauri",
+    name: "Magellades Mentauri",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "reptiladorn-axorian",
+    name: "Reptiladorn Axorian",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "honesta-hornett",
+    name: "Honesta Hornett",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "relysian-ray",
+    name: "Relyian Ray",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "mersil-messier",
+    name: "Mersil Messier",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "kremir-kronor",
+    name: "Kremir Kronor",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "azwir-aion",
+    name: "Azwir Aion",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "arthloporsus",
+    name: "Arthloporsus",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "arkloporsus",
+    name: "Arkloporsus",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "zorganan",
+    name: "Zorganan",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "taranis-tartarus",
+    name: "Taranis Tartarus",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "A charismatic bard who knows too many secrets." }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+      },
+      {
+        title: "Methods",
+        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+      }
+    ]
+  },
+  {
+    id: "azzarius-antares",
+    name: "Azzarius Antares",
+    images: [
     ],
     details: [
       { label: "Gender", value: "Female" },
