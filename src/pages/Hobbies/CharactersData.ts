@@ -20,7 +20,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Human" },
       { label: "Occupation", value: "Assistant" },
-      { label: "ShortDescription", value: "Assistant." }
+      { label: "ShortDescription", value: "Assistant" }
     ],
     sections: [
       {
@@ -151,7 +151,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Alien Father and Businessman" }
+      { label: "ShortDescription", value: "Loculustian Father and Businessman" }
     ],
     sections: [
       {
@@ -369,7 +369,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Alien General" }
+      { label: "ShortDescription", value: "Loculustian General" }
     ],
     sections: [
       {
