@@ -2,8 +2,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { mediaKitData } from "./MediaKitData";
 import { ArrowRight } from "lucide-react";
-import { FaInstagram } from "react-icons/fa6";
-import { SiTiktok } from "react-icons/si";
+import IconResolver from "../../components/IconResolver";
+import { InstagramEmbed, TikTokEmbed } from "react-social-media-embed";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function MediaKit() {
@@ -38,11 +38,11 @@ export default function MediaKit() {
             ))}
           </div>
 
-          <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full p-1.5 bg-gradient-to-br from-maroon-500 to-maroon-900 dark:from-red-600 dark:to-red-950 shadow-2xl mt-4">
+          <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full shadow-2xl mt-4">
             <img 
               src={mediaKitData.avatarUrl} 
               alt={mediaKitData.name} 
-              className="w-full h-full object-cover rounded-full border-4 border-white dark:border-[#202121]"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
 
@@ -84,8 +84,7 @@ export default function MediaKit() {
                 className="bg-white/90 dark:bg-red-950/60 backdrop-blur-md rounded-2xl p-8 border border-maroon-900/10 dark:border-red-800/50 shadow-lg text-center flex flex-col items-center justify-center gap-5 transition-all w-full h-full"
               >
                 <div className="w-16 h-16 rounded-full bg-maroon-50 dark:bg-red-900/80 flex items-center justify-center text-maroon-700 dark:text-red-200 group-hover:bg-maroon-600 group-hover:text-white dark:group-hover:bg-red-700 transition-colors duration-300">
-                  {item.icon === 'instagram' ? <FaInstagram className="w-8 h-8" /> : 
-                   item.icon === 'tiktok' ? <SiTiktok className="w-7 h-7" /> : null}
+                  <IconResolver name={item.platform} className="w-8 h-8" />
                 </div>
                 <div>
                   <h3 className="text-4xl font-black text-maroon-900 dark:text-white group-hover:text-maroon-700 dark:group-hover:text-red-300 transition-colors">
@@ -146,7 +145,7 @@ export default function MediaKit() {
                   : "bg-maroon-50 text-maroon-800 hover:bg-maroon-100 dark:bg-red-950/50 dark:text-red-100 dark:hover:bg-red-900/60"
                 }`}
               >
-                {social.platform === "Instagram" ? <FaInstagram className="w-5 h-5"/> : <SiTiktok className="w-5 h-5"/>}
+                <IconResolver name={social.platform} className="w-5 h-5"/>
                 {social.platform}
               </button>
             ))}
@@ -154,26 +153,37 @@ export default function MediaKit() {
 
           <div className="w-full h-[500px] md:h-[600px] rounded-3xl overflow-hidden relative shadow-2xl bg-maroon-100 dark:bg-black/40 border border-maroon-200 dark:border-red-900/30 group">
             <AnimatePresence mode="wait">
-              <motion.img
+              <motion.div
                 key={activePlatform}
-                src={mediaKitData.socialCarousel[activePlatform].url}
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.4, ease: "easeOut" }}
-                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                alt={`${mediaKitData.socialCarousel[activePlatform].platform} Latest Post`}
-              />
+                className="absolute inset-0 w-full h-full flex flex-col items-center justify-center overflow-y-auto overflow-x-hidden custom-scrollbar bg-white dark:bg-black/20"
+              >
+                {/* @ts-ignore embedHtml check */}
+                {mediaKitData.socialCarousel[activePlatform].embedHtml ? (
+                  <div 
+                    dangerouslySetInnerHTML={{ __html: mediaKitData.socialCarousel[activePlatform].embedHtml || '' }}
+                    className="w-full flex justify-center py-4"
+                  />
+                ) : mediaKitData.socialCarousel[activePlatform].platform === "Instagram" && mediaKitData.socialCarousel[activePlatform].url ? (
+                  <div className="w-full max-w-[400px] py-4">
+                    <InstagramEmbed url={mediaKitData.socialCarousel[activePlatform].url} width="100%" />
+                  </div>
+                ) : mediaKitData.socialCarousel[activePlatform].platform === "TikTok" && mediaKitData.socialCarousel[activePlatform].url ? (
+                  <div className="w-full max-w-[400px] py-4">
+                    <TikTokEmbed url={mediaKitData.socialCarousel[activePlatform].url} width="100%" />
+                  </div>
+                ) : (
+                  <img
+                    src={mediaKitData.socialCarousel[activePlatform].url}
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    alt={`${mediaKitData.socialCarousel[activePlatform].platform} Latest Post`}
+                  />
+                )}
+              </motion.div>
             </AnimatePresence>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
-               <a 
-                  href="#"
-                  className="flex items-center gap-2 text-white font-bold bg-white/20 backdrop-blur-md px-6 py-3 rounded-full hover:bg-white/30 transition-colors"
-                >
-                  View on {mediaKitData.socialCarousel[activePlatform].platform}
-                  <ArrowRight className="w-5 h-5" />
-               </a>
-            </div>
           </div>
         </motion.section>
 

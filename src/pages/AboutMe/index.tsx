@@ -19,7 +19,7 @@ import { motion } from "motion/react";
 const getIcon = (label: string) => {
   switch (label) {
     case "Motto": return <Quote className="w-5 h-5 shrink-0" />;
-    case "Position": return <Briefcase className="w-5 h-5 shrink-0" />;
+    case "Current Position": return <Briefcase className="w-5 h-5 shrink-0" />;
     case "Age": return <Calendar className="w-5 h-5 shrink-0" />;
     case "Marital Status": return <Heart className="w-5 h-5 shrink-0" />;
     case "MBTI Type": return <Brain className="w-5 h-5 shrink-0" />;

@@ -112,19 +112,19 @@ export default function UnifiedCard({
       )}
 
       {media && media.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-auto pt-6 border-t border-maroon-900/10 dark:border-white/10">
+        <div className="flex overflow-x-auto gap-4 mt-auto pt-6 pb-4 border-t border-maroon-900/10 dark:border-white/10 custom-scrollbar">
           {media.map((item, idx) => {
             const type = item.type || "image";
             if (type === 'image') {
               return (
-                <div key={idx} className="relative group/media overflow-hidden rounded-xl border border-maroon-100 dark:border-white/20 transition-colors shadow-md bg-maroon-50 dark:bg-white/5 aspect-video">
+                <div key={idx} className="relative shrink-0 w-72 sm:w-80 group/media overflow-hidden rounded-xl border border-maroon-100 dark:border-white/20 transition-colors shadow-md bg-maroon-50 dark:bg-white/5 aspect-video">
                   <img src={item.url} alt={`Media ${idx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
               );
             }
             if (type === 'video') {
               return (
-                <div key={idx} className="relative rounded-xl border border-maroon-100 dark:border-white/20 overflow-hidden bg-maroon-900/5 dark:bg-white/5 flex flex-col items-center justify-center p-4 transition-colors shadow-md aspect-video group/video hover:bg-maroon-900/10 dark:hover:bg-white/10">
+                <div key={idx} className="relative shrink-0 w-72 sm:w-80 rounded-xl border border-maroon-100 dark:border-white/20 overflow-hidden bg-maroon-900/5 dark:bg-white/5 flex flex-col items-center justify-center p-4 transition-colors shadow-md aspect-video group/video hover:bg-maroon-900/10 dark:hover:bg-white/10">
                    <Video className="w-8 h-8 text-maroon-400 dark:text-white/80 opacity-80 mb-2 group-hover/video:scale-110 transition-transform" />
                    <span className="text-sm font-medium text-maroon-800 dark:text-white text-center px-2">{item.title || "Video Attachment"}</span>
                 </div>
@@ -132,7 +132,7 @@ export default function UnifiedCard({
             }
             if (type === 'pdf') {
               return (
-                <a key={idx} href={item.url} className="flex items-center justify-between p-4 rounded-xl border border-maroon-200 dark:border-white/20 bg-maroon-50 dark:bg-white/5 hover:bg-maroon-100 dark:hover:bg-white/10 transition-colors shadow-md group/pdf min-h-[5rem]">
+                <a key={idx} href={item.url} className="flex shrink-0 w-64 sm:w-72 items-center justify-between p-4 rounded-xl border border-maroon-200 dark:border-white/20 bg-maroon-50 dark:bg-white/5 hover:bg-maroon-100 dark:hover:bg-white/10 transition-colors shadow-md group/pdf min-h-[5rem]">
                   <div className="flex items-center gap-3 w-full">
                     <div className="p-2 bg-white dark:bg-white/10 rounded-lg text-maroon-700 dark:text-white shadow-sm group-hover/pdf:scale-110 transition-transform shrink-0">
                         <FileText className="w-5 h-5" />

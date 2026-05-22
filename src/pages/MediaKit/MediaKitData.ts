@@ -10,13 +10,13 @@ export const mediaKitData = {
     { title: "Digital-First Strategy", description: "Crafting campaigns seamlessly designed for modern digital platforms and interfaces." }
   ],
   reach: [
-    { platform: "LinkedIn", label: "Followers", value: "17", icon: "linkedin", url: "https://www.linkedin.com/in/taqizdihar" },
-    { platform: "Instagram", label: "Followers", value: "11", icon: "instagram", url: "https://www.instagram.com/taqizdihar/?utm_source=ig_web_button_share_sheet" },
-    { platform: "Instagram", label: "Followers", value: "134", icon: "instagram", url: "https://www.instagram.com/izdiharry?igsh=MW92NW96cmw0M3MwdA==" },
-    { platform: "YouTube", label: "Followers", value: "2", icon: "youtube", url: "https://youtube.com/@taqizdihary?si=IRWcOQjrIpp197Yp" }
+    { platform: "LinkedIn", label: "Followers", value: "17", url: "https://www.linkedin.com/in/taqizdihar" },
+    { platform: "Instagram", label: "Followers", value: "11", url: "https://www.instagram.com/taqizdihar/?utm_source=ig_web_button_share_sheet" },
+    { platform: "Instagram", label: "Followers", value: "134", url: "https://www.instagram.com/izdiharry?igsh=MW92NW96cmw0M3MwdA==" },
+    { platform: "YouTube", label: "Followers", value: "2", url: "https://youtube.com/@taqizdihary?si=IRWcOQjrIpp197Yp" }
   ],
   socialCarousel: [
-    { platform: "Instagram", url: "" },
-    { platform: "TikTok", url: "" }
+    { platform: "Instagram", url: "https://www.instagram.com/p/CXYZ", embedHtml: "" },
+    { platform: "TikTok", url: "https://www.tiktok.com/@m.taqizdihar/video/7106594312292453678", embedHtml: "" }
   ]
 };

@@ -34,21 +34,18 @@ interface SidebarProps {
 
 export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
   const location = useLocation();
-  const [imageIndex, setImageIndex] = useState(0);
-  const [flipDegree, setFlipDegree] = useState(0);
-  const [isMirrored, setIsMirrored] = useState(false);
+  const [flipCount, setFlipCount] = useState(0);
   const [isFlipping, setIsFlipping] = useState(false);
 
   const handleProfileClick = () => {
     if (isFlipping) return;
     setIsFlipping(true);
-    setFlipDegree((prev) => prev + 180);
-    // Change image at exactly half the animation duration (300ms) when the flip is edge-on sideways to hide the transition
-    setTimeout(() => {
-      setImageIndex((prev) => (prev + 1) % profileImages.length);
-      setIsMirrored((prev) => !prev);
-    }, 300);
+    setFlipCount((prev) => prev + 1);
   };
+
+  const isEven = flipCount % 2 === 0;
+  const frontIndex = isEven ? (flipCount % profileImages.length) : ((flipCount + 1) % profileImages.length);
+  const backIndex = isEven ? ((flipCount + 1) % profileImages.length) : (flipCount % profileImages.length);
 
   const checkIsActive = (path: string, isActiveDefault: boolean) => {
     if (path === "/") {
@@ -73,20 +70,26 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
         <motion.div 
           animate={{ scale: [1, 1.03, 1] }} 
           transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-          className="relative w-[min(7rem,16vh)] h-[min(7rem,16vh)] rounded-full mb-[min(0.75rem,1.5vh)] p-[min(0.25rem,0.5vh)] bg-gradient-to-br from-maroon-400 to-maroon-800 dark:from-white/20 dark:to-white/5 transition-colors duration-300 shadow-xl shrink-0 [perspective:1000px]"
+          className="relative w-[min(7rem,16vh)] h-[min(7rem,16vh)] rounded-full mb-[min(0.75rem,1.5vh)] shadow-xl shrink-0 [perspective:1000px]"
         >
            <motion.button 
              onClick={handleProfileClick}
-             animate={{ rotateY: flipDegree }}
+             animate={{ rotateY: flipCount * 180 }}
              transition={{ duration: 0.6, ease: "easeInOut" }}
              onAnimationComplete={() => setIsFlipping(false)}
-             className="relative w-full h-full rounded-full bg-stone-100 dark:bg-[#A81717] flex items-center justify-center overflow-hidden transition-colors duration-300 border border-transparent dark:border-white/10 [transform-style:preserve-3d] cursor-pointer outline-none focus:ring-2 focus:ring-maroon-500 focus:ring-offset-2 dark:focus:ring-offset-[#211116]"
+             className="relative w-full h-full rounded-full bg-stone-100 dark:bg-[#A81717] flex items-center justify-center transition-colors duration-300 [transform-style:preserve-3d] cursor-pointer"
            >
-            {/* Image */}
+            {/* Front Face */}
             <img 
-              src={profileImages[imageIndex]} 
-              alt="Profile" 
-              className={`w-full h-full object-cover rounded-full ${isMirrored ? '[transform:scaleX(-1)]' : ''}`}
+              src={profileImages[frontIndex]} 
+              alt="Profile Front" 
+              className="absolute inset-0 w-full h-full object-cover rounded-full [backface-visibility:hidden]"
+            />
+            {/* Back Face */}
+            <img 
+              src={profileImages[backIndex]} 
+              alt="Profile Back" 
+              className="absolute inset-0 w-full h-full object-cover rounded-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
             />
           </motion.button>
         </motion.div>

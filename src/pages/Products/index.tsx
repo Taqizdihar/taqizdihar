@@ -16,7 +16,7 @@ export default function Products() {
 
       {productPromo && (
         <section>
-          <div className="relative bg-white/90 dark:bg-[#A81717] backdrop-blur-md rounded-2xl md:rounded-3xl border border-maroon-900/10 dark:border-white/10 shadow-xl overflow-hidden group flex flex-col md:flex-row min-h-[400px]">
+          <div className="relative bg-white/90 dark:bg-[#A81717] backdrop-blur-md rounded-2xl md:rounded-3xl border border-maroon-900/10 dark:border-white/10 shadow-xl overflow-hidden group flex flex-col md:flex-row min-h-[250px]">
             {/* Left side: Image with gradient mask */}
             <div className="relative w-full md:w-1/2 h-64 md:h-auto overflow-hidden">
               <img
@@ -31,7 +31,7 @@ export default function Products() {
             </div>
 
             {/* Right side: Content */}
-            <div className="relative w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center dark:bg-transparent">
+            <div className="relative w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center dark:bg-transparent">
               <div className="bg-orange-100 dark:bg-orange-500/20 text-orange-600 dark:text-orange-300 w-fit px-4 py-1.5 rounded-full text-sm font-bold tracking-wide uppercase mb-6 flex items-center gap-2 border border-orange-200 dark:border-orange-500/30">
                 <ShoppingBag className="w-4 h-4" />
                 Featured Store
@@ -41,7 +41,7 @@ export default function Products() {
                 {productPromo.title}
               </h2>
 
-              <p className="text-lg text-maroon-800/80 dark:text-red-50 mb-8 font-light leading-relaxed">
+              <p className="text-lg text-maroon-800/80 dark:text-red-50 mb-6 font-light leading-relaxed">
                 {productPromo.description}
               </p>
 
