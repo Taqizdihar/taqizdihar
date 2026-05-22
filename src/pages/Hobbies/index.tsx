@@ -21,7 +21,7 @@ export default function Hobbies() {
         {/* Prominent Wide Promo Card */}
         <div className="relative w-full rounded-3xl overflow-hidden bg-maroon-50 dark:bg-[#A81717]/20 border border-maroon-900/10 dark:border-white/10 shadow-xl flex flex-col md:flex-row group transition-all duration-300 hover:shadow-2xl">
           {/* Left Side: Blended Image */}
-          <div className="relative w-full md:w-[35%] lg:w-[30%] h-64 md:h-auto overflow-hidden [-webkit-mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] md:[-webkit-mask-image:linear-gradient(to_right,black_60%,transparent_100%)] md:[mask-image:linear-gradient(to_right,black_60%,transparent_100%)] shrink-0">
+          <div className="relative w-full md:w-[60%] lg:w-[50%] h-64 md:h-[400px] lg:h-[450px] overflow-hidden [-webkit-mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] md:[-webkit-mask-image:linear-gradient(to_right,black_60%,transparent_100%)] md:[mask-image:linear-gradient(to_right,black_60%,transparent_100%)] shrink-0">
             <img 
               src="/assets/hobbies/My Characters.jpg" 
               alt="Art sketch"
@@ -30,7 +30,7 @@ export default function Hobbies() {
           </div>
 
           {/* Right Side: Content */}
-          <div className="flex-1 p-8 md:p-12 flex flex-col justify-center relative z-10 md:-ml-8 bg-maroon-50 dark:bg-transparent dark:md:bg-transparent">
+          <div className="flex-1 p-8 md:p-12 md:pl-16 lg:pl-24 flex flex-col justify-center relative z-10 bg-maroon-50 dark:bg-transparent dark:md:bg-transparent">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-maroon-900 dark:text-white mb-4 transition-colors">
               My Characters
             </h2>

@@ -82,9 +82,17 @@ export default function CharacterDetail() {
                   <span className="text-maroon-600 dark:text-white/60 text-right">{character.name}</span>
                 </div>
                 {character.details.filter(detail => detail.label !== "ShortDescription").map((detail, idx) => (
-                  <div key={idx} className="flex justify-between items-center py-2 border-b border-maroon-900/5 dark:border-white/5 last:border-0 last:pb-0">
+                  <div key={idx} className={`flex ${detail.list ? 'flex-col items-start gap-2' : 'justify-between items-center'} py-2 border-b border-maroon-900/5 dark:border-white/5 last:border-0 last:pb-0`}>
                     <span className="font-semibold text-maroon-800 dark:text-white/80">{detail.label}</span>
-                    <span className="text-maroon-600 dark:text-white/60 text-right">{detail.value}</span>
+                    {detail.list ? (
+                      <ul className="list-disc list-inside text-maroon-600 dark:text-white/60 text-left pl-2">
+                        {detail.list.map((item, i) => (
+                          <li key={i}>{item}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <span className="text-maroon-600 dark:text-white/60 text-right">{detail.value}</span>
+                    )}
                   </div>
                 ))}
               </div>

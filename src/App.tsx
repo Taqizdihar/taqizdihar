@@ -12,12 +12,14 @@ import MediaKit from "./pages/MediaKit";
 import Hobbies from "./pages/Hobbies";
 import Characters from "./pages/Hobbies/Characters";
 import CharacterDetail from "./pages/Hobbies/CharacterDetail";
+import ScrollToTop from "./components/ScrollToTop";
 import { ThemeProvider } from "./contexts/ThemeContext";
 
 export default function App() {
   return (
     <ThemeProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

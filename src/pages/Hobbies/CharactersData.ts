@@ -2,7 +2,7 @@ export interface Character {
   id: string;
   name: string;
   images: string[];
-  details: { label: string; value: string }[];
+  details: { label: string; value?: string; list?: string[] }[];
   sections: { title: string; content: string }[];
 }
 
