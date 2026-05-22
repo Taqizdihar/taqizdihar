@@ -3,7 +3,7 @@ export const achievements = [
     id: 1,
     title: "Oracle Academy | SQL Award of Completion",
     issuer: "Oracle Academy",
-    issuerLogo: "/assets/achievements/ministry-logo.jpg",
+    issuerLogo: "",
     startDate: "November 2025",
     endDate: "",
     description: "Award of Completion from Oracle Academy for completing a full English SQL coursework at Telkom University through Database I (second semester) and Database II (third semester) courses. Issued on 17 November 2025 after accomplishing the Oracle Completed Certification via Telkom University's Learning Management System (LMS) on the same date, with a final grade of 80.77.",
