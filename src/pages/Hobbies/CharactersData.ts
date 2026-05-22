@@ -19,7 +19,7 @@ export const characters: Character[] = [
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Human" },
-      { label: "Role", value: "Assistant" },
+      { label: "Occupation", value: "Assistant" },
       { label: "ShortDescription", value: "Assistant." }
     ],
     sections: [
@@ -44,8 +44,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Elf" },
-      { label: "Role", value: "Ranger" },
+      { label: "Species", value: "Intuneric" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Great Emperor of Darkness" }
     ],
     sections: [
@@ -68,11 +68,10 @@ export const characters: Character[] = [
       "/assets/hobbies/Dazernier Dragonite/Dazernier Dragonite-3.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Dragonman Berserker-Wanderer" }
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Dragonman" },
+      { label: "Occupation", value: "Wanderer" },
+      { label: "ShortDescription", value: "Dragonman Wanderer" }
     ],
     sections: [
       {
@@ -96,11 +95,10 @@ export const characters: Character[] = [
       "/assets/hobbies/Fieldin Paladin/Fieldin Paladin-5.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Former Paladin Gardener" }
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Gardener" },
+      { label: "ShortDescription", value: "Former Paladin & Gardener" }
     ],
     sections: [
       {
@@ -122,10 +120,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-3.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Pessulustiant" },
+      { label: "Occupation", value: "Businessman" },
       { label: "ShortDescription", value: "Cousin of Reogulus" }
     ],
     sections: [
