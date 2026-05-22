@@ -26,7 +26,7 @@ export const achievements = [
     id: 3,
     title: "1st Runner-Up | Blood Donation Short Movie in Aksi Pertanda 13 Part VII",
     issuer: "Youth Red Cross Society",
-    issuerLogo: "/assets/achievements/PMR.png",
+    issuerLogo: "/assets/logo/PMR.png",
     startDate: "December 2023",
     endDate: "",
     description: "1st runner-up in the blood donation short movie competition held by the Indonesian Youth Red Cross Society (PMR) in SMKN 13 Bandung, December 16. The short movie is titled \"Donor Successor\" and features only two people, including me, and one 3D holographic character created in Blender. The story mainly focused on the struggle of getting blood donations in the future.",

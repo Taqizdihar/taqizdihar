@@ -147,10 +147,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Sauterelle Savoy/Sauterelle Savoy-5.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Loculustian" },
+      { label: "Occupation", value: "Father and Businessman" },
       { label: "ShortDescription", value: "Loculustian Father and Businessman" }
     ],
     sections: [
@@ -177,8 +176,8 @@ export const characters: Character[] = [
       "/assets/hobbies/Kula Seepferdchen/Kula Seepferdchen-7.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Samudrawan" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
       { label: "ShortDescription", value: "Marineman Martial Artist" }
