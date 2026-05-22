@@ -2,7 +2,7 @@ export const organizations = [
   {
     id: 1,
     orgName: "Uni-Inside",
-    orgLogo: "",
+    orgLogo: "/assets/logo/Uni-Inside.png",
     position: "Chief Technology Officer (CTO)",
     startDate: "January 2026",
     endDate: "Present",
@@ -12,7 +12,7 @@ export const organizations = [
   {
     id: 2,
     orgName: "HMDSI FIT Telkom University",
-    orgLogo: "",
+    orgLogo: "/assets/logo/HMDSI FIT.png",
     position: "Deputy Head of Academic & Research Department",
     startDate: "February 2026",
     endDate: "Present",
@@ -22,7 +22,7 @@ export const organizations = [
   {
     id: 3,
     orgName: "Ko+Lab Research Alliance",
-    orgLogo: "",
+    orgLogo: "/assets/logo/Kolab.png",
     position: "Developer & Programmer",
     startDate: "September 2025",
     endDate: "Present",
@@ -32,7 +32,7 @@ export const organizations = [
   {
     id: 4,
     orgName: "Tim Budi Pekerti Telkom University",
-    orgLogo: "",
+    orgLogo: "/assets/logo/Tim Budi Pekerti.png",
     position: "Designer",
     startDate: "October 2024",
     endDate: "November 2025",
@@ -42,7 +42,7 @@ export const organizations = [
   {
     id: 5,
     orgName: "Relawan SMK Telkom Bandung",
-    orgLogo: "",
+    orgLogo: "/assets/logo/Relawan.png",
     position: "Photographer",
     startDate: "July 2022",
     endDate: "Present",
@@ -52,7 +52,7 @@ export const organizations = [
   {
     id: 6,
     orgName: "Indonesian Youth Red Cross Society (PMR)",
-    orgLogo: "",
+    orgLogo: "/assets/logo/PMR.png",
     position: "Photographer",
     startDate: "August 2022",
     endDate: "July 2023",
@@ -62,7 +62,7 @@ export const organizations = [
   {
     id: 7,
     orgName: "Multimedia Club SMK Telkom Bandung",
-    orgLogo: "",
+    orgLogo: "/assets/logo/Multimedia.png",
     position: "Member",
     startDate: "July 2022",
     endDate: "July 2023",
