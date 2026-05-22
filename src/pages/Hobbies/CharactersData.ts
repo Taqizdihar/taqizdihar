@@ -1801,7 +1801,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Prince" }
+      { label: "ShortDescription", value: "Dark Protector" }
     ],
     sections: [
       {
@@ -1825,7 +1825,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Prince" }
+      { label: "ShortDescription", value: "Math Final Boss" }
     ],
     sections: [
       {
@@ -1849,7 +1849,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Prince" }
+      { label: "ShortDescription", value: "Purifier of Planets" }
     ],
     sections: [
       {
@@ -1865,13 +1865,16 @@ export const characters: Character[] = [
   {
     id: "minecraft-heavenly-being",
     name: "Minecraft Heavenly Being",
-    images: [],
+    images: [
+      "/assets/hobbies/Minecraft Heavenly Being/Minecraft Heavenly Being-1.jpg",
+      "/assets/hobbies/Minecraft Heavenly Being/Minecraft Heavenly Being-2.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Prince" }
+      { label: "ShortDescription", value: "Heavenly Envoy of Aether" }
     ],
     sections: [
       {
@@ -1893,7 +1896,7 @@ export const characters: Character[] = [
       { label: "Species", value: "Halfling" },
       { label: "Role", value: "Bard" },
       { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Prince" }
+      { label: "ShortDescription", value: "Minecraft Adventurer" }
     ],
     sections: [
       {
