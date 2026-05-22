@@ -569,7 +569,11 @@ export const characters: Character[] = [
   {
     id: "elixsian-fields",
     name: "Elixsian Fields",
-    images: [],
+    images: [
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-1.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-2.jpg"
+      
+    ],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -591,7 +595,10 @@ export const characters: Character[] = [
   {
     id: "wells-warden",
     name: "Wells Warden",
-    images: [],
+    images: [
+      "/assets/hobbies/Wells Warden/Wells Warden-1.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-2.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
@@ -613,7 +620,10 @@ export const characters: Character[] = [
   {
     id: "flizth-fellow",
     name: "Flizth Fellow",
-    images: [],
+    images: [
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-1.jpg",
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-2.jpg"
+    ],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -635,7 +645,10 @@ export const characters: Character[] = [
   {
     id: "zaku-genan",
     name: "Zaku Genan",
-    images: [],
+    images: [
+      "/assets/hobbies/Zaku Genan/Zaku Genan-1.jpg",
+      "/assets/hobbies/Zaku Genan/Zaku Genan-2.jpg"
+    ],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -660,7 +673,8 @@ export const characters: Character[] = [
     images: [
       "/assets/hobbies/Dragon-Headed Robot/D.H.R-1.jpg",
       "/assets/hobbies/Dragon-Headed Robot/D.H.R-2.jpg",
-      "/assets/hobbies/Dragon-Headed Robot/D.H.R-3.jpg"
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-3.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Female" },
@@ -683,7 +697,9 @@ export const characters: Character[] = [
   {
     id: "reogulus-nova-hypthon",
     name: "Reogulus Nova Hypthon",
-    images: [],
+    images: [
+      "/assets/hobbies/Reogulus Nova Hypthon/Reogulus Nova Hypthon-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Halfling" },
@@ -1774,7 +1790,12 @@ export const characters: Character[] = [
   {
     id: "kronos",
     name: "Kronos",
-    images: [],
+    images: [
+      "/assets/hobbies/Kronos/Kronos-1.jpg",
+      "/assets/hobbies/Kronos/Kronos-2.jpg",
+      "/assets/hobbies/Kronos/Kronos-3.jpg",
+      "/assets/hobbies/Kronos/Kronos-4.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
@@ -1796,7 +1817,9 @@ export const characters: Character[] = [
   {
     id: "mathlust",
     name: "Mathlust",
-    images: [],
+    images: [
+      "/assets/hobbies/Mathlust/Mathlust-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
@@ -1818,7 +1841,9 @@ export const characters: Character[] = [
   {
     id: "musaz-sanatri",
     name: "Musaz Sanatri",
-    images: [],
+    images: [
+      "/assets/hobbies/Musaz Sanatri/Musaz Sanatri-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Halfling" },
