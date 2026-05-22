@@ -51,7 +51,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Kylar has spent centuries patrolling the deep woods. His connection to nature allows him to move unseen and unheard by even the most perceptive prey."
+        content: ""
       },
       {
         title: "Quest",
@@ -76,11 +76,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -103,11 +103,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -128,11 +128,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -156,11 +156,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -186,11 +186,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -213,11 +213,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -240,11 +240,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -269,11 +269,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -295,11 +295,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -319,11 +319,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -348,11 +348,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -374,11 +374,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -399,11 +399,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -425,11 +425,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -449,11 +449,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -475,11 +475,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -501,11 +501,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -529,11 +529,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -558,11 +558,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -580,11 +580,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -602,11 +602,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -624,11 +624,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -646,11 +646,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -672,11 +672,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -694,11 +694,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -716,11 +716,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -744,11 +744,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -766,11 +766,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -790,11 +790,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -814,11 +814,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -836,11 +836,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -860,11 +860,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -884,11 +884,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -906,11 +906,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -930,11 +930,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -954,11 +954,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -976,11 +976,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -998,11 +998,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1020,11 +1020,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1042,11 +1042,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1064,11 +1064,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1086,11 +1086,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1108,11 +1108,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1130,11 +1130,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1152,11 +1152,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1174,11 +1174,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1196,11 +1196,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1218,11 +1218,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1240,11 +1240,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1262,11 +1262,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1284,11 +1284,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1306,11 +1306,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1328,11 +1328,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1350,11 +1350,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1372,11 +1372,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1394,11 +1394,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1416,11 +1416,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1438,11 +1438,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1460,11 +1460,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1482,11 +1482,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1509,11 +1509,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1533,11 +1533,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1555,11 +1555,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1577,11 +1577,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1601,11 +1601,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1625,11 +1625,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1649,11 +1649,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1673,11 +1673,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1697,11 +1697,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1719,11 +1719,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1741,11 +1741,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
       }
     ]
   },
@@ -1763,11 +1763,121 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Lyra travels from tavern to tavern, singing songs of old heroes and new betrayals. But her music is just a cover for her true profession: information brokering."
+        content: ""
       },
       {
         title: "Methods",
-        content: "She uses her charm and her magical lute to manipulate emotions and extract truths from unwary nobles and hardened criminals alike."
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "kronos",
+    name: "Kronos",
+    images: [],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "Prince" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "mathlust",
+    name: "Mathlust",
+    images: [],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "Prince" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "musaz-sanatri",
+    name: "Musaz Sanatri",
+    images: [],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "Prince" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "minecraft-heavenly-being",
+    name: "Minecraft Heavenly Being",
+    images: [],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "Prince" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "syclone",
+    name: "Syclone",
+    images: [],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "Prince" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
       }
     ]
   }
