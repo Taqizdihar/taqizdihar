@@ -178,9 +178,8 @@ export const characters: Character[] = [
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Samudrawan" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Marineman Martial Artist" }
+      { label: "Occupation", value: "Martial Artist" },
+      { label: "ShortDescription", value: "Samudrawan Martial Artist" }
     ],
     sections: [
       {
@@ -203,10 +202,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Leaftree Rockwood/Leaftree Rockwood-4.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Tree Man" },
+      { label: "Occupation", value: "Protector of The Forests" },
       { label: "ShortDescription", value: "Protector of The Forests" }
     ],
     sections: [
@@ -230,10 +228,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Naim Firdaus/Naim Firdaus-4.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Ustad" },
       { label: "ShortDescription", value: "Ustad" }
     ],
     sections: [
@@ -260,9 +257,7 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Yellow Dragon" },
       { label: "ShortDescription", value: "Wandering Battle Cyborg Dragon" }
     ],
     sections: [
@@ -285,10 +280,10 @@ export const characters: Character[] = [
       "/assets/hobbies/Retrock/Retrock-3.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Intuneric" },
+      { label: "Occupation", value: "Right-Hand Man of Darknity (formerly)" },
+      { label: "Alias", value: "The Idiot" },
       { label: "ShortDescription", value: "Former Right-Hand Man of Darknity" }
     ],
     sections: [
@@ -309,10 +304,10 @@ export const characters: Character[] = [
       "/assets/hobbies/Satria Windjaja/Satria Windjaja-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Martial Artist" },
+      { label: "Alias", value: "Si Akang" },
       { label: "ShortDescription", value: "Angklung Master and Martial Artist" }
     ],
     sections: [
@@ -338,10 +333,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Roasted Turkey-Headed Spy/Roasted Turkey-Headed Spy-6.jpg",
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Turkey (?)" },
+      { label: "Occupation", value: "Spy" },
       { label: "ShortDescription", value: "Super Elite Spy" }
     ],
     sections: [
@@ -364,10 +358,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Wilde Heuschrecke/Wilde Heuschrecke-3.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Loculustian" },
+      { label: "Occupation", value: "General" },
       { label: "ShortDescription", value: "Loculustian General" }
     ],
     sections: [
@@ -389,10 +382,8 @@ export const characters: Character[] = [
       "/assets/hobbies/Yatahannus/Yatahannus-2.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Yard-Davan" },
       { label: "ShortDescription", value: "The Martyr of Furtherous Zurther" }
     ],
     sections: [
@@ -415,10 +406,8 @@ export const characters: Character[] = [
       "/assets/hobbies/Young Koko/Young Koko-3.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Coconut Man" },
       { label: "ShortDescription", value: "Coconut Islandman" }
     ],
     sections: [
@@ -440,9 +429,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Martial Artist" },
       { label: "ShortDescription", value: "Tsufuk Fighter" }
     ],
     sections: [
@@ -465,10 +453,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Zenith Overwise/Zenith Overwise-3.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Vasmirian" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Emperor of Knowledge" }
     ],
     sections: [
@@ -491,10 +478,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Zetnavvir/Zetnavvir-3.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Pessulustian" },
+      { label: "Occupation", value: "Supreme Judge" },
       { label: "ShortDescription", value: "Supreme Judge" }
     ],
     sections: [
@@ -519,11 +505,10 @@ export const characters: Character[] = [
       "/assets/hobbies/Legardon Melvillei/Legardon Melvillei-5.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Marineman Bounty Hunter" }
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Samudrawan" },
+      { label: "Occupation", value: "Bounty Hunter" },
+      { label: "ShortDescription", value: "Samudrawan Bounty Hunter" }
     ],
     sections: [
       {
@@ -549,9 +534,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Samudrawan" },
+      { label: "Occupation", value: "University Student" },
       { label: "ShortDescription", value: "Legardon's Brother" }
     ],
     sections: [
@@ -574,10 +558,9 @@ export const characters: Character[] = [
       
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "Midnight Hero" },
       { label: "ShortDescription", value: "Midnight Hero" }
     ],
     sections: [
@@ -600,9 +583,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "Midnight Hero" },
       { label: "ShortDescription", value: "Midnight Hero" }
     ],
     sections: [
@@ -624,10 +606,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Flizth Fellow/Flizth Fellow-2.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "Midnight Hero" },
       { label: "ShortDescription", value: "Midnight Hero" }
     ],
     sections: [
@@ -649,10 +630,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Zaku Genan/Zaku Genan-2.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "Midnight Hero" },
       { label: "ShortDescription", value: "Midnight Hero" }
     ],
     sections: [
@@ -676,10 +656,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Dragon-Headed Robot/D.H.R-4.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Dragon-Headed Robot" },
+      { label: "Occupation", value: "Assistant Robot" },
       { label: "ShortDescription", value: "Sentient Assistant Robot" }
     ],
     sections: [
@@ -700,10 +679,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Reogulus Nova Hypthon/Reogulus Nova Hypthon-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Pessulustian" },
+      { label: "Occupation", value: "Prince" },
       { label: "ShortDescription", value: "Prince of the Repteilustians" }
     ],
     sections: [
@@ -722,10 +700,9 @@ export const characters: Character[] = [
     name: "Rechepeus Nova Hypthon",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian Hybrid" },
+      { label: "Occupation", value: "Prince" },
       { label: "ShortDescription", value: "Prince of the Repteilustians" }
     ],
     sections: [
@@ -750,10 +727,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-5.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Emperor of the Repteilustians" }
     ],
     sections: [
@@ -773,9 +749,8 @@ export const characters: Character[] = [
     images: [],
     details: [
       { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Pessulustian" },
+      { label: "Occupation", value: "Empress" },
       { label: "ShortDescription", value: "Empress of the Repteilustians" }
     ],
     sections: [
@@ -796,11 +771,10 @@ export const characters: Character[] = [
       "/assets/hobbies/Hydral Hypthon/Hydral Hypthon-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Chancellor of the Repteilustians" }
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "Grand Vizier" },
+      { label: "ShortDescription", value: "Grand Vizier of the Repteilustians" }
     ],
     sections: [
       {
@@ -820,10 +794,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Requus Alius Gallus/Requus Alius Gallus-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Pessulustian" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Emperor of the Pessulustians" }
     ],
     sections: [
@@ -842,10 +815,9 @@ export const characters: Character[] = [
     name: "Kavalleta Fraist",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Loculustian" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Emperor of the Loculustians" }
     ],
     sections: [
@@ -866,10 +838,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Roy Rigel Rafiers/Roy Rigel Rafiers-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Vogelustian" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Emperor of the Vogelustians" }
     ],
     sections: [
@@ -890,10 +861,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Magellades Mentauri/Magellades Mentauri-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Emperor of the Humanusians" }
     ],
     sections: [
@@ -912,10 +882,9 @@ export const characters: Character[] = [
     name: "Reptiladorn Axorian",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "Minister of Defense" },
       { label: "ShortDescription", value: "Minister of Defense of the Repteilustians" }
     ],
     sections: [
@@ -936,10 +905,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Honesta Hornett/Honesta Hornett-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "General" },
       { label: "ShortDescription", value: "General of the Muzzlesters" }
     ],
     sections: [
@@ -960,10 +928,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Relysian Ray/Relysian Ray-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "General" },
       { label: "ShortDescription", value: "Repteilustian General" }
     ],
     sections: [
@@ -982,11 +949,10 @@ export const characters: Character[] = [
     name: "Mersil Messier",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Field Marshal of the Repteilustians" }
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "Marshal of the Fleet"},
+      { label: "ShortDescription", value: "Marshal of the Repteilustians Fleet" }
     ],
     sections: [
       {
@@ -1004,10 +970,9 @@ export const characters: Character[] = [
     name: "Kremir Kronor",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "Colonel"},
       { label: "ShortDescription", value: "Repteilustian Colonel" }
     ],
     sections: [
@@ -1026,11 +991,10 @@ export const characters: Character[] = [
     name: "Azwir Aion",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Mersil Messier's Assistant" }
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "Colonel"},
+      { label: "ShortDescription", value: "Repteilustian Space Colonel" }
     ],
     sections: [
       {
@@ -1048,10 +1012,9 @@ export const characters: Character[] = [
     name: "Arthloporsus",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Galaksiont" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Emperor of the Galaksionts" }
     ],
     sections: [
@@ -1070,10 +1033,9 @@ export const characters: Character[] = [
     name: "Arkloporsus",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Galaksiont" },
+      { label: "Occupation", value: "Crown Prince" },
       { label: "ShortDescription", value: "Crown Prince of the Galaksionts" }
     ],
     sections: [
@@ -1092,10 +1054,9 @@ export const characters: Character[] = [
     name: "Zorganan",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Galaksiont" },
+      { label: "Occupation", value: "General" },
       { label: "ShortDescription", value: "General of the Galaksiont Army" }
     ],
     sections: [
@@ -1114,10 +1075,9 @@ export const characters: Character[] = [
     name: "Taranis Tartarus",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Intuneric" },
+      { label: "Occupation", value: "Dark Lord" },
       { label: "ShortDescription", value: "Dark Lord of Corruption" }
     ],
     sections: [
@@ -1136,10 +1096,8 @@ export const characters: Character[] = [
     name: "Azzarius Antares",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Occupation", value: "Cosmic Sorcerer" },
       { label: "ShortDescription", value: "Master of the Seven Stars" }
     ],
     sections: [
@@ -1158,10 +1116,7 @@ export const characters: Character[] = [
     name: "Mirzavvir",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Sorcerer" },
       { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
@@ -1180,10 +1135,7 @@ export const characters: Character[] = [
     name: "Voxnavvir",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Sorcerer" },
       { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
@@ -1202,10 +1154,7 @@ export const characters: Character[] = [
     name: "Esnavvir",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Sorcerer" },
       { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
@@ -1224,10 +1173,7 @@ export const characters: Character[] = [
     name: "Vurnavvir",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Sorcerer" },
       { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
@@ -1246,10 +1192,7 @@ export const characters: Character[] = [
     name: "Annavvir",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Sorcerer" },
       { label: "ShortDescription", value: "Member of the Seven Stars" }
     ],
     sections: [
@@ -1268,10 +1211,7 @@ export const characters: Character[] = [
     name: "Shadronnavvir",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Sorcerer" },
       { label: "ShortDescription", value: "Leader of the Seven Stars" }
     ],
     sections: [
@@ -1290,10 +1230,8 @@ export const characters: Character[] = [
     name: "Spacer Revellatio",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Occupation", value: "Observer" },
       { label: "ShortDescription", value: "Cosmic Entity" }
     ],
     sections: [
@@ -1312,10 +1250,8 @@ export const characters: Character[] = [
     name: "Heithust Holier",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Occupation", value: "Blacksmith" },
       { label: "ShortDescription", value: "The Great Cosmic Blacksmith" }
     ],
     sections: [
@@ -1334,10 +1270,9 @@ export const characters: Character[] = [
     name: "Rhainor Delaren",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Vasmirian" },
+      { label: "Occupation", value: "Emperor" },
       { label: "ShortDescription", value: "Emperor of the Vasmirians" }
     ],
     sections: [
@@ -1356,10 +1291,9 @@ export const characters: Character[] = [
     name: "Valory Vulrilliant",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Vasmirian" },
+      { label: "Occupation", value: "General" },
       { label: "ShortDescription", value: "Vasmirian General" }
     ],
     sections: [
@@ -1378,10 +1312,9 @@ export const characters: Character[] = [
     name: "Celvin Reamenheit",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Vasmirian" },
+      { label: "Occupation", value: "General" },
       { label: "ShortDescription", value: "Vasmirian General" }
     ],
     sections: [
@@ -1400,10 +1333,9 @@ export const characters: Character[] = [
     name: "Antrofos Anion",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Vasmirian" },
+      { label: "Occupation", value: "General" },
       { label: "ShortDescription", value: "Vasmirian General" }
     ],
     sections: [
@@ -1422,10 +1354,9 @@ export const characters: Character[] = [
     name: "Will Heavenwall",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Robot" },
+      { label: "Occupation", value: "Bodyguard" },
       { label: "ShortDescription", value: "Bodyguard Robot" }
     ],
     sections: [
@@ -1444,10 +1375,9 @@ export const characters: Character[] = [
     name: "Alnilam Lambda",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Vasmirian Hybrid" },
+      { label: "Occupation", value: "Scientist" },
       { label: "ShortDescription", value: "Biological Son of Zenith Overwise" }
     ],
     sections: [
@@ -1466,10 +1396,8 @@ export const characters: Character[] = [
     name: "Alnitah Hides",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Occupation", value: "Adventurer" },
       { label: "ShortDescription", value: "Alnilam's friend" }
     ],
     sections: [
@@ -1489,9 +1417,7 @@ export const characters: Character[] = [
     images: [],
     details: [
       { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Adventurer" },
       { label: "ShortDescription", value: "Alnilam's friend" }
     ],
     sections: [
@@ -1515,10 +1441,10 @@ export const characters: Character[] = [
       "/assets/hobbies/Seguni Gani/Seguni Gani-4.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Samudrawan" },
+      { label: "Occupation", value: "Police Chief" },
+      { label: "Alias", value: "The Fearsome Seguni" },
       { label: "ShortDescription", value: "Police Chief of Lemurialle" }
     ],
     sections: [
@@ -1540,9 +1466,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Samudrawan" },
+      { label: "Occupation", value: "Veteran" },
       { label: "ShortDescription", value: "Father of Legardon & Mark Melvillei" }
     ],
     sections: [
@@ -1562,9 +1487,9 @@ export const characters: Character[] = [
     images: [],
     details: [
       { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Samudrawati" },
+      { label: "Occupation", value: "Cracker Seller" },
+      { label: "Alias", value: "Granny" },
       { label: "ShortDescription", value: "Poor Cracker Seller" }
     ],
     sections: [
@@ -1584,9 +1509,9 @@ export const characters: Character[] = [
     images: [],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Samudrawan" },
+      { label: "Occupation", value: "Mafia Boss" },
+      { label: "Alias", value: "The Fat Pufferfish" },
       { label: "ShortDescription", value: "Leader of the Pufferman Mafia" }
     ],
     sections: [
@@ -1607,10 +1532,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Halley Haryavard/Halley Haryavard-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Astrologist" },
       { label: "ShortDescription", value: "Astrologist" }
     ],
     sections: [
@@ -1632,9 +1556,7 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Human" },
       { label: "ShortDescription", value: "Orphan Kid" }
     ],
     sections: [
@@ -1656,9 +1578,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Student" },
       { label: "ShortDescription", value: "Student" }
     ],
     sections: [
@@ -1679,10 +1600,9 @@ export const characters: Character[] = [
       "/assets/hobbies/Zurmanggi/Zurmanggi-1.jpg"
     ],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Student" },
       { label: "ShortDescription", value: "Student" }
     ],
     sections: [
@@ -1704,9 +1624,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Student" },
       { label: "ShortDescription", value: "Student" }
     ],
     sections: [
@@ -1725,10 +1644,7 @@ export const characters: Character[] = [
     name: "The Compassionator",
     images: [],
     details: [
-      { label: "Gender", value: "Female" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Comforter" },
       { label: "ShortDescription", value: "The Comforter of the Innocent" }
     ],
     sections: [
@@ -1747,10 +1663,7 @@ export const characters: Character[] = [
     name: "The Vindictivator",
     images: [],
     details: [
-      { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Punisher" },
       { label: "ShortDescription", value: "The Punisher of the Sinful" }
     ],
     sections: [
@@ -1770,9 +1683,7 @@ export const characters: Character[] = [
     images: [],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Prince" },
       { label: "ShortDescription", value: "Prince" }
     ],
     sections: [
@@ -1797,9 +1708,7 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Protector" },
       { label: "ShortDescription", value: "Dark Protector" }
     ],
     sections: [
@@ -1821,9 +1730,7 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Occupation", value: "Embodiment of Mathematics" },
       { label: "ShortDescription", value: "Math Final Boss" }
     ],
     sections: [
@@ -1845,9 +1752,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "Purifier of Planets" },
       { label: "ShortDescription", value: "Purifier of Planets" }
     ],
     sections: [
@@ -1870,10 +1776,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
-      { label: "ShortDescription", value: "Heavenly Envoy of Aether" }
+      { label: "Occupation", value: "Destroyer" },
+      { label: "ShortDescription", value: "Heavenly Being of Aether" }
     ],
     sections: [
       {
@@ -1892,9 +1796,8 @@ export const characters: Character[] = [
     images: [],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Adventurer" },
       { label: "ShortDescription", value: "Minecraft Adventurer" }
     ],
     sections: [
@@ -1917,9 +1820,8 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Gender", value: "Male" },
-      { label: "Species", value: "Halfling" },
-      { label: "Role", value: "Bard" },
-      { label: "Alias", value: "The Whisperer" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "General" },
       { label: "ShortDescription", value: "Repteilustian General" }
     ],
     sections: [
