@@ -1907,5 +1907,30 @@ export const characters: Character[] = [
         content: ""
       }
     ]
+  },
+  {
+    id: "hervett-teiner",
+    name: "Hervett Teiner",
+    images: [
+      "/assets/hobbies/Hervett Teiner/Hervett Teiner-1.jpg",
+      "/assets/hobbies/Hervett Teiner/Hervett Teiner-2.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Halfling" },
+      { label: "Role", value: "Bard" },
+      { label: "Alias", value: "The Whisperer" },
+      { label: "ShortDescription", value: "Repteilustian General" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
   }
 ];
