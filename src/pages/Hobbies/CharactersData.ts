@@ -732,6 +732,8 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Repteilustian" },
       { label: "Occupation", value: "Emperor" },
+      { label: "Aliases", list: ["The Initiator of Freedom", "The Uniter of the Universe", "The Iron Emperor", ] },
+      { label: "Family", list: ["Nevy Nova (Wife)", "Hydral Hypthon (Brother)", "Rechepeus Nova Hypthon (First Son)", "Reogulus Nova Hypthon (Second Son)" ]},
       { label: "ShortDescription", value: "Emperor of the Repteilustians" }
     ],
     sections: [
