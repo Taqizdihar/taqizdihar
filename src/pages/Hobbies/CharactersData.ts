@@ -47,6 +47,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Intuneric" },
       { label: "Occupation", value: "Emperor" },
+      { label: "Aliases", list: ["The Dark Emperor", "The Dark Lord of Dark Lords", "The Dark One", "The Tyrant of Dark Matter", "He Who Sneer from Darkness", "Darky", "Nitty", "Witty-Nitty"] },
       { label: "ShortDescription", value: "Great Emperor of Darkness" }
     ],
     sections: [
@@ -124,6 +125,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Pessulustiant" },
       { label: "Occupation", value: "Businessman" },
+      { label: "Family", list: ["Nevy Nova (Aunt)", "Rechepeus Nova Hypthon (Cousin)", "Reogulus Nova Hypthon (Cousin)"]},
       { label: "ShortDescription", value: "Cousin of Reogulus" }
     ],
     sections: [
@@ -458,6 +460,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Vasmirian" },
       { label: "Occupation", value: "Emperor" },
+      { label: "Aliases", list: ["The Smartest Zurtherian", "The Knowledgeable One", "The Great Emperor of Knowledge", "He Who Brings Light", "Zenny"] },
       { label: "ShortDescription", value: "Emperor of Knowledge" }
     ],
     sections: [
@@ -483,6 +486,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Pessulustian" },
       { label: "Occupation", value: "Supreme Judge" },
+      { label: "Aliases", list: ["Penitent Zetnavvir", "The Supreme Judge", "The Stoic One", "Zet", "Navy", "That Unfunny Horse"] },
       { label: "ShortDescription", value: "Supreme Judge" }
     ],
     sections: [
@@ -510,6 +514,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Samudrawan" },
       { label: "Occupation", value: "Bounty Hunter" },
+      { label: "Family", list: ["Galeodon Melvillei (Father)", "Mark Melvillei (Brother)"]},
       { label: "ShortDescription", value: "Samudrawan Bounty Hunter" }
     ],
     sections: [
@@ -538,6 +543,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Samudrawan" },
       { label: "Occupation", value: "University Student" },
+      { label: "Family", list: ["Galeodon Melvillei (Father)", "Legardon Melvillei (Brother)"]},
       { label: "ShortDescription", value: "Legardon's Brother" }
     ],
     sections: [
@@ -684,6 +690,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Pessulustian" },
       { label: "Occupation", value: "Prince" },
+      { label: "Family", list: ["Hydrus Hypthon (Father)", "Nevy Nova (Mother)", "Hydral Hypthon (Uncle)", "Rechepeus Nova Hypthon (Older Brother)"]},
       { label: "ShortDescription", value: "Prince of the Repteilustians" }
     ],
     sections: [
@@ -705,6 +712,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Repteilustian Hybrid" },
       { label: "Occupation", value: "Prince" },
+      { label: "Family", list: ["Hydrus Hypthon (Father)", "Nevy Nova (Mother)", "Hydral Hypthon (Uncle)", "Rechepeus Nova Hypthon (Younger Brother)"]},
       { label: "ShortDescription", value: "Prince of the Repteilustians" }
     ],
     sections: [
@@ -755,6 +763,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Pessulustian" },
       { label: "Occupation", value: "Empress" },
+      { label: "Family", list: ["Hydrus Hypthon (Husband)", "Hydral Hypthon (Brother-in-Law)", "Rechepeus Nova Hypthon (First Son)", "Reogulus Nova Hypthon (Second Son)"]},
       { label: "ShortDescription", value: "Empress of the Repteilustians" }
     ],
     sections: [
@@ -778,6 +787,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Repteilustian" },
       { label: "Occupation", value: "Grand Vizier" },
+      { label: "Family", list: ["Hydrus Hypthon (Brother)", "Nevy Nova (Sister-in-Law)", "Rechepeus Nova Hypthon (Nephew)", "Reogulus Nova Hypthon (Nephew)"]},
       { label: "ShortDescription", value: "Grand Vizier of the Repteilustians" }
     ],
     sections: [
@@ -801,6 +811,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Pessulustian" },
       { label: "Occupation", value: "Emperor" },
+      { label: "Alias", value: "Requus the Regretful" },
       { label: "ShortDescription", value: "Emperor of the Pessulustians" }
     ],
     sections: [
@@ -1472,6 +1483,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Samudrawan" },
       { label: "Occupation", value: "Veteran" },
+      { label: "Family", list: ["Legardon Melvillei (Son)", "Mark Melvillei (Son)"]},
       { label: "ShortDescription", value: "Father of Legardon & Mark Melvillei" }
     ],
     sections: [
