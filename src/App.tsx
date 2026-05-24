@@ -14,31 +14,34 @@ import Characters from "./pages/Hobbies/Characters";
 import CharacterDetail from "./pages/Hobbies/CharacterDetail";
 import ScrollToTop from "./components/ScrollToTop";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { MediaModalProvider } from "./contexts/MediaModalContext";
 
 export default function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="about" element={<AboutMe />} />
-            <Route path="products" element={<Products />} />
-            <Route path="media-kit" element={<MediaKit />} />
-            <Route path="experience" element={<Experience />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="certifications" element={<Certifications />} />
-            <Route path="achievements" element={<Achievements />} />
-            <Route path="organizations" element={<Organizations />} />
-            <Route path="hobbies">
-              <Route index element={<Hobbies />} />
-              <Route path="characters" element={<Characters />} />
-              <Route path="characters/:id" element={<CharacterDetail />} />
+      <MediaModalProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="about" element={<AboutMe />} />
+              <Route path="products" element={<Products />} />
+              <Route path="media-kit" element={<MediaKit />} />
+              <Route path="experience" element={<Experience />} />
+              <Route path="projects" element={<Projects />} />
+              <Route path="certifications" element={<Certifications />} />
+              <Route path="achievements" element={<Achievements />} />
+              <Route path="organizations" element={<Organizations />} />
+              <Route path="hobbies">
+                <Route index element={<Hobbies />} />
+                <Route path="characters" element={<Characters />} />
+                <Route path="characters/:id" element={<CharacterDetail />} />
+              </Route>
             </Route>
-          </Route>
-        </Routes>
-      </BrowserRouter>
+          </Routes>
+        </BrowserRouter>
+      </MediaModalProvider>
     </ThemeProvider>
   );
 }

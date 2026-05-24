@@ -3,6 +3,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
+import MediaModal from "./MediaModal";
 
 export default function Layout() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -50,6 +51,8 @@ export default function Layout() {
           onClick={() => setIsSidebarOpen(false)}
         />
       )}
+
+      <MediaModal />
     </div>
   );
 }

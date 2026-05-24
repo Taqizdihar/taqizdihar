@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { Calendar, MapPin, ExternalLink, Video, FileText, Building2 } from "lucide-react";
 import { motion } from "motion/react";
+import { useMediaModal } from "../contexts/MediaModalContext";
 
 export interface MediaItem {
   type?: "image" | "video" | "pdf";
@@ -40,6 +41,7 @@ export default function UnifiedCard({
   media,
   actionBtn
 }: UnifiedCardProps) {
+  const { openModal } = useMediaModal();
   return (
     <motion.div 
       variants={{
@@ -50,7 +52,10 @@ export default function UnifiedCard({
     >
       <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
         <div className="flex items-start gap-4">
-          <div className="hidden sm:flex items-center justify-center w-14 h-14 rounded-2xl border border-maroon-100 dark:border-white/10 bg-white dark:bg-white/5 text-maroon-600 dark:text-white shrink-0 shadow-sm overflow-hidden">
+          <div 
+            className={`hidden sm:flex items-center justify-center w-14 h-14 rounded-2xl border border-maroon-100 dark:border-white/10 bg-white dark:bg-white/5 text-maroon-600 dark:text-white shrink-0 shadow-sm overflow-hidden ${logoUrl ? 'cursor-pointer hover:scale-105 transition-transform' : ''}`}
+            onClick={() => logoUrl && openModal(logoUrl)}
+          >
             {logoUrl ? (
               <img src={logoUrl} alt="Logo" className="w-full h-full object-cover" />
             ) : (
@@ -117,14 +122,22 @@ export default function UnifiedCard({
             const type = item.type || "image";
             if (type === 'image') {
               return (
-                <div key={idx} className="relative shrink-0 w-72 sm:w-80 group/media overflow-hidden rounded-xl border border-maroon-100 dark:border-white/20 transition-colors shadow-md bg-maroon-50 dark:bg-white/5 aspect-video">
+                <div 
+                  key={idx} 
+                  className="relative shrink-0 w-72 sm:w-80 group/media overflow-hidden rounded-xl border border-maroon-100 dark:border-white/20 transition-colors shadow-md bg-maroon-50 dark:bg-white/5 aspect-video cursor-pointer"
+                  onClick={() => openModal(item.url)}
+                >
                   <img src={item.url} alt={`Media ${idx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
               );
             }
             if (type === 'video') {
               return (
-                <div key={idx} className="relative shrink-0 w-72 sm:w-80 rounded-xl border border-maroon-100 dark:border-white/20 overflow-hidden bg-maroon-900/5 dark:bg-white/5 flex flex-col items-center justify-center p-4 transition-colors shadow-md aspect-video group/video hover:bg-maroon-900/10 dark:hover:bg-white/10">
+                <div 
+                  key={idx} 
+                  className="relative shrink-0 w-72 sm:w-80 rounded-xl border border-maroon-100 dark:border-white/20 overflow-hidden bg-maroon-900/5 dark:bg-white/5 flex flex-col items-center justify-center p-4 transition-colors shadow-md aspect-video group/video hover:bg-maroon-900/10 dark:hover:bg-white/10 cursor-pointer"
+                  onClick={() => openModal(item.url)}
+                >
                    <Video className="w-8 h-8 text-maroon-400 dark:text-white/80 opacity-80 mb-2 group-hover/video:scale-110 transition-transform" />
                    <span className="text-sm font-medium text-maroon-800 dark:text-white text-center px-2">{item.title || "Video Attachment"}</span>
                 </div>
@@ -132,14 +145,18 @@ export default function UnifiedCard({
             }
             if (type === 'pdf') {
               return (
-                <a key={idx} href={item.url} className="flex shrink-0 w-64 sm:w-72 items-center justify-between p-4 rounded-xl border border-maroon-200 dark:border-white/20 bg-maroon-50 dark:bg-white/5 hover:bg-maroon-100 dark:hover:bg-white/10 transition-colors shadow-md group/pdf min-h-[5rem]">
+                <div 
+                  key={idx} 
+                  onClick={() => openModal(item.url)}
+                  className="flex shrink-0 w-64 sm:w-72 items-center justify-between p-4 rounded-xl border border-maroon-200 dark:border-white/20 bg-maroon-50 dark:bg-white/5 hover:bg-maroon-100 dark:hover:bg-white/10 transition-colors shadow-md group/pdf min-h-[5rem] cursor-pointer"
+                >
                   <div className="flex items-center gap-3 w-full">
                     <div className="p-2 bg-white dark:bg-white/10 rounded-lg text-maroon-700 dark:text-white shadow-sm group-hover/pdf:scale-110 transition-transform shrink-0">
                         <FileText className="w-5 h-5" />
                     </div>
                     <span className="font-medium text-sm text-maroon-900 dark:text-white line-clamp-2">{item.title || "Document Attachment"}</span>
                   </div>
-                </a>
+                </div>
               );
             }
             return null;

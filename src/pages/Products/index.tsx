@@ -16,9 +16,9 @@ export default function Products() {
 
       {productPromo && (
         <section>
-          <div className="relative w-full max-w-3xl bg-white/90 dark:bg-[#A81717] backdrop-blur-md rounded-2xl md:rounded-3xl border border-maroon-900/10 dark:border-white/10 shadow-xl overflow-hidden group flex flex-col md:flex-row min-h-[200px]">
+          <div className="relative w-full bg-white/90 dark:bg-[#A81717] backdrop-blur-md rounded-2xl md:rounded-3xl border border-maroon-900/10 dark:border-white/10 shadow-xl overflow-hidden group flex flex-col md:flex-row min-h-[200px]">
             {/* Left side: Image with gradient mask */}
-            <div className="relative w-full md:w-5/12 h-56 md:h-auto overflow-hidden shrink-0">
+            <div className="relative w-full md:w-72 h-56 md:h-auto overflow-hidden flex-shrink-0">
               <img
                 src={productPromo.imageUrl}
                 alt="Shopee Promo"
@@ -31,7 +31,7 @@ export default function Products() {
             </div>
 
             {/* Right side: Content */}
-            <div className="relative w-full md:w-7/12 p-5 md:p-6 flex flex-col justify-center dark:bg-transparent">
+            <div className="relative w-full flex-1 p-5 md:p-6 flex flex-col justify-center dark:bg-transparent">
               <div className="bg-orange-100 dark:bg-orange-500/20 text-orange-600 dark:text-orange-300 w-fit px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase mb-3 flex items-center gap-1.5 border border-orange-200 dark:border-orange-500/30">
                 <ShoppingBag className="w-3.5 h-3.5" />
                 Featured Store
