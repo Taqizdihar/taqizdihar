@@ -20,6 +20,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Human" },
       { label: "Occupation", value: "Assistant" },
+      { label: "Abilities", list: ["Administrative Support", "Research Assistance", "Strategic Planning"] },
       { label: "ShortDescription", value: "Assistant" }
     ],
     sections: [
@@ -382,6 +383,7 @@ export const characters: Character[] = [
       "/assets/hobbies/Yatahannus/Yatahannus-2.jpg"
     ],
     details: [
+      { label: "Aliases", list: ["Yatahennos", "The First Pacifist", "The Martyr of Furtherous Zurther", "The Fallen One"] },
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Yard-Davan" },
       { label: "ShortDescription", value: "The Martyr of Furtherous Zurther" }
