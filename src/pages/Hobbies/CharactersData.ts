@@ -1815,8 +1815,8 @@ export const characters: Character[] = [
     id: "hervett-teiner",
     name: "Hervett Teiner",
     images: [
-      "/assets/hobbies/Hervett Teiner/Hervett Teiner-1.jpg",
-      "/assets/hobbies/Hervett Teiner/Hervett Teiner-2.jpg"
+      "/assets/hobbies/Hervett Teiner/Hervett Teiner-2.jpg",
+      "/assets/hobbies/Hervett Teiner/Hervett Teiner-1.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
