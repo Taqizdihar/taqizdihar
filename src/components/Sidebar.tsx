@@ -1,5 +1,5 @@
 import { NavLink, useLocation } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import { profileImages, name, position } from "../config/navigationData";
 import { 
@@ -34,18 +34,22 @@ interface SidebarProps {
 
 export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
   const location = useLocation();
-  const [flipCount, setFlipCount] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipping, setIsFlipping] = useState(false);
+
+  const nextIndex = (currentIndex + 1) % profileImages.length;
+
+  useEffect(() => {
+    profileImages.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
 
   const handleProfileClick = () => {
     if (isFlipping) return;
     setIsFlipping(true);
-    setFlipCount((prev) => prev + 1);
   };
-
-  const isEven = flipCount % 2 === 0;
-  const frontIndex = isEven ? (flipCount % profileImages.length) : ((flipCount + 1) % profileImages.length);
-  const backIndex = isEven ? ((flipCount + 1) % profileImages.length) : (flipCount % profileImages.length);
 
   const checkIsActive = (path: string, isActiveDefault: boolean) => {
     if (path === "/") {
@@ -74,20 +78,25 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
         >
            <motion.button 
              onClick={handleProfileClick}
-             animate={{ rotateY: flipCount * 180 }}
-             transition={{ duration: 0.6, ease: "easeInOut" }}
-             onAnimationComplete={() => setIsFlipping(false)}
+             animate={isFlipping ? { rotateY: 180 } : { rotateY: 0 }}
+             transition={{ duration: isFlipping ? 0.6 : 0, ease: "easeInOut" }}
+             onAnimationComplete={() => {
+               if (isFlipping) {
+                 setCurrentIndex(nextIndex);
+                 setIsFlipping(false);
+               }
+             }}
              className="relative w-full h-full rounded-full bg-stone-100 dark:bg-[#A81717] flex items-center justify-center transition-colors duration-300 [transform-style:preserve-3d] cursor-pointer"
            >
             {/* Front Face */}
             <img 
-              src={profileImages[frontIndex]} 
+              src={profileImages[currentIndex]} 
               alt="Profile Front" 
               className="absolute inset-0 w-full h-full object-cover rounded-full [backface-visibility:hidden]"
             />
             {/* Back Face */}
             <img 
-              src={profileImages[backIndex]} 
+              src={profileImages[nextIndex]} 
               alt="Profile Back" 
               className="absolute inset-0 w-full h-full object-cover rounded-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
             />
