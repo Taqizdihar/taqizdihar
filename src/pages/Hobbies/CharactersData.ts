@@ -1850,5 +1850,28 @@ export const characters: Character[] = [
         content: ""
       }
     ]
+  },
+  {
+    id: "todds",
+    name: "Todds",
+    images: [
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "General" },
+      { label: "Home", value: "DeathLand" },
+      { label: "ShortDescription", value: "Humanusian General" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
   }
 ];
