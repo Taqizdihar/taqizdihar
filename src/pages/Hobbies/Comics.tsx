@@ -7,10 +7,19 @@ import useDocumentTitle from "../../hooks/useDocumentTitle";
 export default function Comics() {
   useDocumentTitle("Comics");
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedYear, setSelectedYear] = useState("");
+  const [selectedStatus, setSelectedStatus] = useState("");
 
-  const filteredComics = comics.filter((comic) =>
-    comic.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const availableYears = Array.from(
+    new Set(comics.map((comic) => comic.year))
+  ).sort((a, b) => b.localeCompare(a));
+
+  const filteredComics = comics.filter((comic) => {
+    const matchesSearch = comic.title.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesYear = selectedYear ? comic.year === selectedYear : true;
+    const matchesStatus = selectedStatus ? comic.status.toLowerCase() === selectedStatus.toLowerCase() : true;
+    return matchesSearch && matchesYear && matchesStatus;
+  });
 
   return (
     <div className="w-full space-y-12 animate-fade-in pb-12">
@@ -35,21 +44,47 @@ export default function Comics() {
           </div>
         </section>
 
-        {/* Search Bar */}
-        <section className="mt-5">
-          <div className="relative max-w-2xl w-full">
-          <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
-            <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />
+        {/* Search Bar & Filters */}
+        <section className="mt-5 flex flex-col md:flex-row gap-4 max-w-4xl w-full">
+          <div className="relative flex-1">
+            <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
+              <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />
+            </div>
+            <input
+              type="text"
+              placeholder="Search comic..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full pl-12 pr-4 py-3.5 bg-white/90 dark:bg-white/5 border border-maroon-900/10 dark:border-white/10 rounded-2xl text-maroon-900 dark:text-white placeholder-maroon-900/40 dark:placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-maroon-500/50 dark:focus:ring-white/20 transition-all duration-300 shadow-sm"
+            />
           </div>
-          <input
-            type="text"
-            placeholder="Search comic..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-12 pr-4 py-3.5 bg-white/90 dark:bg-white/5 border border-maroon-900/10 dark:border-white/10 rounded-2xl text-maroon-900 dark:text-white placeholder-maroon-900/40 dark:placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-maroon-500/50 dark:focus:ring-white/20 transition-all duration-300 shadow-sm"
-          />
-        </div>
-      </section>
+          <div className="flex gap-3">
+            {/* Year Filter */}
+            <select
+              value={selectedYear}
+              onChange={(e) => setSelectedYear(e.target.value)}
+              className="px-4 py-3 bg-white/90 dark:bg-white/5 border border-maroon-900/10 dark:border-white/10 rounded-2xl text-maroon-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-maroon-500/50 dark:focus:ring-white/20 transition-all duration-300 shadow-sm text-sm font-medium cursor-pointer"
+            >
+              <option value="" className="bg-white dark:bg-[#1a1a1a]">All Years</option>
+              {availableYears.map((year) => (
+                <option key={year} value={year} className="bg-white dark:bg-[#1a1a1a]">
+                  {year}
+                </option>
+              ))}
+            </select>
+            {/* Status Filter */}
+            <select
+              value={selectedStatus}
+              onChange={(e) => setSelectedStatus(e.target.value)}
+              className="px-4 py-3 bg-white/90 dark:bg-white/5 border border-maroon-900/10 dark:border-white/10 rounded-2xl text-maroon-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-maroon-500/50 dark:focus:ring-white/20 transition-all duration-300 shadow-sm text-sm font-medium cursor-pointer"
+            >
+              <option value="" className="bg-white dark:bg-[#1a1a1a]">All Statuses</option>
+              <option value="Completed" className="bg-white dark:bg-[#1a1a1a]">Completed</option>
+              <option value="Ongoing" className="bg-white dark:bg-[#1a1a1a]">Ongoing</option>
+              <option value="Discontinued" className="bg-white dark:bg-[#1a1a1a]">Discontinued</option>
+            </select>
+          </div>
+        </section>
       </div>
 
       {/* Comics Grid */}
