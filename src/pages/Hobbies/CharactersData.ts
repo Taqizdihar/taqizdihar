@@ -821,7 +821,10 @@ export const characters: Character[] = [
   {
     id: "nevy-nova",
     name: "Nevy Nova",
-    images: [],
+    images: [
+      "/assets/hobbies/Nevy Nova/Nevy Nova-1.jpg"
+      
+    ],
     details: [
       { label: "Gender", value: "Female" },
       { label: "Species", value: "Pessulustian" },
