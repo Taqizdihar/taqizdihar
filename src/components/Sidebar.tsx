@@ -59,7 +59,7 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
 
   // Route-based Easter Egg Logic
   useEffect(() => {
-    const isSecretPage = location.pathname === "/hobbies/characters";
+    const isSecretPage = location.pathname.startsWith("/hobbies/characters") || location.pathname.startsWith("/hobbies/comics");
     if (isSecretPage && !isLocked && !isSecretTransitioning && !isFlipping) {
       playFlipSound();
       setIsSecretTransitioning("entering");
