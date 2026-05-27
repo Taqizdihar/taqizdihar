@@ -36,18 +36,44 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
   const location = useLocation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipping, setIsFlipping] = useState(false);
+  const [isLocked, setIsLocked] = useState(false);
+  const [isSecretTransitioning, setIsSecretTransitioning] = useState<"entering" | "leaving" | null>(null);
 
   const nextIndex = (currentIndex + 1) % profileImages.length;
 
   useEffect(() => {
-    profileImages.forEach((src) => {
+    [...profileImages, "/assets/sidebar/Secret.png"].forEach((src) => {
       const img = new Image();
       img.src = src;
     });
   }, []);
 
+  const playFlipSound = () => {
+    try {
+      const audio = new Audio("https://www.myinstants.com/media/sounds/sonic-coin-1-87135.mp3");
+      audio.play().catch((err) => console.log("Audio play prevented/failed:", err));
+    } catch (e) {
+      console.log("Audio not supported:", e);
+    }
+  };
+
+  // Route-based Easter Egg Logic
+  useEffect(() => {
+    const isSecretPage = location.pathname === "/hobbies/characters";
+    if (isSecretPage && !isLocked && !isSecretTransitioning && !isFlipping) {
+      playFlipSound();
+      setIsSecretTransitioning("entering");
+      setIsFlipping(true);
+    } else if (!isSecretPage && isLocked && !isSecretTransitioning && !isFlipping) {
+      playFlipSound();
+      setIsSecretTransitioning("leaving");
+      setIsFlipping(true);
+    }
+  }, [location.pathname, isLocked, isSecretTransitioning, isFlipping]);
+
   const handleProfileClick = () => {
-    if (isFlipping) return;
+    if (isFlipping || isLocked) return;
+    playFlipSound();
     setIsFlipping(true);
   };
 
@@ -57,6 +83,21 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
     }
     return location.pathname.startsWith(path);
   };
+
+  // Dynamically compute Front and Back images for 3D flip card
+  let frontImage = profileImages[currentIndex];
+  let backImage = profileImages[nextIndex];
+
+  if (isSecretTransitioning === "entering") {
+    frontImage = profileImages[currentIndex];
+    backImage = "/assets/sidebar/Secret.png";
+  } else if (isSecretTransitioning === "leaving") {
+    frontImage = "/assets/sidebar/Secret.png";
+    backImage = profileImages[currentIndex];
+  } else if (isLocked) {
+    frontImage = "/assets/sidebar/Secret.png";
+    backImage = "/assets/sidebar/Secret.png";
+  }
 
   return (
     <aside className={`fixed md:sticky top-4 left-4 md:left-0 h-[calc(100vh-2rem)] w-72 md:w-[min(18rem,35vh,25vw)] shrink-0 bg-white/90 dark:bg-[#A81717] backdrop-blur-2xl border border-maroon-900/10 dark:border-white/10 flex flex-col p-[min(1.5rem,3vh)] z-40 transition-all duration-300 ease-in-out rounded-[min(1.5rem,3vh)] shadow-2xl overflow-hidden ${isOpen ? 'translate-x-0 overflow-y-auto' : '-translate-x-[120%] md:translate-x-0 md:overflow-hidden'} `}>
@@ -82,7 +123,15 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
              transition={{ duration: isFlipping ? 0.6 : 0, ease: "easeInOut" }}
              onAnimationComplete={() => {
                if (isFlipping) {
-                 setCurrentIndex(nextIndex);
+                 if (isSecretTransitioning === "entering") {
+                   setIsLocked(true);
+                   setIsSecretTransitioning(null);
+                 } else if (isSecretTransitioning === "leaving") {
+                   setIsLocked(false);
+                   setIsSecretTransitioning(null);
+                 } else {
+                   setCurrentIndex(nextIndex);
+                 }
                  setIsFlipping(false);
                }
              }}
@@ -90,13 +139,13 @@ export default function Sidebar({ isOpen, closeSidebar }: SidebarProps) {
            >
             {/* Front Face */}
             <img 
-              src={profileImages[currentIndex]} 
+              src={frontImage} 
               alt="Profile Front" 
               className="absolute inset-0 w-full h-full object-cover rounded-full [backface-visibility:hidden]"
             />
             {/* Back Face */}
             <img 
-              src={profileImages[nextIndex]} 
+              src={backImage} 
               alt="Profile Back" 
               className="absolute inset-0 w-full h-full object-cover rounded-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
             />
