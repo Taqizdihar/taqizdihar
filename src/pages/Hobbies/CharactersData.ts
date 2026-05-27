@@ -41,7 +41,13 @@ export const characters: Character[] = [
       "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-1.jpg",
       "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-2.jpg",
       "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-3.jpg",
-      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-4.jpg"
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-4.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-5.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-6.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-7.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-8.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-9.jpg",
+      "/assets/hobbies/Darknity Darkezus/Darknity Darkezus-10.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -57,7 +63,7 @@ export const characters: Character[] = [
       },
       {
         title: "Quest",
-        content: "Armed with a longbow crafted from the heartwood of the ancient eldertree, Kylar is a master marksman. He is currently on a singular quest: to find and tame the mythical shadow wolf."
+        content: ""
       }
     ]
   },
@@ -119,7 +125,8 @@ export const characters: Character[] = [
     images: [
       "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-1.jpg",
       "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-2.jpg",
-      "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-3.jpg"
+      "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-3.jpg",
+      "/assets/hobbies/Gespierd Saluntus/Gespierd Saluntus-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -454,7 +461,8 @@ export const characters: Character[] = [
     images: [
       "/assets/hobbies/Zenith Overwise/Zenith Overwise-1.jpg",
       "/assets/hobbies/Zenith Overwise/Zenith Overwise-2.jpg",
-      "/assets/hobbies/Zenith Overwise/Zenith Overwise-3.jpg"
+      "/assets/hobbies/Zenith Overwise/Zenith Overwise-3.jpg",
+      "/assets/hobbies/Zenith Overwise/Zenith Overwise-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -537,7 +545,11 @@ export const characters: Character[] = [
       "/assets/hobbies/Mark Melvillei/Mark Melvillei-3.jpg",
       "/assets/hobbies/Mark Melvillei/Mark Melvillei-4.jpg",
       "/assets/hobbies/Mark Melvillei/Mark Melvillei-5.jpg",
-      "/assets/hobbies/Mark Melvillei/Mark Melvillei-6.jpg"
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-6.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-7.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-8.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-9.jpg",
+      "/assets/hobbies/Mark Melvillei/Mark Melvillei-10.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -562,7 +574,17 @@ export const characters: Character[] = [
     name: "Elixsian Fields",
     images: [
       "/assets/hobbies/Elixsian Fields/Elixsian Fields-1.jpg",
-      "/assets/hobbies/Elixsian Fields/Elixsian Fields-2.jpg"
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-2.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-3.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-4.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-5.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-6.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-7.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-8.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-9.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-10.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-11.jpg",
+      "/assets/hobbies/Elixsian Fields/Elixsian Fields-12.jpg"
       
     ],
     details: [
@@ -587,7 +609,16 @@ export const characters: Character[] = [
     name: "Wells Warden",
     images: [
       "/assets/hobbies/Wells Warden/Wells Warden-1.jpg",
-      "/assets/hobbies/Wells Warden/Wells Warden-2.jpg"
+      "/assets/hobbies/Wells Warden/Wells Warden-2.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-3.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-4.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-5.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-6.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-7.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-8.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-9.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-10.jpg",
+      "/assets/hobbies/Wells Warden/Wells Warden-11.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -611,7 +642,14 @@ export const characters: Character[] = [
     name: "Flizth Fellow",
     images: [
       "/assets/hobbies/Flizth Fellow/Flizth Fellow-1.jpg",
-      "/assets/hobbies/Flizth Fellow/Flizth Fellow-2.jpg"
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-2.jpg",
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-3.jpg",
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-4.jpg",
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-5.jpg",
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-6.jpg",
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-7.jpg",
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-8.jpg",
+      "/assets/hobbies/Flizth Fellow/Flizth Fellow-9.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -635,7 +673,8 @@ export const characters: Character[] = [
     name: "Zaku Genan",
     images: [
       "/assets/hobbies/Zaku Genan/Zaku Genan-1.jpg",
-      "/assets/hobbies/Zaku Genan/Zaku Genan-2.jpg"
+      "/assets/hobbies/Zaku Genan/Zaku Genan-2.jpg",
+      "/assets/hobbies/Zaku Genan/Zaku Genan-3.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -661,7 +700,13 @@ export const characters: Character[] = [
       "/assets/hobbies/Dragon-Headed Robot/D.H.R-1.jpg",
       "/assets/hobbies/Dragon-Headed Robot/D.H.R-2.jpg",
       "/assets/hobbies/Dragon-Headed Robot/D.H.R-3.jpg",
-      "/assets/hobbies/Dragon-Headed Robot/D.H.R-4.jpg"
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-4.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-5.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-6.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-7.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-8.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-9.jpg",
+      "/assets/hobbies/Dragon-Headed Robot/D.H.R-10.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -684,7 +729,10 @@ export const characters: Character[] = [
     id: "reogulus-nova-hypthon",
     name: "Reogulus Nova Hypthon",
     images: [
-      "/assets/hobbies/Reogulus Nova Hypthon/Reogulus Nova Hypthon-1.jpg"
+      "/assets/hobbies/Reogulus Nova Hypthon/Reogulus Nova Hypthon-1.jpg",
+      "/assets/hobbies/Reogulus Nova Hypthon/Reogulus Nova Hypthon-2.jpg",
+      "/assets/hobbies/Reogulus Nova Hypthon/Reogulus Nova Hypthon-3.jpg",
+      "/assets/hobbies/Reogulus Nova Hypthon/Reogulus Nova Hypthon-4.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -707,7 +755,10 @@ export const characters: Character[] = [
   {
     id: "rechepeus-nova-hypthon",
     name: "Rechepeus Nova Hypthon",
-    images: [],
+    images: [
+      "/assets/hobbies/Rechepeus Nova Hypthon/Rechepeus Nova Hypthon-1.jpg",
+      "/assets/hobbies/Rechepeus Nova Hypthon/Rechepeus Nova Hypthon-2.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Repteilustian Hybrid" },
@@ -734,7 +785,10 @@ export const characters: Character[] = [
       "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-2.jpg",
       "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-3.jpg",
       "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-4.jpg",
-      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-5.jpg"
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-5.jpg",
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-6.jpg",
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-7.jpg",
+      "/assets/hobbies/Hydrus Hypthon/Hydrus Hypthon-8.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -828,7 +882,9 @@ export const characters: Character[] = [
   {
     id: "kavalleta-fraist",
     name: "Kavalleta Fraist",
-    images: [],
+    images: [
+      "/assets/hobbies/Kavalleta Fraist/Kavalleta Fraist-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Loculustian" },
@@ -940,7 +996,8 @@ export const characters: Character[] = [
     id: "relysian-ray",
     name: "Relysian Ray",
     images: [
-      "/assets/hobbies/Relysian Ray/Relysian Ray-1.jpg"
+      "/assets/hobbies/Relysian Ray/Relysian Ray-1.jpg",
+      "/assets/hobbies/Relysian Ray/Relysian Ray-2.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -983,7 +1040,17 @@ export const characters: Character[] = [
   {
     id: "kremir-kronor",
     name: "Kremir Kronor",
-    images: [],
+    images: [
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-1.jpg",
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-2.jpg",
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-3.jpg",
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-4.jpg",
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-5.jpg",
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-6.jpg",
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-7.jpg",
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-8.jpg",
+      "/assets/hobbies/Kremir Kronor/Kremir Kronor-9.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Repteilustian" },
@@ -1004,7 +1071,15 @@ export const characters: Character[] = [
   {
     id: "azwir-aion",
     name: "Azwir Aion",
-    images: [],
+    images: [
+      "/assets/hobbies/Azwir Aion/Azwir Aion-1.jpg",
+      "/assets/hobbies/Azwir Aion/Azwir Aion-2.jpg",
+      "/assets/hobbies/Azwir Aion/Azwir Aion-3.jpg",
+      "/assets/hobbies/Azwir Aion/Azwir Aion-4.jpg",
+      "/assets/hobbies/Azwir Aion/Azwir Aion-5.jpg",
+      "/assets/hobbies/Azwir Aion/Azwir Aion-6.jpg",
+      "/assets/hobbies/Azwir Aion/Azwir Aion-7.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Repteilustian" },
@@ -1025,7 +1100,11 @@ export const characters: Character[] = [
   {
     id: "arthloporsus",
     name: "Arthloporsus",
-    images: [],
+    images: [
+      "/assets/hobbies/Arthloporsus/Arthloporsus-1.jpg",
+      "/assets/hobbies/Arthloporsus/Arthloporsus-2.jpg",
+      "/assets/hobbies/Arthloporsus/Arthloporsus-3.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Galaksiont" },
@@ -1067,7 +1146,10 @@ export const characters: Character[] = [
   {
     id: "zorganan",
     name: "Zorganan",
-    images: [],
+    images: [
+      "/assets/hobbies/Zorganan/Zorganan-1.jpg",
+      "/assets/hobbies/Zorganan/Zorganan-2.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Galaksiont" },
@@ -1088,7 +1170,11 @@ export const characters: Character[] = [
   {
     id: "taranis-tartarus",
     name: "Taranis Tartarus",
-    images: [],
+    images: [
+      "/assets/hobbies/Taranis Tartarus/Taranis Tartarus-1.jpg",
+      "/assets/hobbies/Taranis Tartarus/Taranis Tartarus-2.jpg",
+      "/assets/hobbies/Taranis Tartarus/Taranis Tartarus-3.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Intuneric" },
@@ -1109,7 +1195,9 @@ export const characters: Character[] = [
   {
     id: "azzarius-antares",
     name: "Azzarius Antares",
-    images: [],
+    images: [
+      "/assets/hobbies/Azzarius Antares/Azzarius Antares-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Occupation", value: "Cosmic Sorcerer" },
@@ -1243,7 +1331,9 @@ export const characters: Character[] = [
   {
     id: "spacer-revellatio",
     name: "Spacer Revellatio",
-    images: [],
+    images: [
+      "/assets/hobbies/Spacer Revellatio/Spacer Revellatio-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Occupation", value: "Observer" },
@@ -1283,7 +1373,9 @@ export const characters: Character[] = [
   {
     id: "rhainor-delaren",
     name: "Rhainor Delaren",
-    images: [],
+    images: [
+      "/assets/hobbies/Rhainor Delaren/Rhainor Delaren-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Vasmirian" },
@@ -1809,7 +1901,10 @@ export const characters: Character[] = [
   {
     id: "syclone",
     name: "Syclone",
-    images: [],
+    images: [
+      "/assets/hobbies/Syclone/Syclone-1.jpg",
+      "/assets/hobbies/Syclone/Syclone-2.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Human" },
@@ -1855,6 +1950,15 @@ export const characters: Character[] = [
     id: "todds",
     name: "Todds",
     images: [
+      "/assets/hobbies/Todds/Todds-1.jpg",
+      "/assets/hobbies/Todds/Todds-2.jpg",
+      "/assets/hobbies/Todds/Todds-3.jpg",
+      "/assets/hobbies/Todds/Todds-4.jpg",
+      "/assets/hobbies/Todds/Todds-5.jpg",
+      "/assets/hobbies/Todds/Todds-6.jpg",
+      "/assets/hobbies/Todds/Todds-7.jpg",
+      "/assets/hobbies/Todds/Todds-8.jpg",
+      "/assets/hobbies/Todds/Todds-9.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
@@ -1862,6 +1966,273 @@ export const characters: Character[] = [
       { label: "Occupation", value: "General" },
       { label: "Home", value: "DeathLand" },
       { label: "ShortDescription", value: "Humanusian General" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "fewel-fields",
+    name: "Fewel Fields",
+    images: [
+      "/assets/hobbies/Fewel Fields/Fewel Fields-1.jpg",
+      "/assets/hobbies/Fewel Fields/Fewel Fields-2.jpg",
+      "/assets/hobbies/Fewel Fields/Fewel Fields-3.jpg",
+      "/assets/hobbies/Fewel Fields/Fewel Fields-4.jpg",
+      "/assets/hobbies/Fewel Fields/Fewel Fields-5.jpg",
+      "/assets/hobbies/Fewel Fields/Fewel Fields-6.jpg",
+      "/assets/hobbies/Fewel Fields/Fewel Fields-7.jpg",
+      "/assets/hobbies/Fewel Fields/Fewel Fields-8.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "Planet Director" },
+      { label: "Home", value: "Deathland" },
+      { label: "Family", value: "Elixsian Fields (cousin)" },
+      { label: "Status", value: "Deceased" },
+      { label: "ShortDescription", value: "Humanusian Planet Director" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "martin-montiro",
+    name: "Martin Montiro",
+    images: [
+      "/assets/hobbies/Martin Montiro/Martin Montiro-1.jpg",
+      "/assets/hobbies/Martin Montiro/Martin Montiro-2.jpg",
+      "/assets/hobbies/Martin Montiro/Martin Montiro-3.jpg",
+      "/assets/hobbies/Martin Montiro/Martin Montiro-4.jpg",
+      "/assets/hobbies/Martin Montiro/Martin Montiro-5.jpg",
+      "/assets/hobbies/Martin Montiro/Martin Montiro-6.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "Technician, Engineer" },
+      { label: "Home", value: "DeathLand" },
+      { label: "ShortDescription", value: "Humanusian Engineer" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "cory-campthon",
+    name: "Cory Campthon",
+    images: [
+      "/assets/hobbies/Cory Campthon/Cory Campthon-1.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-2.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-3.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-4.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-5.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-6.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-7.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-8.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-9.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-10.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-11.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-12.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-13.jpg",
+      "/assets/hobbies/Cory Campthon/Cory Campthon-14.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Pizza Delivery Guy" },
+      { label: "ShortDescription", value: "Pizza Delivery Guy" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "derius-derrick",
+    name: "Derius Derrick",
+    images: [
+      "/assets/hobbies/Derius Derrick/Derius Derrick-1.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Repteilustian" },
+      { label: "Occupation", value: "Secretary of the Empire" },
+      { label: "ShortDescription", value: "Secretary of the Repteilustian Empire" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "dever-lumarium",
+    name: "Dever Lumarium",
+    images: [
+      "/assets/hobbies/Dever Lumarium/Dever Lumarium-1.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Vogelustian" },
+      { label: "Occupation", value: "Prince" },
+      { label: "ShortDescription", value: "Crown Prince of the Vogelustian Empire" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "julia-judy",
+    name: "Julia Judy",
+    images: [
+      "/assets/hobbies/Julia Judy/Julia Judy-1.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Princess of the Seas" },
+      { label: "ShortDescription", value: "Princess of the Seas" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "nathan-richball",
+    name: "Nathan Richball",
+    images: [
+      "/assets/hobbies/Nathan Richball/Nathan Richball-1.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Former Admiral" },
+      { label: "ShortDescription", value: "Former Admiral" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "tenford-tracker",
+    name: "Tenford Tracker",
+    images: [
+      "/assets/hobbies/Tenford Tracker/Tenford Tracker-1.jpg",
+      "/assets/hobbies/Tenford Tracker/Tenford Tracker-2.jpg",
+      "/assets/hobbies/Tenford Tracker/Tenford Tracker-3.jpg",
+      "/assets/hobbies/Tenford Tracker/Tenford Tracker-4.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Adventurer" },
+      { label: "ShortDescription", value: "Cory's Friend" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "the-mother",
+    name: "The Mother",
+    images: [
+      "/assets/hobbies/The Mother/The Mother-1.jpg",
+      "/assets/hobbies/The Mother/The Mother-2.jpg",
+      "/assets/hobbies/The Mother/The Mother-3.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Female" },
+      { label: "Species", value: "Human" },
+      { label: "Occupation", value: "Mother" },
+      { label: "ShortDescription", value: "The Mother Who Met Hydrus" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
+  },
+  {
+    id: "vunar-vractal",
+    name: "Vunar Vractal",
+    images: [
+      "/assets/hobbies/Vunar Vractal/Vunar Vractal-1.jpg",
+      "/assets/hobbies/Vunar Vractal/Vunar Vractal-2.jpg",
+      "/assets/hobbies/Vunar Vractal/Vunar Vractal-3.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Humanusian" },
+      { label: "Occupation", value: "Planet Director" },
+      { label: "Home", value: "Durrah" },
+      { label: "ShortDescription", value: "Humanusian Planet Director" }
     ],
     sections: [
       {
