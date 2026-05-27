@@ -57,7 +57,7 @@ export default function Hobbies() {
           {/* Left Side: Blended Image */}
           <div className="relative w-full xl:w-[40%] aspect-square overflow-hidden [-webkit-mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] xl:[-webkit-mask-image:linear-gradient(to_right,black_60%,transparent_100%)] xl:[mask-image:linear-gradient(to_right,black_60%,transparent_100%)] shrink-0">
             <img 
-              src="/assets/hobbies/Comics.jpg" 
+              src="/assets/hobbies/comics/Comics.jpg" 
               alt="Comics cover"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
