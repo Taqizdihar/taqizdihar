@@ -23,19 +23,19 @@ export default function MediaModal() {
         onClick={closeModal} 
       />
       
-      {/* Content positioning wrapper matching Layout.tsx exactly */}
-      <div className="absolute inset-0 rtl:flex-row-reverse flex flex-col md:flex-row p-0 md:p-4 lg:p-6 gap-4 md:gap-6 lg:gap-8 pointer-events-none">
+      {/* Content positioning wrapper matching Layout.tsx exactly horizontally, but fixed vertically to match Sidebar */}
+      <div className="absolute inset-0 rtl:flex-row-reverse flex flex-col md:flex-row px-0 md:px-4 lg:px-6 pt-0 md:pt-4 lg:pt-6 pb-4 gap-4 md:gap-6 lg:gap-8 pointer-events-none">
         
         {/* Sidebar Placeholder */}
         <div className="hidden md:block w-72 md:w-[min(18rem,35vh,25vw)] shrink-0" />
         
         {/* Main Content Placeholder */}
-        <div className="flex-1 flex flex-col min-w-0 w-full px-4 md:px-0 pt-4 md:pt-0 pb-8 h-full">
+        <div className="flex-1 flex flex-col min-w-0 w-full px-4 md:px-0 pt-4 md:pt-0 pb-0 h-full">
            {/* Space for Navbar */}
            <div className="h-[72px] md:h-[80px] shrink-0 w-full" />
            
            {/* Red Window — Two-Column Layout */}
-           <div className="flex-1 mt-6 md:mt-8 bg-[#991b1b] dark:bg-[#7f1d1d] rounded-3xl md:rounded-[2rem] shadow-2xl relative overflow-hidden flex flex-col md:flex-row p-2 md:p-0 border border-white/10 pointer-events-auto animate-in fade-in zoom-in-95 duration-200">
+           <div className="flex-1 mt-6 md:mt-8 bg-[#991b1b] dark:bg-[#7f1d1d] rounded-3xl md:rounded-[2rem] shadow-[0_0_20px_rgba(0,0,0,0.7)] relative overflow-hidden flex flex-col md:flex-row p-2 md:p-0 border border-white/10 pointer-events-auto animate-in fade-in zoom-in-95 duration-200">
              <button 
                onClick={closeModal} 
                className="absolute top-4 right-4 p-2 bg-black/20 hover:bg-black/40 text-white rounded-full transition-colors z-20"

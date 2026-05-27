@@ -9,7 +9,7 @@ export default function Certifications() {
   useDocumentTitle("Certifications");
   return (
     <div className="w-full space-y-12">
-      <section className="space-y-4">
+      <section className="space-y-4 pt-4">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-maroon-900 dark:text-white transition-colors duration-300">
           Certifications
         </h1>
