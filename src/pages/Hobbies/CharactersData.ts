@@ -2253,5 +2253,30 @@ export const characters: Character[] = [
         content: ""
       }
     ]
+  },
+  {
+    id: "quzuth",
+    name: "Quzuth",
+    images: [
+      "/assets/hobbies/Quzuth/Quzuth-1.jpg",
+      "/assets/hobbies/Quzuth/Quzuth-2.jpg",
+      "/assets/hobbies/Quzuth/Quzuth-3.jpg"
+    ],
+    details: [
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Galaksiont" },
+      { label: "Occupation", value: "Former First Emperor of Anti-Matter" },
+      { label: "ShortDescription", value: "Former First Emperor of Anti-Matter" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      },
+      {
+        title: "Methods",
+        content: ""
+      }
+    ]
   }
 ];
