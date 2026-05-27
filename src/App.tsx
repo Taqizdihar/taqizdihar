@@ -12,6 +12,7 @@ import MediaKit from "./pages/MediaKit";
 import Hobbies from "./pages/Hobbies";
 import Characters from "./pages/Hobbies/Characters";
 import CharacterDetail from "./pages/Hobbies/CharacterDetail";
+import Comics from "./pages/Hobbies/Comics";
 import ScrollToTop from "./components/ScrollToTop";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { MediaModalProvider } from "./contexts/MediaModalContext";
@@ -35,6 +36,7 @@ export default function App() {
               <Route path="organizations" element={<Organizations />} />
               <Route path="hobbies">
                 <Route index element={<Hobbies />} />
+                <Route path="comics" element={<Comics />} />
                 <Route path="characters" element={<Characters />} />
                 <Route path="characters/:id" element={<CharacterDetail />} />
               </Route>

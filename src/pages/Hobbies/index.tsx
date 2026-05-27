@@ -17,11 +17,11 @@ export default function Hobbies() {
 
       </section>
 
-      <div className="grid grid-cols-1 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Prominent Wide Promo Card */}
-        <div className="relative w-full rounded-3xl overflow-hidden bg-maroon-50 dark:bg-[#A81717]/20 border border-maroon-900/10 dark:border-white/10 shadow-xl flex flex-col md:flex-row group transition-all duration-300 hover:shadow-2xl">
+        <div className="relative w-full rounded-3xl overflow-hidden bg-maroon-50 dark:bg-[#A81717]/20 border border-maroon-900/10 dark:border-white/10 shadow-xl flex flex-col xl:flex-row group transition-all duration-300 hover:shadow-2xl">
           {/* Left Side: Blended Image */}
-          <div className="relative w-full md:w-[60%] lg:w-[50%] h-64 md:h-[400px] lg:h-[450px] overflow-hidden [-webkit-mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] md:[-webkit-mask-image:linear-gradient(to_right,black_60%,transparent_100%)] md:[mask-image:linear-gradient(to_right,black_60%,transparent_100%)] shrink-0">
+          <div className="relative w-full xl:w-[50%] h-64 md:h-[350px] xl:h-[450px] overflow-hidden [-webkit-mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] xl:[-webkit-mask-image:linear-gradient(to_right,black_60%,transparent_100%)] xl:[mask-image:linear-gradient(to_right,black_60%,transparent_100%)] shrink-0">
             <img 
               src="/assets/hobbies/My Characters.jpg" 
               alt="Art sketch"
@@ -30,7 +30,7 @@ export default function Hobbies() {
           </div>
 
           {/* Right Side: Content */}
-          <div className="flex-1 p-8 md:p-12 md:pl-16 lg:pl-24 flex flex-col justify-center relative z-10 bg-maroon-50 dark:bg-transparent dark:md:bg-transparent">
+          <div className="flex-1 p-8 xl:p-12 xl:pl-12 flex flex-col justify-center relative z-10 bg-maroon-50 dark:bg-transparent dark:xl:bg-transparent">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-maroon-900 dark:text-white mb-4 transition-colors">
               My Characters
             </h2>
@@ -49,7 +49,36 @@ export default function Hobbies() {
           </div>
         </div>
 
-        {/* Space for future cards... */}
+        {/* Comics Promo Card */}
+        <div className="relative w-full rounded-3xl overflow-hidden bg-maroon-50 dark:bg-[#A81717]/20 border border-maroon-900/10 dark:border-white/10 shadow-xl flex flex-col xl:flex-row group transition-all duration-300 hover:shadow-2xl">
+          {/* Left Side: Blended Image */}
+          <div className="relative w-full xl:w-[50%] h-64 md:h-[350px] xl:h-[450px] overflow-hidden [-webkit-mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)] xl:[-webkit-mask-image:linear-gradient(to_right,black_60%,transparent_100%)] xl:[mask-image:linear-gradient(to_right,black_60%,transparent_100%)] shrink-0">
+            <img 
+              src="/assets/hobbies/Comics.jpg" 
+              alt="Comics cover"
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+
+          {/* Right Side: Content */}
+          <div className="flex-1 p-8 xl:p-12 xl:pl-12 flex flex-col justify-center relative z-10 bg-maroon-50 dark:bg-transparent dark:xl:bg-transparent">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-maroon-900 dark:text-white mb-4 transition-colors">
+              Comics
+            </h2>
+            <p className="text-maroon-800/80 dark:text-white/80 text-lg mb-8 leading-relaxed max-w-md transition-colors text-justify">
+              Read the comics I've created in my free time.
+            </p>
+            <div>
+              <Link 
+                to="/hobbies/comics"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-maroon-100/50 hover:bg-maroon-200 dark:bg-white/10 dark:hover:bg-white/20 text-maroon-900 dark:text-white font-semibold transition-all duration-300 border border-maroon-200 dark:border-white/20"
+              >
+                Read
+                <ArrowUpRight className="w-5 h-5" />
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
