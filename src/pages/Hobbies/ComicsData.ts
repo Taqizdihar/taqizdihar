@@ -11,14 +11,23 @@ export interface Comic {
 export const comics: Comic[] = [
   {
     id: "1",
-    title: "The Cosmic Voyager",
-    status: "Ongoing",
-    year: "2024",
+    title: "The Little Princes",
+    status: "Discontinued",
+    year: "2026",
     language: "English",
-    shortDescription: "A thrilling adventure across the stars following a solitary voyager uncovering ancient galactic mysteries.",
+    shortDescription: "A fanmade comic about the meeting between little Asriel Dreemurr and the Little Prince",
     media: [
-      "/assets/hobbies/comics/cosmic-voyager/page-1.jpg",
-      "/assets/hobbies/comics/cosmic-voyager/page-2.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 1.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 2.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 3.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 4.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 5.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 6.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 7.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 8.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 9.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 10.jpg",
+      "/assets/hobbies/comics/The Little Princes/Page 11.jpg"
     ]
   },
   {
