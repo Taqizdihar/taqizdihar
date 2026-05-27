@@ -50,7 +50,7 @@ export default function Characters() {
         </section>
 
         {/* Search Bar */}
-        <section>
+        <section className="mt-5">
           <div className="relative w-full max-w-2xl">
           <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
             <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />

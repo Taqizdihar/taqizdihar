@@ -13,6 +13,7 @@ import Hobbies from "./pages/Hobbies";
 import Characters from "./pages/Hobbies/Characters";
 import CharacterDetail from "./pages/Hobbies/CharacterDetail";
 import Comics from "./pages/Hobbies/Comics";
+import ComicReader from "./pages/Hobbies/ComicReader";
 import ScrollToTop from "./components/ScrollToTop";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { MediaModalProvider } from "./contexts/MediaModalContext";
@@ -24,6 +25,9 @@ export default function App() {
         <BrowserRouter>
           <ScrollToTop />
           <Routes>
+            {/* Comic Reader — full-screen, no sidebar/navbar */}
+            <Route path="/hobbies/comics/:id" element={<ComicReader />} />
+
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
               <Route path="about" element={<AboutMe />} />

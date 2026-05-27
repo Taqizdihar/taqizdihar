@@ -2,13 +2,11 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Search, Calendar, Globe2, BookOpen } from "lucide-react";
 import { comics } from "./ComicsData";
-import { useMediaModal } from "../../contexts/MediaModalContext";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 
 export default function Comics() {
   useDocumentTitle("Comics");
   const [searchTerm, setSearchTerm] = useState("");
-  const { openModal } = useMediaModal();
 
   const filteredComics = comics.filter((comic) =>
     comic.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -38,7 +36,7 @@ export default function Comics() {
         </section>
 
         {/* Search Bar */}
-        <section>
+        <section className="mt-5">
           <div className="relative max-w-2xl w-full">
           <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
             <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />
@@ -58,13 +56,13 @@ export default function Comics() {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {filteredComics.length > 0 ? (
           filteredComics.map((comic) => (
-            <div 
-              key={comic.id} 
-              className="bg-white/90 dark:bg-[#A81717]/30 backdrop-blur-md rounded-2xl p-5 border border-maroon-900/10 dark:border-white/10 shadow-xl flex flex-col group transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
+            <Link 
+              key={comic.id}
+              to={`/hobbies/comics/${comic.id}`}
+              className="bg-white/90 dark:bg-[#A81717]/30 backdrop-blur-md rounded-2xl p-5 border border-maroon-900/10 dark:border-white/10 shadow-xl flex flex-col group transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl cursor-pointer"
             >
               <div 
-                className="w-full aspect-[16/9] sm:aspect-video rounded-xl overflow-hidden bg-maroon-100 dark:bg-black/20 mb-5 relative cursor-pointer shadow-inner"
-                onClick={() => comic.media[0] && openModal(comic.media[0], comic.shortDescription)}
+                className="w-full aspect-[16/9] sm:aspect-video rounded-xl overflow-hidden bg-maroon-100 dark:bg-black/20 mb-5 relative shadow-inner"
               >
                 {comic.media && comic.media.length > 0 ? (
                   <img 
@@ -116,7 +114,7 @@ export default function Comics() {
                   {comic.shortDescription}
                 </p>
               </div>
-            </div>
+            </Link>
           ))
         ) : (
           <div className="col-span-1 md:col-span-2 py-12 flex flex-col items-center justify-center text-center">
