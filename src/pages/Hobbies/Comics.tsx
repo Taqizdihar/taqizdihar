@@ -38,14 +38,16 @@ export default function Comics() {
 
       {/* Search Bar */}
       <section>
-        <div className="relative max-w-md w-full">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-maroon-500 dark:text-white/50" />
+        <div className="relative max-w-2xl w-full">
+          <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
+            <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />
+          </div>
           <input
             type="text"
             placeholder="Search comic..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-12 pr-4 py-3 bg-white dark:bg-[#A81717]/20 border border-maroon-900/10 dark:border-white/10 rounded-full text-maroon-900 dark:text-white placeholder-maroon-500/50 dark:placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-maroon-500/50 transition-all shadow-sm"
+            className="w-full pl-12 pr-4 py-3.5 bg-white/90 dark:bg-white/5 border border-maroon-900/10 dark:border-white/10 rounded-2xl text-maroon-900 dark:text-white placeholder-maroon-900/40 dark:placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-maroon-500/50 dark:focus:ring-white/20 transition-all duration-300 shadow-sm"
           />
         </div>
       </section>

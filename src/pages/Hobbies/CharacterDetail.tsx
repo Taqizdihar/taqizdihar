@@ -41,68 +41,66 @@ export default function CharacterDetail() {
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Left Column (Infobox / Gallery) */}
-        <div className="lg:col-span-4 lg:col-start-1 flex gap-3 sm:gap-4 items-start">
-          {/* Interactive Image Gallery Thumbnails */}
+        <div className="lg:col-span-4 lg:col-start-1 flex flex-col gap-6">
+          {/* Gallery Row: Thumbnails + Square Preview side by side */}
           {character?.images && character.images.length > 0 && (
-            <div className="flex flex-col gap-3 shrink-0 overflow-y-auto pb-2 custom-scrollbar max-h-[500px]">
-              {character.images.map((img, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setActiveImageIdx(idx)}
-                  className={`w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-xl overflow-hidden border-2 transition-all duration-200 ${
-                    activeImageIdx === idx 
-                      ? "border-maroon-600 dark:border-white shadow-md scale-[1.02]" 
-                      : "border-transparent opacity-70 hover:opacity-100 hover:scale-[1.02]"
-                  }`}
-                >
-                  <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
-                </button>
-              ))}
-            </div>
-          )}
+            <div className="flex gap-3 sm:gap-4 items-start">
+              {/* Vertical Thumbnail Strip */}
+              <div className="flex flex-col gap-3 shrink-0 overflow-y-auto pb-2 custom-scrollbar max-h-[500px]">
+                {character.images.map((img, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => setActiveImageIdx(idx)}
+                    className={`w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-xl overflow-hidden border-2 transition-all duration-200 ${
+                      activeImageIdx === idx 
+                        ? "border-maroon-600 dark:border-white shadow-md scale-[1.02]" 
+                        : "border-transparent opacity-70 hover:opacity-100 hover:scale-[1.02]"
+                    }`}
+                  >
+                    <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
+                  </button>
+                ))}
+              </div>
 
-          {/* Active Preview & Details Box aligned perfectly together on the right */}
-          <div className="flex-1 flex flex-col gap-6 min-w-0">
-            {/* Square Active Image Preview */}
-            {character?.images && character.images.length > 0 && (
-              <div className="w-full aspect-square rounded-2xl overflow-hidden border border-maroon-900/10 dark:border-white/10 shadow-lg bg-white/50 dark:bg-white/5 backdrop-blur-sm relative">
+              {/* Square Active Image Preview */}
+              <div className="flex-1 aspect-square rounded-2xl overflow-hidden border border-maroon-900/10 dark:border-white/10 shadow-lg bg-white/50 dark:bg-white/5 backdrop-blur-sm relative min-w-0">
                 <img 
                   src={character.images[activeImageIdx]} 
                   alt={`${character.name} preview`} 
                   className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300"
                 />
               </div>
-            )}
+            </div>
+          )}
 
-            {/* Character Details Box */}
-            {character?.details && character.details.length > 0 && (
-              <div className="bg-white/80 dark:bg-[#A81717]/20 border border-maroon-900/10 dark:border-white/10 rounded-2xl p-6 shadow-md backdrop-blur-sm transition-colors duration-300 w-full">
-                <h3 className="text-xl font-bold text-maroon-900 dark:text-white mb-4 pb-2 border-b border-maroon-900/10 dark:border-white/10">
-                  Biographical Information
-                </h3>
-                <div className="w-full space-y-3 text-sm">
-                  <div className="flex justify-between items-center py-2 border-b border-maroon-900/5 dark:border-white/5 last:border-0 last:pb-0">
-                    <span className="font-semibold text-maroon-800 dark:text-white/80">Name</span>
-                    <span className="text-maroon-600 dark:text-white/60 text-right">{character.name}</span>
-                  </div>
-                  {character.details.filter(detail => detail.label !== "ShortDescription").map((detail, idx) => (
-                    <div key={idx} className={`flex ${detail.list ? 'flex-col items-start gap-2' : 'justify-between items-center'} py-2 border-b border-maroon-900/5 dark:border-white/5 last:border-0 last:pb-0`}>
-                      <span className="font-semibold text-maroon-800 dark:text-white/80">{detail.label}</span>
-                      {detail.list ? (
-                        <ul className="list-disc list-inside text-maroon-600 dark:text-white/60 text-left pl-2">
-                          {detail.list.map((item, i) => (
-                            <li key={i}>{item}</li>
-                          ))}
-                        </ul>
-                      ) : (
-                        <span className="text-maroon-600 dark:text-white/60 text-right">{detail.value}</span>
-                      )}
-                    </div>
-                  ))}
+          {/* Biographical Information — full width of the left column */}
+          {character?.details && character.details.length > 0 && (
+            <div className="bg-white/80 dark:bg-[#A81717]/20 border border-maroon-900/10 dark:border-white/10 rounded-2xl p-6 shadow-md backdrop-blur-sm transition-colors duration-300 w-full">
+              <h3 className="text-xl font-bold text-maroon-900 dark:text-white mb-4 pb-2 border-b border-maroon-900/10 dark:border-white/10">
+                Biographical Information
+              </h3>
+              <div className="w-full space-y-3 text-sm">
+                <div className="flex justify-between items-center py-2 border-b border-maroon-900/5 dark:border-white/5 last:border-0 last:pb-0">
+                  <span className="font-semibold text-maroon-800 dark:text-white/80">Name</span>
+                  <span className="text-maroon-600 dark:text-white/60 text-right">{character.name}</span>
                 </div>
+                {character.details.filter(detail => detail.label !== "ShortDescription").map((detail, idx) => (
+                  <div key={idx} className={`flex ${detail.list ? 'flex-col items-start gap-2' : 'justify-between items-center'} py-2 border-b border-maroon-900/5 dark:border-white/5 last:border-0 last:pb-0`}>
+                    <span className="font-semibold text-maroon-800 dark:text-white/80">{detail.label}</span>
+                    {detail.list ? (
+                      <ul className="list-disc list-inside text-maroon-600 dark:text-white/60 text-left pl-2">
+                        {detail.list.map((item, i) => (
+                          <li key={i}>{item}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <span className="text-maroon-600 dark:text-white/60 text-right">{detail.value}</span>
+                    )}
+                  </div>
+                ))}
               </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
 
         {/* Right Column (Content) */}

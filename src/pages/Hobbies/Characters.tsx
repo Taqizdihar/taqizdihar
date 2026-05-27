@@ -28,37 +28,41 @@ export default function Characters() {
 
   return (
     <div className="w-full space-y-12 animate-fade-in">
-      {/* Header Section */}
-      <section className="space-y-4 mb-4">
+      {/* Back Button & Header */}
+      <section className="space-y-4">
         <Link 
-          to="/hobbies" 
-          className="inline-flex items-center gap-2 text-maroon-700/80 hover:text-maroon-900 dark:text-white/70 dark:hover:text-white font-medium transition-colors mb-2 w-fit"
+          to="/hobbies"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-maroon-50 dark:bg-white/10 hover:bg-maroon-100 dark:hover:bg-white/20 text-maroon-800 dark:text-white transition-colors border border-maroon-200 dark:border-white/10 w-fit font-medium text-sm shadow-sm"
         >
           <ArrowLeft className="w-4 h-4" />
           Back to Hobbies
         </Link>
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-maroon-900 dark:text-white transition-colors duration-300">
-          My Characters
-        </h1>
-        <div className="w-20 h-1.5 bg-maroon-500 rounded-full"></div>
-        <p className="text-lg text-maroon-700/80 dark:text-white/70 font-medium max-w-2xl transition-colors duration-300 mt-4">
-          A collection of original characters from my drawing hobby.
-        </p>
+        <div className="space-y-4">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-maroon-900 dark:text-white transition-colors duration-300">
+            My Characters
+          </h1>
+          <div className="w-20 h-1.5 bg-maroon-500 rounded-full"></div>
+          <p className="text-lg text-maroon-700/80 dark:text-white/70 font-medium max-w-2xl transition-colors duration-300 mt-4">
+            A collection of original characters from my drawing hobby.
+          </p>
+        </div>
       </section>
 
       {/* Search Bar */}
-      <div className="relative w-full max-w-2xl">
-        <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
-          <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />
+      <section>
+        <div className="relative w-full max-w-2xl">
+          <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
+            <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />
+          </div>
+          <input
+            type="text"
+            placeholder="Search character..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full pl-12 pr-4 py-3.5 bg-white/90 dark:bg-white/5 border border-maroon-900/10 dark:border-white/10 rounded-2xl text-maroon-900 dark:text-white placeholder-maroon-900/40 dark:placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-maroon-500/50 dark:focus:ring-white/20 transition-all duration-300 shadow-sm"
+          />
         </div>
-        <input
-          type="text"
-          placeholder="Search character..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full pl-12 pr-4 py-3.5 bg-white/90 dark:bg-white/5 border border-maroon-900/10 dark:border-white/10 rounded-2xl text-maroon-900 dark:text-white placeholder-maroon-900/40 dark:placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-maroon-500/50 dark:focus:ring-white/20 transition-all duration-300 shadow-sm"
-        />
-      </div>
+      </section>
 
       {/* Characters Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
