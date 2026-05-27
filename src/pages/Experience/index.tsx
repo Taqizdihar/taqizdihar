@@ -25,6 +25,7 @@ export default function Experience() {
               title={exp.title}
               subtitle={exp.company}
               logoUrl={exp.companyLogo}
+              logoDescription={exp.logoDescription}
               logoFallbackIcon={<FaBuilding className="w-6 h-6" />}
               startDate={exp.startDate}
               endDate={exp.endDate}

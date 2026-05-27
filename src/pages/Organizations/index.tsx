@@ -23,6 +23,7 @@ export default function Organizations() {
               title={org.orgName}
               subtitle={org.position}
               logoUrl={org.orgLogo}
+              logoDescription={org.logoDescription}
               logoFallbackIcon={<FaBuilding className="w-6 h-6" />}
               startDate={org.startDate}
               endDate={org.endDate}

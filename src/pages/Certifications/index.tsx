@@ -24,6 +24,7 @@ export default function Certifications() {
               title={cert.certName}
               subtitle={cert.issuingOrg}
               logoUrl={cert.orgLogo}
+              logoDescription={cert.logoDescription}
               logoFallbackIcon={<FaCertificate className="w-6 h-6" />}
               startDate={cert.issueDate}
               endDate={cert.endDate}

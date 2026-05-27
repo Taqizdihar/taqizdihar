@@ -263,7 +263,16 @@ export const characters: Character[] = [
       "/assets/hobbies/Nogard von Hester/Nogard von Hester-3.jpg",
       "/assets/hobbies/Nogard von Hester/Nogard von Hester-4.jpg",
       "/assets/hobbies/Nogard von Hester/Nogard von Hester-5.jpg",
-      "/assets/hobbies/Nogard von Hester/Nogard von Hester-6.jpg"
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-6.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-7.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-8.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-9.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-10.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-11.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-12.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-13.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-14.jpg",
+      "/assets/hobbies/Nogard von Hester/Nogard von Hester-15.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },

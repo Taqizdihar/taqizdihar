@@ -23,6 +23,7 @@ export default function Achievements() {
               title={item.title}
               subtitle={item.issuer}
               logoUrl={item.issuerLogo}
+              logoDescription={item.logoDescription}
               logoFallbackIcon={<FaTrophy className="w-6 h-6" />}
               startDate={item.startDate}
               endDate={item.endDate}

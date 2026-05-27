@@ -25,6 +25,7 @@ export default function Projects() {
               title={project.projectName}
               subtitle={project.associatedWith}
               logoUrl={project.projectLogo}
+              logoDescription={project.logoDescription}
               logoFallbackIcon={<FolderGit2 className="w-6 h-6" />}
               startDate={project.startDate}
               endDate={project.endDate}

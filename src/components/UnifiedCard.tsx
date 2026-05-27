@@ -7,6 +7,7 @@ export interface MediaItem {
   type?: "image" | "video" | "pdf";
   url: string;
   title?: string;
+  description?: string;
 }
 
 export interface UnifiedCardProps {
@@ -14,6 +15,7 @@ export interface UnifiedCardProps {
   title: string;
   subtitle?: string;
   logoUrl?: string;
+  logoDescription?: string;
   logoFallbackIcon?: ReactNode;
   startDate?: string;
   endDate?: string;
@@ -32,6 +34,7 @@ export default function UnifiedCard({
   title,
   subtitle,
   logoUrl,
+  logoDescription,
   logoFallbackIcon = <Building2 className="w-6 h-6" />,
   startDate,
   endDate,
@@ -54,7 +57,7 @@ export default function UnifiedCard({
         <div className="flex items-start gap-4">
           <div 
             className={`hidden sm:flex items-center justify-center w-14 h-14 rounded-2xl border border-maroon-100 dark:border-white/10 bg-white dark:bg-white/5 text-maroon-600 dark:text-white shrink-0 shadow-sm overflow-hidden ${logoUrl ? 'cursor-pointer hover:scale-105 transition-transform' : ''}`}
-            onClick={() => logoUrl && openModal(logoUrl)}
+            onClick={() => logoUrl && openModal(logoUrl, logoDescription)}
           >
             {logoUrl ? (
               <img src={logoUrl} alt="Logo" className="w-full h-full object-cover" />
@@ -125,7 +128,7 @@ export default function UnifiedCard({
                 <div 
                   key={idx} 
                   className="relative shrink-0 w-72 sm:w-80 group/media overflow-hidden rounded-xl border border-maroon-100 dark:border-white/20 transition-colors shadow-md bg-maroon-50 dark:bg-white/5 aspect-video cursor-pointer"
-                  onClick={() => openModal(item.url)}
+                  onClick={() => openModal(item.url, item.description)}
                 >
                   <img src={item.url} alt={`Media ${idx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
@@ -136,7 +139,7 @@ export default function UnifiedCard({
                 <div 
                   key={idx} 
                   className="relative shrink-0 w-72 sm:w-80 rounded-xl border border-maroon-100 dark:border-white/20 overflow-hidden bg-maroon-900/5 dark:bg-white/5 flex flex-col items-center justify-center p-4 transition-colors shadow-md aspect-video group/video hover:bg-maroon-900/10 dark:hover:bg-white/10 cursor-pointer"
-                  onClick={() => openModal(item.url)}
+                  onClick={() => openModal(item.url, item.description)}
                 >
                    <Video className="w-8 h-8 text-maroon-400 dark:text-white/80 opacity-80 mb-2 group-hover/video:scale-110 transition-transform" />
                    <span className="text-sm font-medium text-maroon-800 dark:text-white text-center px-2">{item.title || "Video Attachment"}</span>
@@ -147,7 +150,7 @@ export default function UnifiedCard({
               return (
                 <div 
                   key={idx} 
-                  onClick={() => openModal(item.url)}
+                  onClick={() => openModal(item.url, item.description)}
                   className="flex shrink-0 w-64 sm:w-72 items-center justify-between p-4 rounded-xl border border-maroon-200 dark:border-white/20 bg-maroon-50 dark:bg-white/5 hover:bg-maroon-100 dark:hover:bg-white/10 transition-colors shadow-md group/pdf min-h-[5rem] cursor-pointer"
                 >
                   <div className="flex items-center gap-3 w-full">
