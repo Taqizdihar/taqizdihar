@@ -44,9 +44,9 @@ export default function CharacterDetail() {
         <div className="lg:col-span-4 lg:col-start-1 flex flex-col gap-6">
           {/* Gallery Row: Thumbnails + Square Preview side by side */}
           {character?.images && character.images.length > 0 && (
-            <div className="flex gap-3 sm:gap-4 items-start">
+            <div className="relative flex items-start">
               {/* Vertical Thumbnail Strip */}
-              <div className="flex flex-col gap-3 shrink-0 overflow-y-auto pb-2 custom-scrollbar max-h-[500px]">
+              <div className="absolute top-0 bottom-0 left-0 w-16 sm:w-20 flex flex-col gap-3 overflow-y-auto pb-2 no-scrollbar">
                 {character.images.map((img, idx) => (
                   <button
                     key={idx}
@@ -63,7 +63,7 @@ export default function CharacterDetail() {
               </div>
 
               {/* Square Active Image Preview */}
-              <div className="flex-1 aspect-square rounded-2xl overflow-hidden border border-maroon-900/10 dark:border-white/10 shadow-lg bg-white/50 dark:bg-white/5 backdrop-blur-sm relative min-w-0">
+              <div className="flex-1 ml-[76px] sm:ml-[96px] aspect-square rounded-2xl overflow-hidden border border-maroon-900/10 dark:border-white/10 shadow-lg bg-white/50 dark:bg-white/5 backdrop-blur-sm relative min-w-0">
                 <img 
                   src={character.images[activeImageIdx]} 
                   alt={`${character.name} preview`} 

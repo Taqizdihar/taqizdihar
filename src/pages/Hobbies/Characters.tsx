@@ -28,29 +28,30 @@ export default function Characters() {
 
   return (
     <div className="w-full space-y-12 animate-fade-in">
-      {/* Back Button & Header */}
-      <section className="space-y-4">
-        <Link 
-          to="/hobbies"
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-maroon-50 dark:bg-white/10 hover:bg-maroon-100 dark:hover:bg-white/20 text-maroon-800 dark:text-white transition-colors border border-maroon-200 dark:border-white/10 w-fit font-medium text-sm shadow-sm"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Hobbies
-        </Link>
-        <div className="space-y-4">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-maroon-900 dark:text-white transition-colors duration-300">
-            My Characters
-          </h1>
-          <div className="w-20 h-1.5 bg-maroon-500 rounded-full"></div>
-          <p className="text-lg text-maroon-700/80 dark:text-white/70 font-medium max-w-2xl transition-colors duration-300 mt-4">
-            A collection of original characters from my drawing hobby.
-          </p>
-        </div>
-      </section>
+      {/* Header and Search Group */}
+      <div>
+        <section className="space-y-4">
+          <Link 
+            to="/hobbies"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-maroon-50 dark:bg-white/10 hover:bg-maroon-100 dark:hover:bg-white/20 text-maroon-800 dark:text-white transition-colors border border-maroon-200 dark:border-white/10 w-fit font-medium text-sm shadow-sm"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Hobbies
+          </Link>
+          <div className="space-y-4">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-maroon-900 dark:text-white transition-colors duration-300">
+              My Characters
+            </h1>
+            <div className="w-20 h-1.5 bg-maroon-500 rounded-full"></div>
+            <p className="text-lg text-maroon-700/80 dark:text-white/70 font-medium max-w-2xl transition-colors duration-300">
+              A collection of original characters from my drawing hobby.
+            </p>
+          </div>
+        </section>
 
-      {/* Search Bar */}
-      <section>
-        <div className="relative w-full max-w-2xl">
+        {/* Search Bar */}
+        <section>
+          <div className="relative w-full max-w-2xl">
           <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
             <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />
           </div>
@@ -63,6 +64,7 @@ export default function Characters() {
           />
         </div>
       </section>
+      </div>
 
       {/* Characters Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

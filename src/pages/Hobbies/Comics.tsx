@@ -16,29 +16,30 @@ export default function Comics() {
 
   return (
     <div className="w-full space-y-12 animate-fade-in pb-12">
-      {/* Back Button & Header */}
-      <section className="space-y-6">
-        <Link
-          to="/hobbies"
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-maroon-50 dark:bg-white/10 hover:bg-maroon-100 dark:hover:bg-white/20 text-maroon-800 dark:text-white transition-colors border border-maroon-200 dark:border-white/10 w-fit font-medium text-sm shadow-sm"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Hobbies
-        </Link>
-        <div className="space-y-4">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-maroon-900 dark:text-white transition-colors duration-300">
-            Comics
-          </h1>
-          <div className="w-20 h-1.5 bg-maroon-500 rounded-full"></div>
-          <p className="text-lg text-maroon-700/80 dark:text-white/70 font-medium max-w-2xl transition-colors duration-300 mt-4">
-            A collection of my comic projects, stories, and visual narratives.
-          </p>
-        </div>
-      </section>
+      {/* Header and Search Group */}
+      <div>
+        <section className="space-y-4">
+          <Link
+            to="/hobbies"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-maroon-50 dark:bg-white/10 hover:bg-maroon-100 dark:hover:bg-white/20 text-maroon-800 dark:text-white transition-colors border border-maroon-200 dark:border-white/10 w-fit font-medium text-sm shadow-sm"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Hobbies
+          </Link>
+          <div className="space-y-4">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-maroon-900 dark:text-white transition-colors duration-300">
+              Comics
+            </h1>
+            <div className="w-20 h-1.5 bg-maroon-500 rounded-full"></div>
+            <p className="text-lg text-maroon-700/80 dark:text-white/70 font-medium max-w-2xl transition-colors duration-300">
+              A collection of my comic projects, stories, and visual narratives.
+            </p>
+          </div>
+        </section>
 
-      {/* Search Bar */}
-      <section>
-        <div className="relative max-w-2xl w-full">
+        {/* Search Bar */}
+        <section>
+          <div className="relative max-w-2xl w-full">
           <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
             <Search className="h-5 w-5 text-maroon-500 dark:text-white/50" />
           </div>
@@ -51,6 +52,7 @@ export default function Comics() {
           />
         </div>
       </section>
+      </div>
 
       {/* Comics Grid */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -80,7 +82,12 @@ export default function Comics() {
                 )}
                 
                 {/* Status Badge Over Image */}
-                <div className="absolute top-3 right-3 px-3 py-1 bg-black/60 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider border border-white/20">
+                <div className={`absolute top-3 right-3 px-3 py-1 backdrop-blur-md rounded-full text-xs font-bold uppercase tracking-wider border border-white/20 ${
+                  comic.status.toLowerCase() === 'completed' ? 'bg-green-600 text-white' :
+                  comic.status.toLowerCase() === 'ongoing' ? 'bg-yellow-500 text-gray-900' :
+                  comic.status.toLowerCase() === 'discontinued' ? 'bg-red-600 text-white' :
+                  'bg-black/60 text-white'
+                }`}>
                   {comic.status}
                 </div>
               </div>
@@ -99,29 +106,15 @@ export default function Comics() {
                     <Globe2 className="w-3.5 h-3.5" />
                     {comic.language}
                   </div>
+                  <div className="flex items-center gap-1.5 text-xs font-semibold text-maroon-700 dark:text-white/80 bg-maroon-50 dark:bg-white/10 px-2.5 py-1 rounded-md border border-maroon-100 dark:border-white/10">
+                    <BookOpen className="w-3.5 h-3.5" />
+                    {comic.media.length} Pages
+                  </div>
                 </div>
 
-                <p className="text-maroon-800/80 dark:text-white/80 text-sm leading-relaxed mb-6 flex-1 text-justify">
+                <p className="text-maroon-800/80 dark:text-white/80 text-sm leading-relaxed flex-1 text-justify">
                   {comic.shortDescription}
                 </p>
-
-                <div className="flex flex-wrap gap-2 mt-auto">
-                  {comic.media.slice(0, 3).map((page, idx) => (
-                    <button
-                      key={idx}
-                      onClick={() => openModal(page, `${comic.title} - Page ${idx + 1}`)}
-                      className="flex items-center gap-2 px-4 py-2 bg-maroon-100 dark:bg-[#7f1d1d] hover:bg-maroon-200 dark:hover:bg-[#991b1b] text-maroon-900 dark:text-white text-xs font-bold rounded-lg transition-colors border border-maroon-200 dark:border-white/10"
-                    >
-                      <BookOpen className="w-3.5 h-3.5" />
-                      Read Page {idx + 1}
-                    </button>
-                  ))}
-                  {comic.media.length > 3 && (
-                     <span className="flex items-center text-xs font-bold text-maroon-700 dark:text-white/70 px-2">
-                       +{comic.media.length - 3} more
-                     </span>
-                  )}
-                </div>
               </div>
             </div>
           ))
