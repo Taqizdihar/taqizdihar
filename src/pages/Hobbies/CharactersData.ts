@@ -27,10 +27,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: "Bryan Zans was an assistant."
-      },
-      {
-        title: "Abilities",
-        content: "Bryan is a very good assistant and is able to help with many things."
       }
     ]
   },
@@ -60,10 +56,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Quest",
-        content: ""
       }
     ]
   },
@@ -84,10 +76,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -112,10 +100,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -139,10 +123,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -165,10 +145,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -195,10 +171,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -221,10 +193,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -246,10 +214,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -283,10 +247,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -309,10 +269,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -332,10 +288,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -361,10 +313,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -386,10 +334,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -409,10 +353,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -434,10 +374,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -456,10 +392,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -484,10 +416,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -509,10 +437,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -537,10 +461,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -570,10 +490,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -606,10 +522,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -639,10 +551,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -670,10 +578,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -694,10 +598,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -727,10 +627,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -754,10 +650,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -778,10 +670,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -811,10 +699,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -836,10 +720,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -859,10 +739,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -884,10 +760,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -906,10 +778,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -930,10 +798,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -953,10 +817,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -973,10 +833,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -996,10 +852,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1021,10 +873,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1041,10 +889,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1073,10 +917,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1102,10 +942,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1127,10 +963,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1147,10 +979,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1171,10 +999,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1197,10 +1021,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1219,10 +1039,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1237,10 +1053,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1257,10 +1069,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1275,10 +1083,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1295,10 +1099,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1314,10 +1114,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1332,10 +1128,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1355,10 +1147,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1374,10 +1162,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1398,10 +1182,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1418,10 +1198,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1440,10 +1216,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1460,10 +1232,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1482,10 +1250,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1503,10 +1267,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1523,10 +1283,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1542,10 +1298,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1570,10 +1322,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1594,10 +1342,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1616,10 +1360,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1637,10 +1377,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1661,10 +1397,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1682,10 +1414,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1706,10 +1434,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1728,10 +1452,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1752,10 +1472,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1770,10 +1486,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1790,10 +1502,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1809,10 +1517,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1835,10 +1539,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1856,10 +1556,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1880,10 +1576,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1902,10 +1594,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1927,10 +1615,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -1950,10 +1634,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -1982,10 +1662,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -2016,10 +1692,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -2044,10 +1716,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -2081,10 +1749,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -2103,10 +1767,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -2127,10 +1787,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -2150,10 +1806,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -2172,10 +1824,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -2199,10 +1847,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -2223,10 +1867,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
@@ -2250,10 +1890,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: ""
-      },
-      {
-        title: "Methods",
-        content: ""
       }
     ]
   },
@@ -2274,10 +1910,6 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
-      },
-      {
-        title: "Methods",
         content: ""
       }
     ]
