@@ -962,7 +962,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Arthloporsus was a Galaksiont emperor who fought the Vasmirians in the War of the Anti-Matter Throne and the one who planned Operation Resurses against the eastern Matter Universe after the Vasmirian emperor, Rhainor Delaren, united with Darknity Darkezus to destroy the Galaksiont Empire from two fronts which ultimately sparked the Second Zurtherian War."
       }
     ]
   },
