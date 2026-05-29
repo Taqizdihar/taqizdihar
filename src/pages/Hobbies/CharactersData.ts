@@ -55,7 +55,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Darknity Darkezus was the sole tyrannical emperor of the Dark Matter universe, master of dark lords such as Taranis Tartarus, and the indirect instigator of the Second Zurtherian War after causing the First Zurtherian War and the destruction of the planet Furtherous Zurther centuries earlier for the sake of eternity. He was one of the 13 Main and Climax Antagonists of both the Old and New Zurther Universe Lorebooks."
       }
     ]
   },
@@ -962,7 +962,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Arthloporsus was a Galaksiont emperor who fought the Vasmirians in the War of the Anti-Matter Throne and the one who planned Operation Resurses against the eastern Matter Universe after the Vasmirian emperor, Rhainor Delaren, united with Darknity Darkezus to destroy the Galaksiont Empire from two fronts which ultimately sparked the Second Zurtherian War."
+        content: "Arthloporsus was a Galaksiont emperor who fought the Vasmirians in the War of the Anti-Matter Throne and the one who planned Operation Resurses against the eastern Matter Universe after the Vasmirian emperor, Rhainor Delaren, united with Darknity Darkezus to destroy the Galaksiont Empire from two fronts which ultimately sparked the Second Zurtherian War. He was one of the antagonists in the New Zurther Universe Lorebook."
       }
     ]
   },
