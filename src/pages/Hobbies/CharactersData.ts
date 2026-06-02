@@ -26,7 +26,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Bryan Zans was an assistant."
+        content: "Bryan Zans was a normal human whose occupation was an assistant."
       }
     ]
   },
@@ -55,7 +55,11 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "Darknity Darkezus was the sole tyrannical emperor of the Dark Matter universe, master of dark lords such as Taranis Tartarus, and the indirect instigator of the Second Zurtherian War after causing the First Zurtherian War and the destruction of the planet Furtherous Zurther centuries earlier for the sake of eternity. He was one of the 13 Main and Climax Antagonists of both the Old and New Zurther Universe Lorebooks."
+        content: "Darknity Darkezus was the sole tyrannical emperor of the Dark Matter universe, master of dark lords such as Taranis Tartarus, and the indirect instigator of the Second Zurtherian War after causing the First Zurtherian War and the destruction of the planet Furtherous Zurther centuries earlier for the sake of immortality. He was one of the 13 Main and Climax Antagonists of both the Old and New Zurther Universe Lorebooks."
+      },
+      {
+        title: "Personality",
+        content: "Darknity was a ruthless tyrant"
       }
     ]
   },
@@ -76,7 +80,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Dazernier Dragonite was a dragonman who wandered Europe with his long sword searching for someone to challenge him."
       }
     ]
   },
@@ -941,7 +945,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Azwir Aion was a colonel from Repteilustian Space Force/Navy who was tasked to kidnap Elixsian Fields under the dark influence of Taranis Tartarus."
       }
     ]
   },
@@ -1038,7 +1042,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Azzarius Antares was the master of the Seven Stars or the Seven Desnavars (destroyers) who sent them across the Matter universe to cause destructions. He was one of the 13 main antagonists in the Old Zurther Universe Lorebook."
       }
     ]
   },
@@ -1433,7 +1437,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Dassim Hazim was a student in \"Maskodia World\"."
       }
     ]
   },
@@ -1471,7 +1475,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Detzer Reynauld was a student in \"Maskodia World\"."
       }
     ]
   },
@@ -1721,8 +1725,8 @@ export const characters: Character[] = [
     ]
   },
   {
-    id: "cory-campthon",
-    name: "Cory Campthon",
+    id: "cornelius-campthon",
+    name: "Cornelius Campthon",
     images: [
       "/assets/hobbies/characters/Cory Campthon/Cory Campthon-1.jpg",
       "/assets/hobbies/characters/Cory Campthon/Cory Campthon-2.jpg",
@@ -1740,6 +1744,7 @@ export const characters: Character[] = [
       "/assets/hobbies/characters/Cory Campthon/Cory Campthon-14.jpg"
     ],
     details: [
+      { label: "Nickname", value: "Cory" },
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Human" },
       { label: "Occupation", value: "Pizza Delivery Guy" },
@@ -1748,7 +1753,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Cornelius \"Cory\" Campthon was a pizza delivery guy who befriended Tenford Tracker and Nogard von Hester. He was the protagonist in the \"When Fairytale Became True\" short story."
       }
     ]
   },
@@ -1767,7 +1772,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Derius Derrick was the secretary of the Repteilustian Empire who attended the Meeting of the Emperors and took the crucial notes of the meeting."
       }
     ]
   },
@@ -1781,12 +1786,13 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Vogelustian" },
       { label: "Occupation", value: "Prince" },
+      { label: "Family", value: "Roy Rigel Rafiers (father)" },
       { label: "ShortDescription", value: "Crown Prince of the Vogelustian Empire" }
     ],
     sections: [
       {
         title: "About",
-        content: ""
+        content: "Dever Lumarium was the crown prince of the Vogelustian Empire. He was the representative of the Vogelustian Empire in the Meeting of the Emperors instead of his conceited father, Roy Rigel Rafiers."
       }
     ]
   },
