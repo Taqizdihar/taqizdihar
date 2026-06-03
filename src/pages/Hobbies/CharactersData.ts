@@ -1926,10 +1926,11 @@ export const characters: Character[] = [
     images: [
     ],
     details: [
-      { label: "Aliases", list: ["The Archangel of the Oceans", "He Who Caused the Second Deluge", "Raph"] },
+      { label: "Aliases", list: ["The Archangel of the Oceans", "He Who Caused the Second Deluge", "RAPH (codename)"] },
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Devonian Extraordinary Life Form (DELF)" },
-      { label: "Occupation", value: "Sea Deity of Destruction" },
+      { label: "Occupation", value: "Sea Deity" },
+      { label: "Age", value: "430 million years" },
       { label: "ShortDescription", value: "Ancient Sea Deity" }
     ],
     sections: [
