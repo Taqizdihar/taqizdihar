@@ -1919,5 +1919,24 @@ export const characters: Character[] = [
         content: ""
       }
     ]
+  },
+  {
+    id: "searaphinius-panthalassa",
+    name: "Searaphinius Panthalassa",
+    images: [
+    ],
+    details: [
+      { label: "Aliases", list: ["The Archangel of the Oceans", "He Who Caused the Second Deluge", "Raph"] },
+      { label: "Gender", value: "Male" },
+      { label: "Species", value: "Devonian Extraordinary Life Form (DELF)" },
+      { label: "Occupation", value: "Sea Deity of Destruction" },
+      { label: "ShortDescription", value: "Ancient Sea Deity" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      }
+    ]
   }
 ];
