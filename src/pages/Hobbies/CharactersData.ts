@@ -1931,7 +1931,7 @@ export const characters: Character[] = [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Devonian Extraordinary Life Form (DELF)" },
       { label: "Occupation", value: "Sea Deity" },
-      { label: "Age", value: "430 million years" },
+      { label: "Age", value: "±400 million years" },
       { label: "ShortDescription", value: "Ancient Sea Deity" }
     ],
     sections: [
