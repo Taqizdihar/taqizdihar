@@ -1927,7 +1927,7 @@ export const characters: Character[] = [
       "/assets/hobbies/characters/Searaphinius Panthalassa/Searaphinius Panthalassa-1.jpg",
     ],
     details: [
-      { label: "Aliases", list: ["The Archangel of the Oceans", "He Who Caused the Second Deluge", "Wrath of the Great Blue", "RAPH (codename)"] },
+      { label: "Aliases", list: ["The Archangel of the Oceans", "He Who Caused the Second Deluge", "Wrath of the Great Blue", "Seraph of the Oceans", "RAPH (codename)"] },
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Devonian Extraordinary Life Form (DELF)" },
       { label: "Occupation", value: "Sea Deity" },
