@@ -17,7 +17,7 @@ export const achievements = [
     id: 2,
     title: "OPES Scholarship",
     issuer: "Telkom University",
-    issuerLogo: "/assets/achievements/Telkom University.png",
+    issuerLogo: "/assets/logo/Telkom University.png",
     logoDescription: "Telkom University Logo",
     startDate: "July 2024",
     endDate: "",
