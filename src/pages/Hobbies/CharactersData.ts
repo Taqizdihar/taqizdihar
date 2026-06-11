@@ -1940,5 +1940,23 @@ export const characters: Character[] = [
         content: ""
       }
     ]
+  },
+  {
+    id: "robo-burger",
+    name: "Robo-Burger",
+    images: [
+    ],
+    details: [
+      { label: "Aliases", list: ["DRX-0000006", "Burger Bot"] },
+      { label: "Species", value: "Robot" },
+      { label: "Occupation", value: "Wandering Robot" },
+      { label: "ShortDescription", value: "Wandering Robot" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: ""
+      }
+    ]
   }
 ];
