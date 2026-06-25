@@ -1243,7 +1243,9 @@ export const characters: Character[] = [
   {
     id: "will-heavenwall",
     name: "Will Heavenwall",
-    images: [],
+    images: [
+      "/assets/hobbies/characters/Will Heavenwall/Will Heavenwall-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Species", value: "Robot" },
