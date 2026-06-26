@@ -56,10 +56,6 @@ export const characters: Character[] = [
       {
         title: "About",
         content: "Darknity Darkezus was the sole tyrannical emperor of the Dark Matter universe, master of dark lords such as Taranis Tartarus, and the indirect instigator of the Second Zurtherian War after causing the First Zurtherian War and the destruction of the planet Furtherous Zurther centuries earlier for the sake of immortality. He was one of the 13 Main and Climax Antagonists of both the Old and New Zurther Universe Lorebooks."
-      },
-      {
-        title: "Personality",
-        content: "Darknity was a ruthless tyrant"
       }
     ]
   },
@@ -103,7 +99,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -126,7 +122,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -149,7 +145,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -174,7 +170,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -196,7 +192,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -218,7 +214,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -250,7 +246,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -272,7 +268,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -292,7 +288,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -316,7 +312,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -337,7 +333,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -357,7 +353,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -377,7 +373,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -396,7 +392,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -419,7 +415,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -441,7 +437,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -465,7 +461,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -494,7 +490,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -525,7 +521,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -554,7 +550,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -581,7 +577,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -602,7 +598,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -630,7 +626,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -653,7 +649,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -674,7 +670,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -702,7 +698,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -723,7 +719,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -743,7 +739,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -763,7 +759,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -782,7 +778,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -801,7 +797,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -820,7 +816,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -837,7 +833,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -856,7 +852,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -876,7 +872,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -893,7 +889,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -920,7 +916,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -983,7 +979,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1003,7 +999,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1024,7 +1020,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1057,7 +1053,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1072,7 +1068,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1087,7 +1083,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1102,7 +1098,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1117,7 +1113,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1132,7 +1128,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1150,7 +1146,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1166,7 +1162,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1185,7 +1181,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1202,7 +1198,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1219,7 +1215,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1236,7 +1232,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1255,7 +1251,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1272,7 +1268,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1288,7 +1284,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1304,7 +1300,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1327,7 +1323,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1347,7 +1343,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1365,7 +1361,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1383,7 +1379,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1402,7 +1398,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1420,7 +1416,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1458,7 +1454,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1492,7 +1488,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1507,7 +1503,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1523,7 +1519,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1544,7 +1540,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1562,7 +1558,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1581,7 +1577,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1600,7 +1596,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1620,7 +1616,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1640,7 +1636,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1668,7 +1664,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1697,7 +1693,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1722,7 +1718,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1813,7 +1809,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1832,7 +1828,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1854,7 +1850,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1875,7 +1871,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1897,7 +1893,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1918,7 +1914,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1939,7 +1935,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   },
@@ -1957,7 +1953,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: ""
+        content: "N/A"
       }
     ]
   }
