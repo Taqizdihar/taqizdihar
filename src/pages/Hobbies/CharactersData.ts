@@ -1510,7 +1510,9 @@ export const characters: Character[] = [
   {
     id: "mark-magnanimous-morningstar",
     name: "Mark Magnanimous Morningstar",
-    images: [],
+    images: [
+      "/assets/hobbies/characters/Mark Magnanimous Morningstar/Mark Magnanimous Morningstar-1.jpg"
+    ],
     details: [
       { label: "Gender", value: "Male" },
       { label: "Occupation", value: "Prince" },
