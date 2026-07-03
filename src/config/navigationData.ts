@@ -13,6 +13,6 @@ export const socials = [
   { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61587185312942" }
 ];
 
-export const name = "Muhammad Taqi Izdihar";
-export const position = "Developer & Multimedian";
+export const name = "M. Taqi Izdihar";
+export const position = "Information Systems & Multimedia";
 export const logo = "/assets/sidebar/MTI Transparent.png";
