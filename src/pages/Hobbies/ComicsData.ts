@@ -136,7 +136,7 @@ export const comics: Comic[] = [
     id: "6",
     title: "Frisk VS Asriel",
     status: "Completed",
-    year: "2014",
+    year: "2024",
     language: "English",
     shortDescription: "A one-page comic about Frisk VS Asriel from Undertale in a nutshell",
     media: [

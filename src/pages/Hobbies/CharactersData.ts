@@ -685,7 +685,11 @@ export const characters: Character[] = [
       "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-5.jpg",
       "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-6.jpg",
       "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-7.jpg",
-      "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-8.jpg"
+      "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-8.jpg",
+      "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-9.jpg",
+      "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-10.jpg",
+      "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-11.jpg",
+      "/assets/hobbies/characters/Hydrus Hypthon/Hydrus Hypthon-12.jpg"
     ],
     details: [
       { label: "Gender", value: "Male" },
