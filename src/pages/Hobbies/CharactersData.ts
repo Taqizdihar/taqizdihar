@@ -1519,6 +1519,7 @@ export const characters: Character[] = [
     ],
     details: [
       { label: "Aliases" , list: ["Mark", "Shadow-Lurker", "Shadow Prince"] },
+      { label: "Species", value: "Demon/Djinn" },
       { label: "Gender", value: "Male" },
       { label: "Occupation", value: "Prince" },
       { label: "ShortDescription", value: "Prince" }
@@ -1526,7 +1527,7 @@ export const characters: Character[] = [
     sections: [
       {
         title: "About",
-        content: "N/A"
+        content: "Markael \"Mark\" Magnanimous Morningstar was a powerful demon/djinn prince who claimed to be the first son of the Devil from an alternate reality where Judgment Day was the past, and took the form of a classic depiction of a Renaissance angel to deceive humans and to instill fear in other demons. He's obsessed with the possibility of travelling across realities to see every form of Hell"
       }
     ]
   },
