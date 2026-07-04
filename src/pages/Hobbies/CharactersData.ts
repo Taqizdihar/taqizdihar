@@ -2054,7 +2054,7 @@ export const characters: Character[] = [
     details: [
       { label: "Species", value: "Equine Mutant" },
       { label: "Occupation", value: "Dreamer" },
-      { label: "ShortDescription", value: "The Strong" }
+      { label: "ShortDescription", value: "The Astronaut" }
     ],
     sections: [
       {
