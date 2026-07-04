@@ -32,6 +32,35 @@ export const comics: Comic[] = [
   },
   {
     id: "2",
+    title: "The Mother & The Emperor",
+    status: "Completed",
+    year: "2026",
+    language: "Indonesian (old version)",
+    shortDescription: "A wordless comic as a remake of the old 2017 short story titled \"Sang Ibu & Sang Kaisar (The Mother & The Emperor)\" from the \"3 Kisah dari 3 Semesta: 3 Kaisar dari 3 Semesta (3 Tales from 3 Universes: 3 Emperors of 3 Universes)\" piece of writing.",
+    media: [
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 1.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 2.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 3.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 4.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 5.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 6.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 7.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 8.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 9.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 10.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 11.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 12.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 13.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 14.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 15.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 16.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 17.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 18.jpg",
+      "/assets/hobbies/comics/The Mother & The Emperor/Page 19.jpg",
+    ]
+  },
+  {
+    id: "3",
     title: "Wake Up It's 2025",
     status: "Completed",
     year: "2025",
@@ -51,7 +80,7 @@ export const comics: Comic[] = [
     ]
   },
   {
-    id: "3",
+    id: "4",
     title: "Stargazing",
     status: "Completed",
     year: "2023",
@@ -71,7 +100,7 @@ export const comics: Comic[] = [
     ]
   },
   {
-    id: "4",
+    id: "5",
     title: "The New Zurther Universe",
     status: "Discontinued",
     year: "2019",
@@ -86,7 +115,7 @@ export const comics: Comic[] = [
     ]
   },
   {
-    id: "5",
+    id: "6",
     title: "The Old Zurther Universe",
     status: "Discontinued",
     year: "2017",
@@ -133,7 +162,7 @@ export const comics: Comic[] = [
     ]
   },
   {
-    id: "6",
+    id: "7",
     title: "Frisk VS Asriel",
     status: "Completed",
     year: "2024",
