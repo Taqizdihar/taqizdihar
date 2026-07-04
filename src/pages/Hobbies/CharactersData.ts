@@ -1518,16 +1518,29 @@ export const characters: Character[] = [
       "/assets/hobbies/characters/Mark Magnanimous Morningstar/Mark Magnanimous Morningstar-1.jpg"
     ],
     details: [
-      { label: "Aliases" , list: ["Mark", "Shadow-Lurker", "Shadow Prince"] },
+      { label: "Aliases" , list: ["Mark", "Mars", "The Malevolent Markael Magnanimous Morningstar", "iii-M/III-M", "iii-M/III-M", "Shadow-Lurker", "Shadow Prince", "The False Angel", "Angel of Darkness"] },
       { label: "Species", value: "Demon/Djinn" },
       { label: "Gender", value: "Male" },
-      { label: "Occupation", value: "Prince" },
-      { label: "ShortDescription", value: "Prince" }
+      { label: "Occupation", value: "Demon/Djinn Prince" },
+      { label: "Alignment", value: "Evil" },
+      { label: "ShortDescription", value: "Demon Prince" }
     ],
     sections: [
       {
         title: "About",
-        content: "Markael \"Mark\" Magnanimous Morningstar was a powerful demon/djinn prince who claimed to be the first son of the Devil from an alternate reality where Judgment Day was the past, and took the form of a classic depiction of a Renaissance angel to deceive humans and to instill fear in other demons. He's obsessed with the possibility of travelling across realities to see every form of Hell"
+        content: "Markael Magnanimous Morningstar is a powerful demon/djinn prince who claims to be the first son of the Devil from an alternate reality where Judgment Day is the past, and takes the form of a classic Renaissance depiction of an angel to deceive humans and to instill fear in other demons to assert his infernal dominance. He claims to travel across realities to see every form of Hell just to learn how they work and to see different ways of suffering, which he claims to use and inflict upon his sinful victims in his domains with his powers."
+      },
+      {
+        title: "Appearance",
+        content: "Just like a Renaissance depiction of an angel, Markael has a humanoid form with a pair of wings in a robe with a waist belt (cingulum), except that every part of his body and clothing is covered in darkness, making his figure shadowy and almost leaving no traces of light, only a void of an \"angel\". He has a faint and dim false halo above his head and three glowing white dots upon his face, which are his eyes."
+      },
+      {
+        title: "Personality",
+        content: "Markael is ruthless towards the sinners within his domains, and to other demons, he's also deceitful towards the living mortals by claiming to be their savior angel, completely hiding his hideous and malevolent nature. He even proudly claims to behead and dethrone his weaker father from another reality to rule over his Hell just for his entertainment. He also claims to have slain the pagan gods (worshipped demons) across realities just to replace them as \"the savior angel who destroys paganism.\" Despite all of his absurd claims, his malevolent and deceptive nature is undeniable."
+      },
+      {
+        title: "Abilities",
+        content: "As a powerful demonic entity or malevolent djinn, Markael has complete control over basic demon/djinn abilities, such as fire manipulation, flight, invisibility towards mortals, and dark magic. During a fight with other demons or entities, he can summon his blazing, fiery sword, which is described as \"a powerful fiery sword that leaves trails of crimson flames and spits blinding and burning lightning upon strike, capable of reducing any opponent to ashes.\" Besides his physical abilities, he also possesses charm and charisma to deceive his mortal victims, while using intimidation and imposition against other demons."
       }
     ]
   },
