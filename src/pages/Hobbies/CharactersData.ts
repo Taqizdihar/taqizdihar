@@ -1512,12 +1512,13 @@ export const characters: Character[] = [
     ]
   },
   {
-    id: "mark-magnanimous-morningstar",
-    name: "Mark Magnanimous Morningstar",
+    id: "markael-magnanimous-morningstar",
+    name: "Markael Magnanimous Morningstar",
     images: [
       "/assets/hobbies/characters/Mark Magnanimous Morningstar/Mark Magnanimous Morningstar-1.jpg"
     ],
     details: [
+      { label: "Aliases" , list: ["Mark", "Shadow-Lurker", "Shadow Prince"] },
       { label: "Gender", value: "Male" },
       { label: "Occupation", value: "Prince" },
       { label: "ShortDescription", value: "Prince" }
