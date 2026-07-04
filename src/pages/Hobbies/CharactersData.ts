@@ -1977,5 +1977,90 @@ export const characters: Character[] = [
         content: "N/A"
       }
     ]
+  },
+  {
+    id: "horse",
+    name: "Horse",
+    images: [
+    ],
+    details: [
+      { label: "Species", value: "Equine Mutant" },
+      { label: "Occupation", value: "Dreamer" },
+      { label: "ShortDescription", value: "The Ordinary" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Horse was the main character from the \"The Four Horsemen of the Post-Apocalyptic World\" dream."
+      }
+    ]
+  },
+  {
+    id: "pegasus",
+    name: "Pegasus",
+    images: [
+    ],
+    details: [
+      { label: "Species", value: "Equine Mutant" },
+      { label: "Occupation", value: "Dreamer" },
+      { label: "ShortDescription", value: "The Strong" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Pegasus was a supporting character from the \"The Four Horsemen of the Post-Apocalyptic World\" dream."
+      }
+    ]
+  },
+  {
+    id: "unicorn",
+    name: "Unicorn",
+    images: [
+    ],
+    details: [
+      { label: "Species", value: "Equine Mutant" },
+      { label: "Occupation", value: "Dreamer" },
+      { label: "ShortDescription", value: "The Magical" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Unicorn was a supporting character from the \"The Four Horsemen of the Post-Apocalyptic World\" dream."
+      }
+    ]
+  },
+  {
+    id: "seahorse",
+    name: "Seahorse",
+    images: [
+    ],
+    details: [
+      { label: "Species", value: "Equine Mutant" },
+      { label: "Occupation", value: "Dreamer" },
+      { label: "ShortDescription", value: "The Smart" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Seahorse was deuteragonist from the \"The Four Horsemen of the Post-Apocalyptic World\" dream."
+      }
+    ]
+  },
+  {
+    id: "zebra",
+    name: "Zebra",
+    images: [
+    ],
+    details: [
+      { label: "Species", value: "Equine Mutant" },
+      { label: "Occupation", value: "Dreamer" },
+      { label: "ShortDescription", value: "The Strong" }
+    ],
+    sections: [
+      {
+        title: "About",
+        content: "Zebra was a hidden and mysterious character from the \"The Four Horsemen of the Post-Apocalyptic World\" dream."
+      }
+    ]
   }
 ];
