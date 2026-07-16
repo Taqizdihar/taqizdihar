@@ -1,3 +1,3 @@
 <div align="center">
-<img alt="MyBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+<img alt="MyBanner" src="https://i.imgur.com/IH0uxjG.jpeg" />
 </div>
